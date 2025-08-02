@@ -1,0 +1,307 @@
+\documentclass[a4paper, 12pt, twoside]{report}  % Use report class for thesis
+\usepackage{uarial}
+\usepackage{graphicx}   % For inserting the university logo
+\usepackage{setspace}   % For line spacing
+\usepackage{titlesec}   % For title formatting
+\usepackage[left=38mm, right=25mm, top=25mm, bottom=25mm]{geometry}
+\usepackage{indentfirst}
+\usepackage{afterpage}
+\usepackage{titlesec}
+\usepackage{caption} % For figures' caption
+\usepackage{url} % For adding url, mainly in references
+
+\onehalfspacing  % Set line spacing to 1.5
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \newgeometry{left=38mm, right=30mm, top=30mm, bottom=30mm}
+
+    \begin{center}
+        \includegraphics{Images/UNIMI.png} \\
+        {\textit{Master’s Degree in Data Science for Economics}} \\[2cm]
+
+        {\LARGE \textbf{From Data to Strategy: \\ Optimizing Tourism Offerings in \\ Ascoli Piceno}} \\[2cm]
+    \end{center}
+
+    \begin{flushleft}
+        \textbf{Supervisor:} Prof Massimo ALIBERTI \\
+        \textbf{Co-Supervisor:} Giorgia FERRANTI  
+    \end{flushleft}
+
+    \vspace{2cm}
+
+    \begin{flushright}
+        \textbf{Thesis by:} \\ 
+        \textbf{Franco Reinaldo BONIFACINI} \\ 
+        Matr. 41540A
+    \end{flushright}
+
+    \vfill
+
+    \begin{center}
+        \textbf{Academic Year 2024/2025}
+    \end{center}
+
+    \restoregeometry % Restore original margins after titlepage
+\end{titlepage}
+
+\thispagestyle{empty}
+\null
+\cleardoublepage  % Ensures that the new section starts in an odd page.
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+A mia nonna Chiche, che è ancora presente come sempre. Per il suo amore incondizionato, per avermi sempre aspettato con un sorriso e per avermi sostenuto in ogni passo, anche a distanza. Oggi mi guida dal cielo e la sua forza mi accompagna ogni giorno.
+
+A Delfina, mia moglie, per essere la persona che mi sopporta sempre e con cui ho intrapreso questa meravigliosa avventura in un nuovo continente. Se non fosse stato per lei, forse non avrei mai avuto il coraggio di fare questo passo.
+
+Alla mia famiglia, principalmente ai miei genitori, perché so che questa decisione ci ha allontanati fisicamente e che per loro non è stato facile, ma nonostante tutto mi hanno sempre sostenuto a distanza.
+
+A Massimo, per aver accettato di essere il mio tutor e per avermi accompagnato in quest'ultimo passo del master. Inoltre, per avermi fatto scoprire questa bellissima città che è Ascoli Piceno.
+
+A Giorgia, per il suo supporto prezioso, i suoi contributi e la sua guida durante lo sviluppo di questa tesi.
+
+Ai miei amici del master, che mi hanno aiutato a crescere personalmente, mi hanno fatto conoscere nuove culture e modi di vivere che non avrei mai immaginato, e che nei momenti più difficili sono stati al mio fianco, spingendomi a non mollare mai.
+
+A me stesso, perché nonostante la paura di volare, ho avuto il coraggio di salire sull'aereo e intraprendere questa meravigliosa avventura. E, soprattutto, per la perseveranza nel continuare ad andare avanti nonostante gli ostacoli lungo il cammino.
+
+E a questo bellissimo paese da cui proveniva il mio bisnonno e che mi ha accolto per vivere una delle esperienze più belle della mia vita. Sono arrivato come argentino e ora sono "argentano", orgoglioso di essere tornato alle mie radici.
+
+\begin{center}
+    \rule{0.5\textwidth}{0.4pt} % Línea divisoria
+\end{center}
+
+To my grandmother Chiche, who remains as present as ever. For her unconditional love, for always waiting for me with a smile, and for supporting me every step of the way, even from afar. Today she guides me from heaven, and her strength walks with me every day.
+
+To Delfina, my wife, for being the person who always supports me and with whom I embarked on this beautiful adventure in a new continent. If it hadn’t been for her, I might never have dared to take this step.
+
+To my family, especially my parents, because I know that this decision distanced us physically and was difficult for them, yet they have always supported me.
+
+To Massimo, for accepting to be my tutor and guiding me through this final step of the master’s program. Also, for introducing me to this wonderful city, Ascoli Piceno.
+
+To Giorgia, for her invaluable support, insights, and guidance throughout the development of this thesis.
+
+To my master’s friends, who helped me grow personally, introduced me to new cultures and ways of living that I never imagined knowing, and who stood by my side during the most challenging moments, encouraging me to never give up.
+
+To myself, because despite my fear of flying, I had the courage to get on the plane and embark on this incredible journey. And, above all, for the perseverance to keep moving forward despite the obstacles along the way.
+
+And finally, to this beautiful country where my bisnonno was from, which welcomed me and allowed me to have one of the greatest experiences of my life. I came as an Argentinian and now I am an "Argentano," proud to have reconnected with my roots.
+
+\begin{center}
+    \rule{0.5\textwidth}{0.4pt} % Línea divisoria
+\end{center}
+
+A mi abuela Chiche, que sigue tan presente como siempre. Por su amor incondicional, por esperarme siempre con una sonrisa, y por apoyarme en cada paso, incluso en la distancia. Hoy me guía desde el cielo, y su fuerza me acompaña cada día.
+
+A Delfina, mi esposa, por ser la persona que siempre me aguanta y con quien emprendí esta hermosa aventura en un nuevo continente. Si no hubiese sido por ella, quizá nunca me habría animado a dar este paso.
+
+A mi familia, principalmente a mis padres, porque sé que esta decisión nos alejó físicamente y les costó, pero aun así siempre me apoyaron a la distancia.
+
+A Massimo, por haber aceptado ser mi tutor y acompañarme en este último escalón del máster. Además, por haberme presentado esta hermosa ciudad que es Ascoli Piceno.
+
+A Giorgia, por su apoyo invaluable, sus aportes y su guía a lo largo del desarrollo de esta tesis.
+
+A mis amigos del máster, quienes me hicieron crecer personalmente, me acercaron a nuevas culturas y formas de vivir que jamás imaginé conocer, y que en los momentos más difíciles estuvieron a mi lado, impulsándome a nunca bajar los brazos.
+
+A mí mismo, porque más allá del miedo a volar, tuve el coraje de subirme al avión y emprender esta hermosa aventura. Y, sobre todo, por la perseverancia de seguir adelante a pesar de los obstáculos en el camino.
+
+Y a este hermoso país del que era mi bisnonno y que me recibió para vivir una de las mejores experiencias de mi vida. Vine como argentino y ahora soy un "argentano", orgulloso de haber vuelto a mis raíces.
+
+\begin{flushright}
+    \textbf{Franco Reinaldo Bonifacini}
+\end{flushright}
+
+\cleardoublepage
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+\pagenumbering{arabic}
+
+\begin{abstract}
+
+    Tourism plays a fundamental role in the economic development of many Italian cities, including \textbf{Ascoli Piceno}, a destination with significant untapped potential. Despite its rich cultural, historical, and gastronomic heritage, the city has yet to establish itself as a highly competitive tourist destination compared to other Italian locations.
+
+    This project analyzes tourism data from various Italian cities to identify key trends in visitor segmentation, pricing models, and market positioning. To address this challenge, this study seeks to answer the following research question: "\textbf{\textit{What is the optimal combination of pricing, positioning, and promotional strategies for Ascoli Piceno to increase tourism competitiveness?}}". By combining secondary data analysis with primary research through surveys, the project provides insights into tourist preferences, spending behavior, and the effectiveness of different promotional strategies. Additionally, financial factors—including cost structures, potential partnerships, and the role of influencer marketing—are examined to understand their impact on tourism promotion.
+        
+    Using clustering techniques and strategic pricing models, the research proposes optimized tourism packages tailored to different market segments. The findings aim to offer evidence-based recommendations for Ascoli Piceno to improve its tourism appeal, increase visitor numbers, and strengthen its overall economic sustainability. Further research could explore the long-term effects of these strategies and identify additional factors that influence the competitiveness of tourist destinations.
+\end{abstract}
+
+\chapter{Introduction}
+
+\section{Thesis Roadmap}
+Explain a little bit the idea, but this will be explained in depth later in literature
+
+
+\chapter{Literature Review}
+
+\indent This chapter aims to provide a comprehensive contextualization of the research by reviewing both \textbf{existing literature and relevant data} on tourism performance at different territorial levels. While the previous chapter introduced the motivations and objectives of this study, here the focus shifts toward a \textbf{broader and more analytical perspective}. The review is structured in four parts, progressing from the general to the specific.
+
+\indent The \textbf{first section} outlines the evolution of \textbf{tourism on a global scale}, emphasizing key trends, particularly the impact of the COVID-19 pandemic and the sector's subsequent recovery. It explores how international tourism flows have changed in recent years. \textbf{The second section} describes the \textbf{Italian context}, examining national trends and worldwide position. \textbf{The third section} reviews the \textbf{available data on tourism in Ascoli Piceno}, identifying key patterns or limitations. Finally, the last section describes a \textbf{project previously developed} for the Marketing Analytics course of the Master's program in Data Science for Economics at Università degli Studi di Milano, undertaken by the present researcher. This earlier work provided useful insights and served as a foundation for the present thesis, while also revealing analytical and data limitations that this research seeks to address more in depth.
+
+\indent Together, these sections provide the necessary background to understand the motivations for this research and the added value of the current thesis.
+
+\section{Tourism on a Global Scale}
+
+\indent \textbf{Tourism} is recognized as one of the most important economic sectors in the world. In 2019, it represented a significant share of the global economy, accounting for \textbf{7\% of global trade}. However, despite its importance, tourism was also among the sectors \textbf{most severely impacted by the Covid-19 pandemic}, which affected not only global economies but also livelihoods, public services, and development opportunities in countries across all continents \cite{unwtocovid}. Now, four years after the onset of the pandemic, the sector has shown strong signs of recovery. International tourist arrivals have returned to \textbf{99\% of 2019 levels}, signaling that tourism has bounced back from what is considered the worst crisis in its history \cite{unwtoppt}. As shown in \textit{Figure 1.1}, in addition to the rebound in arrivals, there has also been a notable rise in international tourism revenues. Total international tourism receipts reached \textbf{USD 1.7 trillion in 2024}, reflecting a 10.5\% increase compared to 2023 and a 14.1\% increase from 2019 in real terms \cite{unwtodash}.
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/international_tourism_results.png}
+    \captionsetup{font=footnotesize}
+    \caption{International Tourist Arrivals \& Receipts. Source: UNWTO.}
+    \label{fig:global_results}
+\end{figure}
+
+\indent Moreover, when the data is broken down by region, it becomes clear that the \textbf{Middle East} continued to be the best-performing region in 2024. As shown in \textit{Figure 1.2}, this region experienced a strong growth in tourist arrivals, which were \textbf{32\% above 2019} levels and also showed a \textbf{1\% increase compared to 2023}. In the case of \textbf{Africa}, the continent received \textbf{7\% more} tourists than it did before the pandemic began, indicating a solid recovery. \textbf{Europe}, known as the world’s largest destination region, also showed positive results by recording \textbf{1\% more} international tourist arrivals than in 2019. Meanwhile, the \textbf{Americas} managed to recover \textbf{97\%} of its pre-pandemic tourist numbers, which is just a \textbf{3\% decrease compared to 2019}. Finally, the region of \textbf{Asia and the Pacific} reached \textbf{87\%} of its 2019 levels, showing a \textbf{13\% decline} in international arrivals compared to the pre-pandemic period \cite{unwtoppt}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/evolution_map.png}
+    \captionsetup{font=footnotesize}
+    \caption{Internationl Tourist Arrivals by Region (\% change vs 2019). Source: UNWTO.}
+    \label{fig:regional_results}
+\end{figure}
+
+\indent Nevertheless, when considering absolute values, \textbf{Europe continues to dominate global tourism} (\textit{see Figure 1.3}). In \textbf{2024}, the region recorded approximately \textbf{755.7 million international tourist arrivals}, accounting for \textbf{52\% of total global arrivals}. In terms of expenditure, Europe generated an estimated \textbf{USD 725.3 billion in international tourism receipts}, representing \textbf{42\% of the world’s total} \cite{unwtodash}.
+
+These not only confirm Europe’s position as the most visited region globally but also highlight its high capacity for \textbf{monetizing tourism flows}. The average revenue per international arrival in Europe stood at around \textbf{USD 960}, while the global average is around \textbf{USD 1,182} per tourist in 2024. This gap highlights the advantage of Europe, where \textbf{shorter trips and lower per-capita spending are more common} compared to other top regions such as Amercias (around USD 1,814) and Middle East (around USD 1,458).
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/avg_receipt.png}
+    \captionsetup{font=footnotesize}
+    \caption{Arrivals, Receipts, and Avg. Spend per Tourist. Source: UNWTO.}
+    \label{fig:avg_receipt}
+\end{figure}
+
+
+\section{The Italian Context}
+
+\subsection{International Tourism and Overnight Stays}
+
+\indent \textbf{Italy} continues to be a an important destination for international tourism, ranked among the \textbf{top 5} countries in the world, behind Türkiye who had 60.6 million visitors (\textit{see Figure 1.4}). The country counts with a rich cultural heritage, natural beauty, and culinary excellence. However, recent trends show a mixed picture in terms of volume and economic impact. According to the United Nations World Tourism Organization (UNWTO), Italy recorded \textbf{57.8 million} international tourist arrivals in 2024, which reflects a \textbf{10.4\% decrease compared to 2019}. Despite the decline in visitor numbers, the country experienced a \textbf{strong financial recovery}, with international tourism receipts reaching \textbf{USD 58.7 billion}, an \textbf{18.5\% increase over 2019} \cite{unwtodash}. This highlights that the country has \textbf{not yet fully returned to its pre-pandemic levels} in terms of international arrivals, suggesting that there is still significant room for growth and strategic interventions aimed at increasing the level of tourism.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/country_rank.png}
+    \captionsetup{font=footnotesize}
+    \caption{Ranking of International Arrivals by Country. Source: UNWTO.}
+    \label{fig:country_rank}
+\end{figure}
+
+\indent Tourism in Italy is also measured by the number of \textbf{overnight stays in accommodations}, where the country positioned itself as the second-largest European destination in terms of total nights spent. According to the Italian National Institute of Statistics (ISTAT), Italy recorded \textbf{458.4 million overnight stays in 2024}, representing a \textbf{2.5\% increase compared to 2023}. Among these, \textbf{foreign tourists} accounted for around \textbf{250 million nights}, a 6.8\% increase, while domestic stays declined by 2.2\%, totaling roughly 208 million nights. Foreign visitors now represent \textbf{54.6\% of all overnight stays}, indicating that international tourism has regained its leading role in the Italian tourism sector. This trend became especially evident in the fourth quarter of 2024, when total overnight stays grew by 11.1\%, mainly driven by international travelers (+15.6\%), who outnumbered domestic tourists in that quarter for the first time \cite{istat_q4}.
+
+\subsection{Spending and Economic Contribution}
+
+\indent According to the first edition of the “Tourism and Incoming Watch” report, developed by Nexi in collaboration with the National Tourism Observatory of the Ministry of Tourism, foreign travellers spent over €20.9 billion in Italy in 2024 using \textbf{payment cards} alone, representing a substantial \textbf{increase of 37.9\% compared to 2022}. This figure reflects not only the volume of international tourism but also the growing role of digital payments in capturing economic value across the tourism sector.
+
+\indent The report also highlighted a notable diversification in the origin of \textbf{high-spending tourists}. Travellers from Brazil and Australia showed the largest increases in card-based spending, with growth rates of +155\% and +100\%, respectively. Meanwhile, US tourists remained the most significant contributors in absolute terms, with more than €3.8 billion spent, accounting for 18.3\% of total foreign tourist expenditure. Tourists from Saudi Arabia (€913) and the United Arab Emirates (€822) had the highest average card spend per transaction, both nearly double the international average of €411.
+
+\indent In terms of spending categories, almost \textbf{half (49.6\%)} of all international tourist expenditure in Italy went to \textbf{restaurants and accommodation services}. \textbf{Fashion and accessories} accounted for another \textbf{12.2\%}, with visitors from Arab countries and Southeast Asia allocating an above-average share of their budgets to jewellery and department store shoppings.
+
+\indent The geographic distribution of tourist spending also reveals concentration patterns. Just \textbf{20 provinces generated 75\% of all foreign tourist value}, confirming the dominance of Italy’s major cultural and urban destinations: \textbf{Rome, Milan, Venice, Florence, and Naples}. These cities continue to attract visitors and generate sustained economic benefits for the national economy.
+
+\indent Among the most popular travel routes, the \textbf{Rome – Naples and Pompeii – Amalfi Coast} circuits generated the highest overall turnover for the third consecutive year, with a \textbf{31\% increase} over the 2022–2024 period. However, the \textbf{Rome – Florence – Venice} itinerary recorded the highest growth rate in the same period, rising by \textbf{+69.2\%}. This trend suggests that traditional cultural circuits remain dominant, but their internal dynamics are shifting due to changing tourist preferences and purchasing behaviors.
+
+\indent Another key finding is the \textbf{decline in tourism seasonality}. Thanks to diversified travel flows and evolving preferences, international visitor demand is now \textbf{more evenly distributed throughout the year}. This has reinforced Italy’s profile as a \textbf{year-round destination}, which contributes to greater economic resilience and offers new opportunities for regional development beyond the summer peak.
+
+\section{Ascoli Piceno}
+
+\indent \textbf{Ascoli Piceno} is a historic city located in the \textbf{Marche region of central Italy}, known for its rich cultural heritage, well-preserved medieval architecture, and local traditions. It is a city of ancient origins, once a strategic Roman center along the Via Salaria. Known as the \textbf{“City of a Hundred Towers”}, it has one of the most elegant and well-preserved historical centers in Italy, largely built in travertine stone. The city is renowned for its harmonious urban layout and architectural beauty, especially visible in its iconic squares, \textbf{Piazza del Popolo and Piazza Arringo}, which serve as central hubs of civic and cultural life. Rich in Romanesque, Gothic, and Renaissance heritage, Ascoli offers an authentic and immersive experience in tradition. Its compact, walkable layout and local identity make it an ideal example of high-quality, culture-oriented tourism, away from mainstream destinations \cite{italia_it}.
+
+\subsection{Touristic Situation}
+
+\indent Although it experienced a \textbf{significant increase in 2024 of +18\% in tourist arrivals} compared to pre-pandemic levels in 2019, \textbf{Ascoli Piceno still shows clear potential for further growth in tourism}. Among Italy’s 5,014 municipalities available in the dataset of ISTAT (Istituto Nazionale di Statistica), Ascoli Piceno ranked \textbf{544th in 2024}, recording a total of \textbf{43,873 arrivals}. This figure, while reflecting a notable improvement, remains modest when positioned within the national context. For example, when compared to the top 10 destinations by arrivals in the same year, \textbf{Ascoli Piceno represents only 0.4\% of the total arrivals of Rome}, the top-ranked city \cite{istat}.
+
+\indent Furthermore, as shown in \textit{Figure 2.5}, it is important to highlight the \textbf{high concentration of tourism flows} among a small group of urban destinations. In fact, the \textbf{top four cities alone accounted for 19\% of all tourist arrivals in Italy in 2024}, demonstrating the uneven distribution of tourism across the country. Additionally, \textbf{the following six cities registered more than one million arrivals each}, underlining the dominance of a few key destinations \cite{istat}. This disparity reinforces the relevance of studying smaller but culturally rich destinations like Ascoli Piceno, which, despite their lower absolute numbers, contribute to the diversification and sustainability of Italian tourism.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{Images/arrivals_top_cities.png}
+    \captionsetup{font=footnotesize}
+    \caption{Total Arrivals by Comuna (2019 vs 2024). Source: ISTAT.}
+    \label{fig:arrivals_top_cities}
+\end{figure}
+
+\indent To better understand the evolution of tourism in Italy over the past decade, the \textit{Figure 2.6} illustrates the total number of tourist arrivals (in millions) from 2014 to 2024 for the country’s ten most visited municipalities, along with Ascoli Piceno. \textbf{Rome has consistently maintained its status} as Italy’s top tourist destination, with a \textbf{drop in 2020 due to the COVID-19 pandemic}, followed by a \textbf{strong recovery}, exceeding 2019 arrivals in 2024. \textbf{Milan, Venice, and Florence} follow similar trends, with notable rebounds after the pandemic-induced decline \cite{istat}.
+
+\indent In contrast, \textbf{Ascoli Piceno remains far below these major destinations} in terms of tourist volume, never exceeding 0.045 million (45,000) arrivals in any given year. This highlights its marginal role in the Italian tourism market, despite its rich cultural and historical appeal. This gap highlights the need to explore what types of tourists might be interested in discovering lesser-known destinations like Ascoli Piceno, and how they might differ from visitors to Italy’s more popular cities \cite{istat}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/top_cities_evolution.png}
+    \captionsetup{font=footnotesize}
+    \caption{Evolution of Arrivals by Comuna (2014 - 2024). Source: ISTAT.}
+    \label{fig:top_cities_evolution}
+\end{figure}
+
+The structure of tourist arrivals by residency category (residents and non-residents) shows notable differences across Italian destinations. As described in section 2.2, subsection 2.2.1, of this chapter, overnight stays in accommodations by foreign tourists represented 54.6\% of all overnight stays, highlighting the relevance of international tourism in the Italian tourism sector. That being said, \textit{Figure 2.7} presents data from 2024 for the ten most visited Italian cities. In the top 4 cities, international (non-resident) arrivals outnumber domestic (resident) arrivals, representing more than 50\% of total arrivals.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/top_cities_rnr.png}
+    \captionsetup{font=footnotesize}
+    \caption{Residents and Non-Residents Arrivals in top cities (2024). Source: ISTAT.}
+    \label{fig:top_cities_rnr}
+\end{figure}
+
+On the other hand, \textit{Figure 2.8} displays the same information for Ascoli Piceno in 2024. The total number of tourist arrivals is significantly lower than in the top ten destinations. Specifically, Ascoli Piceno registered 37,709 domestic arrivals and 6,164 international arrivals, the last representing only 14.05\% of total arrivals. The comparison between Ascoli Piceno and the major Italian tourism destinations, along with national-level data, provides a clear overview of the absolute and relative scale of domestic and international tourism flows within Italy.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/ascoli_rnr.png}
+    \captionsetup{font=footnotesize}
+    \caption{Residents and Non-Residents Arrivals in Ascoli Piceno (2024). Source: ISTAT.}
+    \label{fig:ascoli_rnr}
+\end{figure}
+
+
+\chapter{Methodology}
+Here I will describe theory and decision of interview and survey selected.
+Also describe once I have it, the analysis done for getting results.
+
+\chapter{Results}
+Here I'll show results.
+
+\newpage
+
+\sloppy
+\begin{thebibliography}{9}
+\raggedright
+
+\bibitem{unwtocovid}
+"Tourism and COVID-19 – Unprecedented Economic Impacts", \textit{World Tourism Organization (UN Tourism)}, n.d. \url{https://www.unwto.org/tourism-and-covid-19-unprecedented-economic-impacts}.
+
+\bibitem{unwtoppt}
+"World Tourism Barometer (PPT version)", \textit{World Tourism Organization (UN Tourism)}, January 2025. \url{https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2024-01/barometer-turism-data-ppt-jan24.pdf?VersionId=ua6xuwZCeveZWEzbIFVP5eXUmGszXhXs}
+
+\bibitem{unwtodash}
+"UN Tourism Data Dashboard", \textit{World Tourism Organization (UN Tourism)}, n.d. \url{https://www.unwto.org/tourism-data/un-tourism-tourism-dashboard}.
+
+\bibitem{istat_q4}
+"Tourist Flows – Q4 2024", \textit{ISTAT}, 2025. \url{https://www.istat.it/en/press-release/tourist-flows-fourth-quarter-2024/}.
+
+\bibitem{nexi}
+"Nexi Tourism and Incoming Monitor: First Report Published", \textit{Nexi Group}, June 25, 2025. \url{https://www.nexigroup.com/en/media-relations/news/2025/06/italian-tourism-report/}.
+
+\bibitem{istat}
+"Movimento dei clienti (arrivi e presenze) negli esercizi ricettivi per tipologia ricettiva, residenza dei clienti e comune di destinazione", \textit{ISTAT – Italian National Institute of Statistics}, n.d. \url{https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0700SER,1.0/SER_TOURISM/SER_TOURISM_RELATED_FILES}.
+
+\bibitem{italia_it}
+"Ascoli Piceno, the city of a hundred towers and good living", \textit{Italia.it – Official Italian Tourism Website}, n.d. \url{https://www.italia.it/en/marche/ascoli-piceno/guide-history-facts}
+
+\end{thebibliography}
+
+
+\end{document}

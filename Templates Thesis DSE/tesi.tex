@@ -1,0 +1,137 @@
+\documentclass[a4paper,12p, twoside]{report}
+%    \renewcommand{\baselinestretch}{1.6}      % interline spacing
+%
+% \includeonly{}
+%
+%			PREAMBLE
+%
+\usepackage[a4paper]{geometry}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{tesi}
+\usepackage[round]{natbib}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{bbm}
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+\bibliographystyle{apalike}
+
+% per le accentate
+\usepackage[utf8]{inputenc}
+%
+\newtheorem{myteor}{Teorema}[section]
+%
+\newenvironment{teor}{\begin{myteor}\sl}{\end{myteor}}
+%
+%
+%			TITLE
+%
+\begin{document}
+\title{Thesis Title}
+\author{Name SURNAME}
+\dept{Master's Degree Course in Data Science for Economics} 
+\anno{202*-202*}
+\matricola{123456}
+\relatore{Prof Name SURNAME} %supervisor
+\correlatore{Prof Name SURNAME} %co-supervisor
+
+\afterpage{\blankpage}
+% 
+%			QUOTE (optional)
+%
+\beforepreface
+\chapter*{}
+        {\hfill \Large {\sl “QUOTE”\\
+        — AUTHOR}}
+\afterpage{\blankpage}
+%
+%			ACKNOWLEDGMENTS
+%
+\prefacesection{Aknowledgments}
+ACKNOWLEDGMENTS
+\afterpage{\blankpage}
+
+\afterpreface
+
+\chapter*{Abstract}
+\label{chap:abstract}
+ABSTRACT.
+% 
+% 
+%			CHAPTER 1: Introduction
+\chapter{Introduction}
+\label{chap:introduction}
+INTRODUCTION 
+
+\section{Research Question}
+\label{sec:research_question}
+RESEARCH QUESTION 
+
+\section{Thesis structure}
+\label{sec:thesis_structure}
+This thesis is structured as follows...
+% 
+%			CHAPTER 2: State of the Art
+% 
+\chapter{State of the Art}
+\label{chap:state_of_the_art}
+
+\section{Section 1}
+\label{sec:sec_1}
+
+\section{Section 2}
+\label{sec:sec_2}
+
+\subsection{Subsection 2.1}
+\label{sec:subsec_1}
+% 
+%			CHAPTER 3: Methodology
+% 
+\chapter{Methodology}
+\label{chap:methodology}
+% 
+%			CHAPTER 4: Results
+% 
+\chapter{Results}
+\label{chap:results}
+\section{Attention analysis}
+\label{sec:attention_analysis}
+% 
+%			CHAPTER 5: Conclusions and future work
+% 
+\chapter{Conclusions and future work}
+\label{chap:conclusions}
+% 
+%			Appendix
+% 
+\chapter*{Appendix}
+\label{chap:appendix}
+\section*{Appendix Section 1}
+\label{sec:app_sec}
+
+%
+%			BIBLIOGRAPHY
+%
+\bibliography{ref}
+% 
+
+
+\end{document}
+
+
+ 

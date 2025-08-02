@@ -1,0 +1,382 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.16)  28 JUL 2025 10:35
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex
+(c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/arial\uarial.sty
+Package: uarial 2006/03/21 1.0 (WaS)
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen144
+\ttl@minus=\dimen145
+\ttl@toksa=\toks18
+\titlewidth=\dimen146
+\titlewidthlast=\dimen147
+\titlewidthfirst=\dimen148
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks19
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks20
+\AP@partial=\box53
+\AP@footins=\box54
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count274
+\c@continuedfloat=\count275
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count276
+\l__pdf_internal_box=\box55
+) (Thesis.aux)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count277
+\scratchdimen=\dimen165
+\scratchbox=\box56
+\nofMPsegments=\count278
+\nofMParguments=\count279
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen166
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
+\everyMPtoPDFconversion=\toks22
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(108.12047pt, 418.25552pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25552pt
+* \textheight=702.78308pt
+* \oddsidemargin=35.85048pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(108.12047pt, 404.02914pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=404.02914pt
+* \textheight=674.33032pt
+* \oddsidemargin=35.85048pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<Images/UNIMI.png, id=1, 341.3553pt x 156.585pt>
+File: Images/UNIMI.png Graphic file (type png)
+<use Images/UNIMI.png>
+Package pdftex.def Info: Images/UNIMI.png  used on input line 22.
+(pdftex.def)             Requested size: 341.35445pt x 156.58461pt.
+
+
+[1
+
+
+{C:/Users/franc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/UNIMI.png>]
+
+[2
+
+]
+
+[1
+
+
+]
+
+[2]
+
+[3]
+
+[4
+
+] (Thesis.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `Thesis.toc'.
+
+
+
+[5
+
+] (Thesis.lof
+Overfull \hbox (9.93271pt too wide) in paragraph at lines 10--10
+ [][] []\OT1/cmr/m/n/12 Residents and Non-Residents Ar-rivals in As-coli Pi-ceno (2024). Source: 
+ []
+
+)
+\tf@lof=\write4
+\openout4 = `Thesis.lof'.
+
+
+
+[6
+
+]
+
+[1]
+Chapter 1.
+
+
+[2
+
+]
+Chapter 2.
+
+
+[3
+
+]
+<Images/international_tourism_results.png, id=43, 715.473pt x 426.393pt>
+File: Images/international_tourism_results.png Graphic file (type png)
+<use Images/international_tourism_results.png>
+Package pdftex.def Info: Images/international_tourism_results.png  used on input line 160.
+(pdftex.def)             Requested size: 334.60568pt x 199.40927pt.
+<Images/evolution_map.png, id=44, 615.80063pt x 388.45125pt>
+File: Images/evolution_map.png Graphic file (type png)
+<use Images/evolution_map.png>
+Package pdftex.def Info: Images/evolution_map.png  used on input line 170.
+(pdftex.def)             Requested size: 334.60568pt x 211.0764pt.
+
+
+[4 <./Images/international_tourism_results.png>]
+<Images/avg_receipt.png, id=50, 715.473pt x 497.2176pt>
+File: Images/avg_receipt.png Graphic file (type png)
+<use Images/avg_receipt.png>
+Package pdftex.def Info: Images/avg_receipt.png  used on input line 182.
+(pdftex.def)             Requested size: 334.60568pt x 232.5315pt.
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+
+
+[5 <./Images/evolution_map.png> <./Images/avg_receipt.png>]
+<Images/country_rank.png, id=57, 713.3049pt x 426.393pt>
+File: Images/country_rank.png Graphic file (type png)
+<use Images/country_rank.png>
+Package pdftex.def Info: Images/country_rank.png  used on input line 197.
+(pdftex.def)             Requested size: 334.60568pt x 200.02086pt.
+
+
+[6 <./Images/country_rank.png>]
+
+[7]
+
+[8]
+<Images/arrivals_top_cities.png, id=69, 1003.8303pt x 426.393pt>
+File: Images/arrivals_top_cities.png Graphic file (type png)
+<use Images/arrivals_top_cities.png>
+Package pdftex.def Info: Images/arrivals_top_cities.png  used on input line 231.
+(pdftex.def)             Requested size: 418.25552pt x 177.65897pt.
+<Images/top_cities_evolution.png, id=70, 1006.7211pt x 498.663pt>
+File: Images/top_cities_evolution.png Graphic file (type png)
+<use Images/top_cities_evolution.png>
+Package pdftex.def Info: Images/top_cities_evolution.png  used on input line 243.
+(pdftex.def)             Requested size: 334.60568pt x 165.74629pt.
+<Images/top_cities_rnr.png, id=71, 714.7503pt x 353.4003pt>
+File: Images/top_cities_rnr.png Graphic file (type png)
+<use Images/top_cities_rnr.png>
+Package pdftex.def Info: Images/top_cities_rnr.png  used on input line 253.
+(pdftex.def)             Requested size: 334.60568pt x 165.44566pt.
+
+
+[9 <./Images/arrivals_top_cities.png>]
+<Images/ascoli_rnr.png, id=76, 208.8603pt x 354.123pt>
+File: Images/ascoli_rnr.png Graphic file (type png)
+<use Images/ascoli_rnr.png>
+Package pdftex.def Info: Images/ascoli_rnr.png  used on input line 263.
+(pdftex.def)             Requested size: 334.60568pt x 567.36484pt.
+
+
+[10 <./Images/top_cities_evolution.png> <./Images/top_cities_rnr.png>]
+
+[11 <./Images/ascoli_rnr.png>]
+Chapter 3.
+
+
+[12
+
+]
+Chapter 4.
+
+
+[13
+
+]
+
+[14
+
+] (Thesis.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 3864 strings out of 473523
+ 68102 string characters out of 5714630
+ 464352 words of memory out of 5000000
+ 27076 multiletter control sequences out of 15000+600000
+ 565515 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,65p,1204b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Thesis.pdf (22 pages, 782122 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
