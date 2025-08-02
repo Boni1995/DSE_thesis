@@ -3,10 +3,11 @@
 \contentsline {section}{\numberline {1.1}Thesis Roadmap}{2}{}%
 \contentsline {chapter}{\numberline {2}Literature Review}{3}{}%
 \contentsline {section}{\numberline {2.1}Tourism on a Global Scale}{3}{}%
-\contentsline {section}{\numberline {2.2}The Italian Context}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}International Tourism and Overnight Stays}{6}{}%
+\contentsline {section}{\numberline {2.2}The Italian Context}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}International Tourism and Overnight Stays}{5}{}%
 \contentsline {subsection}{\numberline {2.2.2}Spending and Economic Contribution}{7}{}%
 \contentsline {section}{\numberline {2.3}Ascoli Piceno}{8}{}%
 \contentsline {subsection}{\numberline {2.3.1}Touristic Situation}{8}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{12}{}%
-\contentsline {chapter}{\numberline {4}Results}{13}{}%
+\contentsline {subsection}{\numberline {2.3.2}Overtourism: Ascoli Piceno's Opportunity?}{11}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{13}{}%
+\contentsline {chapter}{\numberline {4}Results}{14}{}%

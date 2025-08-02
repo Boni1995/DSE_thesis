@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753691710.24274 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1753691712.61397 0
+["pdflatex"] 1754149083.8675 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1754149085.36233 0
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753346627 82794 3356c8c6c52528dda375b8aed03f628e ""
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1753218884 14064 73d34c79b733e9e06f80202013047630 ""
   "C:/Users/franc/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742160991 12036089 243daf29a048e720d1bcf113a7823c32 ""
@@ -50,18 +50,18 @@
   "C:/Users/franc/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Images/UNIMI.png" 1753289954 256012 8f0001ac622745bd19878ddbbd6b61bc ""
   "Images/arrivals_top_cities.png" 1753638353 33350 c2d4b47d1fd4993e87d4e2eecf07f6f5 ""
-  "Images/ascoli_rnr.png" 1753638710 15397 08fb208c6675d37e30991a827a64b1f5 ""
+  "Images/ascoli_rnr.png" 1754149031 8662 e36931b6e4f9b07cdb13da9e668ba2e7 ""
   "Images/avg_receipt.png" 1753637971 61521 492476f6844e9f3f4c5b8f1282941fe1 ""
   "Images/country_rank.png" 1753638041 30725 700702529af368a1ffd5e2e017094213 ""
   "Images/evolution_map.png" 1753349441 176443 c0d7eeb1192fe8d1e612a31b5c80ef4a ""
   "Images/international_tourism_results.png" 1753636760 58957 310bfe6f9fac633c50a48b02236f5366 ""
   "Images/top_cities_evolution.png" 1753638470 137035 2e56f7b86b8bf3d51114634049bb90fe ""
   "Images/top_cities_rnr.png" 1753638624 31319 8ea3d1b60cdbaa664b67d2660ee7c1f2 ""
-  "Thesis.aux" 1753691712 4095 e3b3e67dbb2d5a49d22ebc7c068ca1ba "pdflatex"
-  "Thesis.lof" 1753691712 1115 3374355a4d14991443c7c466b6c1a4ce "pdflatex"
-  "Thesis.tex" 1753691708 27940 d4017d4e2e5eba550a1dc8b86b470b4e ""
-  "Thesis.toc" 1753691712 807 74196506c083b4b9f55413ce7eeac5a3 "pdflatex"
-  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1753691708 27940 d4017d4e2e5eba550a1dc8b86b470b4e ""
+  "Thesis.aux" 1754149085 4521 079eac4a73a3195a8d4d3a35386b89df "pdflatex"
+  "Thesis.lof" 1754149085 1115 629c565e286f665fdf3b6fde120f094d "pdflatex"
+  "Thesis.tex" 1754149081 32306 449d6abd1e34c01a1acfee14458f4d64 ""
+  "Thesis.toc" 1754149085 903 af838a9042ac45e127bc525a2012999e "pdflatex"
+  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1754149081 32306 449d6abd1e34c01a1acfee14458f4d64 ""
   (generated)
   "Thesis.aux"
   "Thesis.lof"
