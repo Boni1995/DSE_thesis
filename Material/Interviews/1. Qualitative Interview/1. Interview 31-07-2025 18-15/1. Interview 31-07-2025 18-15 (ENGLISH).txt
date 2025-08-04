@@ -1,0 +1,213 @@
+[Interviewer]: Can you describe your last vacation? Not so much what you did while you were on vacation, but how you organized it? Starting from home, deciding to go on vacation and the whole planning phase.
+
+Interviewee: What I usually do is open... I don’t know if you know Notion. Yes, it’s a note-taking app, let’s say, in an organized way. And I create a file for the trip I want to take—in this case, it was Rome. And I write down day by day what I want to do. To do that, I do research online, maybe look for ideas from other itineraries I can find. And then I adjust it based on how much I want to walk, what I want to see, what I’m interested in. But more or less that’s the approach, and it also depends on price, how to get there, if I can go by public transport or not, or if I can drive there...
+
+[Interviewer]: Describe in detail this Rome trip. So how many days you stayed, what you did the first day, where you found the information... Actually, if you can share your screen, maybe we can see exactly... practically how you searched, also for sleeping arrangements. To see the other options you mentioned, it’s really useful. Thank you.
+
+Interviewee: So, this is the schedule. This is the trip to Rome. It says seven days here, but I think it was actually eight, right? Seven, okay. So for each day there’s also the arrival date. In the end I drove, so I didn’t have to worry about transportation. As for attractions in Rome, it wasn’t very difficult, I mean... it’s a very famous city... there are lots of places one can go, so I just tried to make the itineraries a bit organized, so the Pantheon is not too far from Campo...
+
+[Interviewer]: So you went by memory for the Rome attractions? You didn’t have to search what to see in Rome?
+
+Interviewee: No, I searched for that too. I looked up "one-week itinerary in Rome". And I compared various ones, but I don’t remember exactly which itinerary I used. But I searched, opened Google, looked up "Rome itinerary", or another thing I did was ask ChatGPT to help me compare them.
+
+[Interviewer]: So to give you the actual itinerary and maybe see what was closer, what was farther?
+
+Interviewee: Yes, even though I must say that when it comes to geographical distance it’s not very good?
+
+[Interviewer]: Oh no?
+
+Interviewee: I didn’t really find it helpful. Sorry, do you hear the noise? Can you hear it?
+
+[Interviewer]: No, we don’t hear anything.
+
+Interviewee: Perfect. Yes, like if you tell it “make me an itinerary considering distance,” sometimes it gets it wrong.
+
+[Interviewer]: It makes a few blunders.
+
+Interviewee: Exactly. But if you give it itineraries that already consider distance, the ones written by people who actually took the trip and maybe give you tips, then I find them useful—you can give those a try.
+
+[Interviewer]: Okay, so you searched on Google and what did you find?
+
+Interviewee: Well, usually blogs. I usually go to independent blogs, so travelers—maybe families who like to travel and write—or posts on Reddit.
+
+[Interviewer]: Families, but were you traveling with family, with friends, alone?
+
+Interviewee: A friend who hosted me.
+
+[Interviewer]: Okay, so maybe it didn’t feel strange to take advice from families? Or maybe you thought: "Well, in the end, the things to see..." Or maybe you were more interested in advice from people your age or travel style?
+
+Interviewee: Let’s say what I wanted to do in Rome was a city visit, the cultural side. See monuments, maybe go to a few museums, so I think that kind of trip is very popular, also with tourists from abroad. Maybe, I don’t know, nightlife, stuff like that—obviously I would’ve looked for other kinds of blogs, I would’ve looked specifically...
+
+[Interviewer]: You said independent blogs—why independent? What do you mean? Not affiliated with... tell me, tell me.
+
+Interviewee: Usually agencies charge money. It’s a bit tricky—maybe you find fairly generic itineraries on agency websites. I had to find it myself. Then, I don’t know, I get a bit... how to say... maybe unfairly... when I realize it’s an agency, or maybe even if it’s a supposedly independent blog, when I feel like maybe they’re recommending a place not because they genuinely liked it, but maybe because they’re getting paid, or they get commission for sending people there. It’s not necessarily a bad thing.
+
+[Interviewer]: But it puts you in a different mindset, you’re saying?
+
+Interviewee: I sense a bias from them.
+
+[Interviewer]: Sure. Listen, do you ever get inspired by images? Do you search on social media through hashtags or things like that?
+
+Interviewee: I don’t think I’ve ever used hashtags. I don’t even know if people use them. Like I don’t go looking for them—maybe it’s happened... not so much for Rome, but maybe for mountain hikes or things like that where you get a view... it shows you the scenery. So yeah, it’s happened, but I didn’t look for it on purpose—it’s more something that just popped up, so I got curious and maybe decided to visit it.
+
+[Interviewer]: Okay. So you’re saying if it pops up in front of me, sure, but it’s not a method I use to search—right?
+
+[Interviewer]: Now try to make a little memory effort if you can. Try to imagine when you were younger and maybe went with your parents. Did you ever go somewhere with them? Can you remember how the process worked—maybe your mom or dad took care of it, maybe they went to a travel agency... I don’t know, can you remember anything, even vaguely? Obviously not the whole process but anything at all?
+
+Interviewee: I think so—like yes... but I was really little. They probably relied on agencies. Then there was a period where we did another kind of trip, and it was more based on word-of-mouth. My father also... I mean he had internet access quite early on compared to... like in the early 2000s I think it wasn’t that common yet. And even then, back then there were blogs too, though fewer than now. I think he did more or less what I do now, but with fewer tools. But he probably also relied a lot on personal word-of-mouth. Advice from a friend who had the same passions. But yes, surely for a couple of trips they used agencies, though I think only a few.
+
+[Interviewer]: Okay, now I’ll have you play a role. If you can share your screen again. I’ll give you the name of a city. Imagine we’re friends and I suggest this city to you... and you show me what process you would follow to decide if it’s a place to go or not, if you would go or not. What would you search, what would you look at—photos, text, you tell me. I give you the city name. We’re friends and I say “Hey, I think a good place to visit is Ascoli Piceno.”
+
+Interviewee: How many days?
+
+[Interviewer]: I don’t know. You decide.
+
+Interviewee: What to see in five days. So... I’d go by car because in winter with transportation... driving is best. So what I would do is check out all these websites I saw. No, this one for example I wouldn’t look at... not right now at least.
+
+[Interviewer]: Say everything out loud—even what comes to mind. Like “No, ugly,” “Nice,” “This is boring”—tell me everything that pops into your head. I’m the voice in your head—go, speak!
+
+Interviewee: Like TripAdvisor! It’s really useful in my opinion, maybe for finding... I don’t know... I usually use it more for checking if a restaurant is good, if it’s rated well. I’d close it for now in this phase because I wouldn’t use it. This site though, which reviews places, tells me opening times, if you need tickets... this is the kind of site I’d look at. Same here, I imagine they’re doing about the same thing. And here’s ChatGPT giving me more information. And what I would do then... you can’t see because I didn’t share my screen properly—I only shared the page—but I’d reopen the Notion file from before and start writing notes.
+
+[Interviewer]: Okay, but after this quick glance... would you say “Alright, let’s go, let’s do this trip,” or “No, boring, I’ll look for something else”?
+
+Interviewee: Ah, for Ascoli Piceno in particular?
+
+[Interviewer]: Yes, see if I convinced you. I threw it out there—we’re friends and now you have to decide.
+
+Interviewee: Then I also need to check one more important thing.
+
+[Interviewer]: Go ahead, tell me.
+
+Interviewee: How long it takes to get there. Everything counts, so... yeah, it takes a while!
+
+[Interviewer]: Have you ever been there? Have you ever looked around that area? Have you ever been in those parts?
+
+Interviewee: I was in the car a lot as a kid, but I was in a seaside area. So, let's say… the first thing I think is that I feel kind of in the middle of nowhere. A positive thing in terms of, maybe, if you're interested in hiking—though it’s not even easy to find someone willing to do it—if I were interested in that type of excursion, I'd say let's go. One element that makes me think ‘maybe I shouldn’t go’ is that the town of Ascoli Piceno seems like a fairly small city, and the monuments don’t seem unforgettable. So, usually… when do I go to that kind of little village? When there are a lot of them around. So maybe I can go to Ascoli Piceno for a couple of days: visit it the first day, do some hikes nearby on the second day, and then go somewhere else on the third. This type of trip would require a lot of time to organize, also because for sure there are far fewer websites that recommend these kinds of trips.
+
+[Interviewer]: What do you mean by “there are fewer websites that recommend these kinds of trips”?
+
+Interviewee: Not necessarily that there are ones that discourage these kinds of trips—not in the sense of being positive or negative. Rome, Ravenna… these are more popular places, so it’s easier to find more websites of that kind.
+
+[Interviewer]: And Ascoli instead... a small village, a little town near other little towns—do you imagine it more or less like that?
+
+Interviewee: I would only go if I managed to organize—another trip comes to mind that I planned, maybe not on Notion... maybe it's somewhere on Drive—in Tuscany, where we did a road trip.
+
+[Interviewer]: Kind of on the road, going where it happens.
+
+Interviewee: Exactly, and of course we visited the main cities, the ones you usually include as tourist destinations—Pisa, Florence... but we also went to Livorno, for example, which I would have never visited intentionally if I hadn't been on a road trip.
+
+[Interviewer]: So you passed by, saw Livorno and said, “okay, let’s stop,” right? Not that...
+
+Interviewee: We organized it specifically to see as many cities as possible in Tuscany. But if someone had told me, "Let’s go to Livorno"… I would have said absolutely not. We went to Livorno because it was part of the bigger Tuscany trip... yes.
+
+[Interviewer]: And then you went to Livorno—did you like it?
+
+Interviewee: No, not really. I don’t think it's... I mean, we went, we stayed for a few hours, because we didn’t feel like there was much else to see. We went to the seafront.
+
+[Interviewer]: Continuing that Tuscany tour, where else did you go besides Florence, Lucca, Pisa? Besides Livorno?
+
+Interviewee: We went to Rosignano Solvay, for example. The white beach… we wouldn’t have gone there on purpose, but since we were nearby, it was interesting.
+
+[Interviewer]: For example, Rosignano—the beach of Rosignano. Did you discover it while already there by doing a search, or did you look it up before leaving?
+
+Interviewee: Before leaving, we had the entire itinerary.
+
+[Interviewer]: The whole itinerary planned beforehand. And how did you find Rosignano? Did you search something like “beaches,” “unforgettable places,” or was it suggested by someone?
+
+Interviewee: Now I couldn’t tell you the first time I heard about it. But it’s very interesting because the beach turned white due to industrial waste dumped into the water. So I remembered it, and since our goal was a tour of Tuscany, I said, “Let’s pass through there, and have a beach day.”
+
+[Interviewer]: While organizing this Tuscany tour, did you discover anything on blogs—something you didn’t know before, but after seeing the pictures, felt inspired to include?
+
+Interviewee: Yes, yes. There are various little Tuscan villages, I forget their names now... I’m terrible with names.
+
+[Interviewer]: Don’t worry about it.
+
+Interviewee: There are these tiny villages, unreachable by public transport. I probably wouldn’t have gone from Bergamo to that place. But they were beautiful places. Even within the overall Tuscany trip, they were a great added value—also inland.
+
+[Interviewer]: And you chose them based on images, or reviews you read?
+
+Interviewee: Both... beautiful images—the Tuscan inland is very scenic, anywhere you go you find beautiful things—and also based on reviews from people who recommended them. So even there, we...
+
+[Interviewer]: Listen, I have to ask—since you were in Tuscany, you definitely ate well. I have no doubt! How did you find where to eat? Or did you just stop wherever? Like, “I want to eat Florentine steak.”
+
+Interviewee: Yes, for example, the Florentine steak… since I have friends who’ve traveled and some who live in Tuscany, I got some advice from them. Then sometimes we just stopped wherever. In those villages, there are very few places anyway—we just sat down and that was it. Other times we searched...
+
+[Interviewer]: Have you ever gone to a place specifically just to eat something?
+
+Interviewee: Yes, for example, there was this restaurant someone recommended to eat Florentine steak at a decent price. And we went there on purpose.
+
+[Interviewer]: Since you’re talking about price—going back to Ascoli, from the two images you saw earlier… would you expect it to be more expensive, cheaper, or the same as, say, Ravenna?
+
+Interviewee: That’s a good question… well… since I’d be going by car...
+
+[Interviewer]: Show me an example of how you’d estimate costs—also for accommodation. I don’t know, would you look on Airbnb, Booking... Show me how you’d roughly estimate the costs.
+
+Interviewee: Usually the first thing I do is go on Airbnb and Booking. I prefer Airbnb for these types of trips, because usually I travel with a group and we like to have one meal out and one at home. The nice thing about going by car is that you don’t need to book in the city center…
+
+[Interviewer]: Open Airbnb and show me—you’d look at the Airbnb map, right? Because that gives you a better idea of prices in the area since, as you said, you can drive around.
+
+Interviewee: Exactly. A bit outside, for example here I see 42 euros per night. And yeah, what I’d do is say, “okay, that’s the price.” It’s true a lot is already booked.
+
+[Interviewer]: The fact that it’s mostly booked—does that give you a positive or negative impression of the place?
+
+Interviewee: About the quality of the place—it tells me nothing. But in itself, it gives me a negative feeling because I think, if I see that many places are already booked, the risk is that what's left might be quite expensive. So it might be hard to find good prices.
+
+[Interviewer]: So, looking at these prices—you put the end of August, right? With these prices, would you think, “No way, it’s too much”?
+
+[Interviewer]: You put three people… no—five people for four nights.
+
+Interviewee: No, I’d have to check what that place looks like. 35 euros per night, this one, which is the cheapest per person.
+
+[Interviewer]: Stefano, I was just saying thanks because you’re dedicating so much time to this—really, thank you. Very kind. So you were saying this is more or less the price. And for food, you said you’ll decide once there, right? I think you said you do Airbnb also to optimize the fact that sometimes you eat in, sometimes out?
+
+Interviewee: Yes, though… I mean… it’s not even guaranteed. It depends a lot. For example, I might consider staying near a place and only need a few hours to visit it all. So maybe I just pass through…
+
+[Interviewer]: You wouldn’t even stay the night, you mean?
+
+Interviewee: No, I’d go somewhere else—toward the next city.
+
+[Interviewer]: Sure, absolutely, okay. So, imagine a nearby city—would you go on Maps… what would you do to see what else to pair with it?
+
+Interviewee: I’d look it up on Google. For example, for these types of trips… just for no particular reason… maybe “what to see in the Marche,” or in Abruzzo too—maybe we could combine those two regions and decide based on that…
+
+[Interviewer]: …based on a mix of things. So not a single city. Maybe a city fits in because you associate two or three nearby things and say, “Hey, since we’re here and it takes just a few hours to see it, let’s go.” Right? More or less?
+
+Interviewee: Exactly. I wouldn’t plan a trip just for a city like that.
+
+[Interviewer]: Let me ask you a couple of direct questions about the city. Have you ever heard of olive all’ascolana?
+
+[Interviewer]: You know what they are? Have you eaten them?
+
+Interviewee: I’ve eaten them, even from the place itself.
+
+[Interviewer]: So you know they’re from Ascoli? That they’re called Ascolane because of the city? Okay. Oh, you ate them from the place—maybe when you were a kid on holiday?
+
+Interviewee: No, someone brought them to me.
+
+[Interviewer]: Ah, someone brought them—like a friend from there? Someone from the city?
+
+Interviewee: A friend from the Marche region.
+
+[Interviewer]: Have you ever heard of the Quintana?
+
+[Interviewer]: Okay. Can you quickly look it up on Google and tell me what comes up and what you think it is? Like if it sparks any thoughts.
+
+Interviewee: I don’t know… it makes me think of something like the Palio di Siena, in the sense of: a tradition handed down from the past, something that’s stayed around. Then the horses—it seems like a game...
+
+[Interviewer]: Is it something that might interest you to see? Or do you absolutely not care?
+
+Interviewee: Yes, I’d be interested. I think… in that famous Tuscany trip, we also included the Palio di Siena… We even planned it that way—we timed our Siena visit for when the Palio was happening.
+
+[Interviewer]: And how did you find out it was during the Palio? I doubt you knew the dates by heart—I don’t even know them.
+
+Interviewee: No, let’s say that when…
+
+[Interviewer]: So when planning the Siena part, you remembered the Palio and thought “Let’s see when it is.” You already knew about the Palio, it wasn’t something you had to look up? You just knew it.
+
+Interviewee: Yes, I knew it.
+
+[Interviewer]: Alright. Stefano, thank you. You’ve been really, really kind. Thank you so much for also sharing your screen and showing everything. I really appreciate the chat. Thank you so much.
+
+Interviewee: No problem. Thank you guys.
+
+[Interviewer]: Thanks a lot. Bye everyone. Franco, I’ll text you on WhatsApp.

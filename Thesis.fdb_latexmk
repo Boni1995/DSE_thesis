@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754149083.8675 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1754149085.36233 0
+["pdflatex"] 1754231694.31682 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1754231696.06007 0
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753346627 82794 3356c8c6c52528dda375b8aed03f628e ""
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1753218884 14064 73d34c79b733e9e06f80202013047630 ""
   "C:/Users/franc/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742160991 12036089 243daf29a048e720d1bcf113a7823c32 ""
@@ -57,11 +57,11 @@
   "Images/international_tourism_results.png" 1753636760 58957 310bfe6f9fac633c50a48b02236f5366 ""
   "Images/top_cities_evolution.png" 1753638470 137035 2e56f7b86b8bf3d51114634049bb90fe ""
   "Images/top_cities_rnr.png" 1753638624 31319 8ea3d1b60cdbaa664b67d2660ee7c1f2 ""
-  "Thesis.aux" 1754149085 4521 079eac4a73a3195a8d4d3a35386b89df "pdflatex"
-  "Thesis.lof" 1754149085 1115 629c565e286f665fdf3b6fde120f094d "pdflatex"
-  "Thesis.tex" 1754149081 32306 449d6abd1e34c01a1acfee14458f4d64 ""
-  "Thesis.toc" 1754149085 903 af838a9042ac45e127bc525a2012999e "pdflatex"
-  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1754149081 32306 449d6abd1e34c01a1acfee14458f4d64 ""
+  "Thesis.aux" 1754231695 4521 079eac4a73a3195a8d4d3a35386b89df "pdflatex"
+  "Thesis.lof" 1754231695 1115 629c565e286f665fdf3b6fde120f094d "pdflatex"
+  "Thesis.tex" 1754231692 32598 f3776a334a31729dadadd1c70a42664c ""
+  "Thesis.toc" 1754231695 903 af838a9042ac45e127bc525a2012999e "pdflatex"
+  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1754231692 32598 f3776a334a31729dadadd1c70a42664c ""
   (generated)
   "Thesis.aux"
   "Thesis.lof"
