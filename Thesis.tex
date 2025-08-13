@@ -138,6 +138,18 @@ Y a este hermoso país del que era mi bisnonno y que me recibió para vivir una 
 
 \chapter{Introduction}
 
+\section{Previous Work}
+
+\indent This research originates from a project initially developed for the Marketing Analytics course within the Master’s Degree in Data Science for Economics at the Università degli studi di Milano. The project had a similar objective to the present work, but was \textbf{carried out over a shorter time period} and primarily aimed at applying the techniques taught during the course. The course had a duration of almost 3 months, and the project had a duration of around 1 month. In view of this, \textbf{the earlier project presented several limitations}, which are addressed differently and in greater depth in the current thesis.
+
+\indent First, there was a significant limitation in the \textbf{qualitative interviews} conducted during the initial stage of the project (see \textit{Appendix A} for an example of these interviews). The main objective of these interviews was to collect qualitative data about participants’ tourist behaviour, which would then serve as the basis for defining the final attributes to be analysed in the quantitative survey. The main limitation was that the interviews contained a small number of predefined questions that were very specific, \textbf{leaving little room for respondents to describe their genuine behaviour in a tourist destination}. These "open" questions were formulated so narrowly that interviewees often provided \textbf{very short answers}. Furthermore, the interviews lacked questions related to actual travel experiences, which resulted in a generalised understanding of certain tourist topics rather than experience-based insights.
+
+\indent Second, after the qualitative interviews stage came the \textbf{definition of the main attributes}. This phase also had its limitations regarding the project’s main goal, as the defined attributes were \textbf{very general}. Such generalization led to a limited analysis of tourist behaviour, mainly because attributes such as \textbf{price, food, culture, and accessibility}, among others, did not clearly describe specific tourist behaviours, and failed to describe important aspects that Ascoli Piceno could focus on. For instance, the attribute price could refer to food prices, accommodation costs, transportation costs, or even event ticket prices, among others. In addition, most of the interviews were not recorded, so the final transcriptions relied on the interviewer’s notes, making it impossible for other team members to verify them. Although the project’s final outcome was acceptable, the definition of attributes could have been improved to achieve more precise and insightful results.
+
+\indent Third and last, the following stage was the \textbf{online survey}, which aimed to obtain quantitative data for the final results and analysis. Although the outcomes were satisfactory and considered sufficient for the course, \textbf{the total number of responses (80) was relatively low, and some questions could have been removed} because they were already covered by others or did not contribute to the project’s main objective. In terms of sample size, a target of at least 300 responses would have provided a larger and more diverse dataset, thereby strengthening the validity of the results. For example, respondents from Italy were asked an additional question: “From which Italian region are you?” This question not only failed to add value to the analysis but was not even used. Another example is the question “How far would you be willing to travel for a weekend getaway?”, which aimed to assess the distance respondents were willing to travel over a weekend. The main issue here was that the question assumed a short trip, thereby excluding the possibility of longer journeys, and again it did not add meaningful value due to its specificity. Additionally, \textbf{the survey was written in English}, which excluded some potential respondents who spoke Spanish, the third most spoken language globally, and widely used in many regions. Although English is often considered the universal language, including a Spanish version could have allowed more Spanish speakers, particularly those living in South America, to participate.
+
+\indent In summary, while the original project successfully met the requirements of the course and provided an initial exploration of the research topic, these limitations constrained the depth, precision, and representativeness of its findings. The present thesis builds upon that foundation, addressing them through a more extensive working time period, improved qualitative methods, a refined survey design, and a larger and more diverse sample.
+
 \section{Thesis Roadmap}
 Explain a little bit the idea, but this will be explained in depth later in literature
 
@@ -236,7 +248,7 @@ These not only confirm Europe’s position as the most visited region globally b
 
 \indent To better understand the evolution of tourism in Italy over the past decade, the \textit{Figure 2.6} illustrates the total number of tourist arrivals (in millions) from 2014 to 2024 for the country’s ten most visited municipalities, along with Ascoli Piceno. \textbf{Rome has consistently maintained its status} as Italy’s top tourist destination, with a \textbf{drop in 2020 due to the COVID-19 pandemic}, followed by a \textbf{strong recovery}, exceeding 2019 arrivals in 2024. \textbf{Milan, Venice, and Florence} follow similar trends, with notable rebounds after the pandemic-induced decline \cite{istat}.
 
-\indent In contrast, \textbf{Ascoli Piceno remains far below these major destinations} in terms of tourist volume, never exceeding 0.045 million (45,000) arrivals in any given year. This highlights its marginal role in the Italian tourism market, despite its rich cultural and historical appeal. This gap highlights the need to explore what types of tourists might be interested in discovering lesser-known destinations like Ascoli Piceno, and how they might differ from visitors to Italy’s more popular cities \cite{istat}.
+\indent In contrast, \textbf{Ascoli Piceno remains far below these major destinations} in terms of tourist volume, \textbf{never exceeding 0.045 million (45,000)} arrivals in any given year. This highlights its marginal role in the Italian tourism market, despite its rich cultural and historical appeal. This gap highlights the need to explore what types of tourists might be interested in discovering lesser-known destinations like Ascoli Piceno, and how they might differ from visitors to Italy’s more popular cities \cite{istat}.
 
 \begin{figure}[ht]
     \centering
@@ -246,7 +258,7 @@ These not only confirm Europe’s position as the most visited region globally b
     \label{fig:top_cities_evolution}
 \end{figure}
 
-The structure of tourist arrivals by residency category (residents and non-residents) shows notable differences across Italian destinations. As described in section 2.2, subsection 2.2.1, of this chapter, overnight stays in accommodations by foreign tourists represented 54.6\% of all overnight stays, highlighting the relevance of international tourism in the Italian tourism sector. That being said, \textit{Figure 2.7} presents data from 2024 for the ten most visited Italian cities. In the top 4 cities, international (non-resident) arrivals outnumber domestic (resident) arrivals, representing more than 50\% of total arrivals.
+The structure of tourist arrivals by residency category (residents and non-residents) shows notable differences across Italian destinations. As described in section 2.2, subsection 2.2.1, of this chapter, overnight stays in accommodations by foreign tourists represented 54.6\% of all overnight stays, \textbf{highlighting the relevance of international tourism in the Italian tourism sector}. That being said, \textit{Figure 2.7} presents data from 2024 for the ten most visited Italian cities. In the \textbf{top 4 cities, international (non-resident) arrivals outnumber domestic (resident) arrivals}, representing more than 50\% of total arrivals.
 
 \begin{figure}[ht]
     \centering
@@ -256,7 +268,7 @@ The structure of tourist arrivals by residency category (residents and non-resid
     \label{fig:top_cities_rnr}
 \end{figure}
 
-On the other hand, \textit{Figure 2.8} displays the same information for Ascoli Piceno in 2024. The total number of tourist arrivals is significantly lower than in the top ten destinations. Specifically, Ascoli Piceno registered 37,709 domestic arrivals and 6,164 international arrivals, the last representing only 14.05\% of total arrivals. The comparison between Ascoli Piceno and the major Italian tourism destinations, along with national-level data, provides a clear overview of the absolute and relative scale of domestic and international tourism flows within Italy.
+On the other hand, \textit{Figure 2.8} displays the same information for Ascoli Piceno in 2024. The total number of tourist arrivals is significantly lower than in the top ten destinations. Specifically, \textbf{Ascoli Piceno registered 37,709 domestic arrivals and 6,164 international arrivals}, the last representing only 14.05\% of total arrivals. The comparison between Ascoli Piceno and the major Italian tourism destinations, along with national-level data, provides a clear overview of the absolute and relative scale of domestic and international tourism flows within Italy.
 
 \begin{figure}[ht]
     \centering
@@ -268,16 +280,22 @@ On the other hand, \textit{Figure 2.8} displays the same information for Ascoli 
 
 \subsection{Overtourism: Ascoli Piceno's Opportunity?}
 
-\indent Europe has been called the world’s museum, but its record numbers of visitors have also made it ground zero for concerns about overtourism. Among factors driving the record numbers are cheap flights, social media, the ease of travel planning using artificial intelligence \cite{apnews_ot}. This matter is something that is not new, and many residents of the affected cities started a time ago with anti-tourism protests, even a new wave of anti-tourism protests is being planned across southern Europe later for this summer (2025) \cite{bbc_ot}. Furthermore, the potential culprits point the finger at each other. For example, Airbnb says hotels are driving the problem, while Tui, Europe’s largest hotel operator, has hit back, saying Airbnb is to blame \cite{bloomberg_ot}.
+\indent Europe has been called the world’s museum, but its record numbers of visitors have also made it ground zero for \textbf{concerns about overtourism}. Among factors driving the record numbers are cheap flights, social media, and the ease of travel planning using artificial intelligence \cite{apnews_ot}. This matter is something that is not new, and many residents of the affected cities started a time ago with \textbf{anti-tourism protests}, even a new wave of anti-tourism protests is being planned across southern Europe later for this summer (2025) \cite{bbc_ot}. Furthermore, the potential culprits point the finger at each other. For example, Airbnb says hotels are driving the problem, while Tui, Europe’s largest hotel operator, has hit back, saying Airbnb is to blame \cite{bloomberg_ot}.
 
-\indent In Italy, 70\% of tourists go to only 1\% of Italy’s territory \cite{itsegreta_ot}. There are several destinations in the country at risk of overtourism, including popular cities like Rome, Florence, Milan, and Venice, as well as lesser-known cities such as Bolzano, Livorno, and Rimini. According to a study organized by Demoskopika, Bolzano, Livorno, Naples, Rimini, Trento, and Venice are at a high-level risk of overtourism. Following them, at a high-level of overtourism are Aosta, Florence, Forlì-Cesena, Gorizia, Grosseto, Imperia, La Spezia and the Cinque Terre, Milan, Ravenna, Rome, Savona, and Trieste. Taking these into account, there is an immediate need for responsible actions to ensure that tourism contributes to cultural enrichment and economic development without burdening future generations \cite{trn_ot}. Taking these into account, and according to Visit Italy CEO and founder Ruben Santopietro, “99\% of the destinations in Italy have an incredible capacity to grow”. Nevertheless, this can backfire, as cities with small populations and little tourism infrastructure can be woefully unprepared for hordes of people \cite{itsegreta_ot}.
+\indent In Italy, \textbf{70\% of tourists go to only 1\% of Italy’s territory} \cite{itsegreta_ot}. There are several destinations in the country at \textbf{risk of overtourism}, including popular cities like Rome, Florence, Milan, and Venice, as well as lesser-known cities such as Bolzano, Livorno, and Rimini. According to a study organized by Demoskopika, Bolzano, Livorno, Naples, Rimini, Trento, and Venice are at a \textbf{high-level risk of overtourism}. Following them, at a \textbf{high-level of overtourism} are Aosta, Florence, Forlì-Cesena, Gorizia, Grosseto, Imperia, La Spezia and the Cinque Terre, Milan, Ravenna, Rome, Savona, and Trieste. Taking these into account, there is an immediate need for responsible actions to ensure that tourism contributes to cultural enrichment and economic development without burdening future generations \cite{trn_ot}. Taking these into account, and according to Visit Italy CEO and founder Ruben Santopietro, \textbf{“99\% of the destinations in Italy have an incredible capacity to grow”}. Nevertheless, this can backfire, as cities with small populations and little tourism infrastructure can be woefully unprepared for hordes of people \cite{itsegreta_ot}.
 
-\indent Nowadays, the sustainable tourism, term first started to be batted around in the 1990s \cite{itsegreta_ot}, is gaining terrain in this field. Many destinations are responding with new ideas for a more sustainable travel season. For example, Switzerland's national train network will be run completely on hydroelectric power this year (2025), as part of its new Swisstainable strategy that aims to distribute tourism more evenly across the country and calendar. The Swisstainable website offers 33\% off public transport when booking a sustainability-certified Swisstainable hotel, or 25\% off for any stay in a Swisstainable hotel. On the other hand, in Spain they remove nearly 66,000 unregulated Airbnb listings and pulled back on social media influencer campaigns that bring selfie tourists to its small and easily overwhelmed beaches. Also, they developed a digital platform that monitors how many people are on beaches, as well as the air quality, sea temperatures, weather and even jellyfish in the water. These information can be accessed by tourism offices and hoteliers, helping them (and therefore visitors) make smarter decisions about where to go and what to do \cite{bbc_ot}.
+\indent Nowadays, the \textbf{sustainable tourism}, term first started to be batted around in the 1990s \cite{itsegreta_ot}, is gaining terrain in this field. Many destinations are responding with new ideas for a more sustainable travel season. For example, Switzerland's national train network will be run completely on hydroelectric power this year (2025), as part of its new Swisstainable strategy that aims to distribute tourism more evenly across the country and calendar. The Swisstainable website offers 33\% off public transport when booking a sustainability-certified Swisstainable hotel, or 25\% off for any stay in a Swisstainable hotel. On the other hand, in Spain they remove nearly 66,000 unregulated Airbnb listings and pulled back on social media influencer campaigns that bring selfie tourists to its small and easily overwhelmed beaches. Also, they developed a digital platform that monitors how many people are on beaches, as well as the air quality, sea temperatures, weather and even jellyfish in the water. These information can be accessed by tourism offices and hoteliers, helping them (and therefore visitors) make smarter decisions about where to go and what to do \cite{bbc_ot}.
 
 
 \chapter{Methodology}
+
+\section{Qualitative Interviews}
 Here I will describe theory and decision of interview and survey selected.
 Also describe once I have it, the analysis done for getting results.
+
+\section{Quantitative Survey}
+
+
 
 \chapter{Results}
 Here I'll show results.
@@ -326,5 +344,53 @@ Feargus O'Sullivan. "Are Tourists Ruining Europe? How Locals Are Pushing Back", 
 
 \end{thebibliography}
 
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+
+\section*{A. Example of Qualitative Interview from Previous Project}
+\addcontentsline{toc}{section}{A. Example of Qualitative Interview from Previous Project}
+\input{Material/2. Interviews/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt}
+
+
+
+\section*{C. Qualitative Interview 1}
+\addcontentsline{toc}{section}{C. Qualitative Interview 1}
+\input{Material/2. Interviews/1. Qualitative Interview/1. Interview 31-07-2025 18-15/1. Interview 31-07-2025 18-15 (ENGLISH).txt}
+
+\section*{D. Qualitative Interview 2}
+\addcontentsline{toc}{section}{D. Qualitative Interview 2}
+\input{Material/2. Interviews/1. Qualitative Interview/2. Interview 31-07-2025 19-15/2. Interview 31-07-2025 19-15 (ENGLISH).txt}
+
+\section*{E. Qualitative Interview 3}
+\addcontentsline{toc}{section}{E. Qualitative Interview 3}
+\input{Material/2. Interviews/1. Qualitative Interview/3. Interview 01-08-2025 19/3. Interview 01-08-2025 19 (ENGLISH).txt}
+
+\section*{F. Qualitative Interview 4}
+\addcontentsline{toc}{section}{F. Qualitative Interview 4}
+\input{Material/2. Interviews/1. Qualitative Interview/4. Interview 02-08-2025 19/4. Interview 02-08-2025 19 (ENGLISH).txt}
+
+\section*{G. Qualitative Interview 5}
+\addcontentsline{toc}{section}{G. Qualitative Interview 5}
+\input{Material/2. Interviews/1. Qualitative Interview/5. Interview 02-08-2025 22/5. Interview 02-08-2025 22 (ENGLISH).txt}
+
+\section*{H. Qualitative Interview 6}
+\addcontentsline{toc}{section}{H. Qualitative Interview 6}
+\input{Material/2. Interviews/1. Qualitative Interview/6. Interview 03-08-2025 15/6. Interview 03-08-2025 15 (ENGLISH).txt}
+
+\section*{I. Qualitative Interview 7}
+\addcontentsline{toc}{section}{I. Qualitative Interview 7}
+\input{Material/2. Interviews/1. Qualitative Interview/7. Interview 03-08-2025 16/7. Interview 03-08-2025 16 (ENGLISH).txt}
+
+\section*{J. Qualitative Interview 8}
+\addcontentsline{toc}{section}{J. Qualitative Interview 8}
+\input{Material/2. Interviews/1. Qualitative Interview/8. Interview 03-08-2025 17/8. Interview 03-08-2025 17 (ENGLISH).txt}
+
+\section*{K. Qualitative Interview 9}
+\addcontentsline{toc}{section}{K. Qualitative Interview 9}
+\input{Material/2. Interviews/1. Qualitative Interview/9. Interview 03-08-2025 19/9. Interview 03-08-2025 19 (ENGLISH).txt}
+
+\section*{L. Qualitative Interview 10}
+\addcontentsline{toc}{section}{L. Qualitative Interview 10}
+\input{Material/2. Interviews/1. Qualitative Interview/10. Interview 03-08-2025 19-30/10. Interview 03-08-2025 19-30 (ENGLISH).txt}
 
 \end{document}
