@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754856989.43854 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1754856991.15379 0
+["pdflatex"] 1755245247.68762 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1755245248.93218 0
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754825347 81196 81d6cf890b21ddb7f2ecb9b7d2f13868 ""
   "C:/Users/franc/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1754818822 14064 4f4d5daf36e0d009dd635016ca3111b1 ""
   "C:/Users/franc/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754818779 13257295 7e568e56c1aa4c451e6c41e6a1b8f945 ""
@@ -68,11 +68,12 @@
   "Material/2. Interviews/1. Qualitative Interview/8. Interview 03-08-2025 17/8. Interview 03-08-2025 17 (ENGLISH).txt" 1754856374 15163 b96fc69845b85e899446281d6a41f94b ""
   "Material/2. Interviews/1. Qualitative Interview/9. Interview 03-08-2025 19/9. Interview 03-08-2025 19 (ENGLISH).txt" 1754856440 15180 a349a26e3cd346362c44afa3b51a6e5b ""
   "Material/2. Interviews/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt" 1754823613 2332 094fa85847172d6155db4fefc9aa3d27 ""
-  "Thesis.aux" 1754856990 6063 888b615896cd68c99f1b3b1be1dfb26f "pdflatex"
-  "Thesis.lof" 1754856991 1116 fc4f8ba97c17f42fe624535f2c265be2 "pdflatex"
-  "Thesis.tex" 1754856523 40066 3639f7850d140e3c3da01e414f5a0659 ""
-  "Thesis.toc" 1754856991 1828 be855023290f4d1e8a6ec8da5c8d6c64 "pdflatex"
-  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1754856523 40066 3639f7850d140e3c3da01e414f5a0659 ""
+  "Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png" 1755158428 36480 9e75c122302c48b61887d158d79e98e1 ""
+  "Thesis.aux" 1755245248 8150 5563f6251d846fe5747ddbc916974f86 "pdflatex"
+  "Thesis.lof" 1755245248 1223 8ffe191e93da979e05ef8c31e2e91a3a "pdflatex"
+  "Thesis.tex" 1755245245 54462 838f890beabc69e2cbdb34269da17147 ""
+  "Thesis.toc" 1755245248 2385 85eacc4a8afdcb45d6fcb24297cc8bcb "pdflatex"
+  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1755245245 54462 838f890beabc69e2cbdb34269da17147 ""
   (generated)
   "Thesis.aux"
   "Thesis.lof"

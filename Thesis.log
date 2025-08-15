@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  10 AUG 2025 22:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  15 AUG 2025 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -243,15 +243,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
-\tf@toc=\write3
-\openout3 = `Thesis.toc'.
-
 
 
 [5
 
-]
+])
+\tf@toc=\write3
+\openout3 = `Thesis.toc'.
+
+
 
 [6] (Thesis.lof
 Overfull \hbox (9.93271pt too wide) in paragraph at lines 10--10
@@ -278,127 +278,142 @@ Underfull \vbox (badness 1478) has occurred while \output is active []
 [2
 
 ]
+Underfull \vbox (badness 4266) has occurred while \output is active []
+
+
 
 [3]
+
+[4]
 Chapter 2.
 
 
-[4
+[5
 
 ]
-<Images/international_tourism_results.png, id=50, 715.473pt x 426.393pt>
+<Images/international_tourism_results.png, id=53, 715.473pt x 426.393pt>
 File: Images/international_tourism_results.png Graphic file (type png)
 <use Images/international_tourism_results.png>
-Package pdftex.def Info: Images/international_tourism_results.png  used on input line 172.
+Package pdftex.def Info: Images/international_tourism_results.png  used on input line 174.
 (pdftex.def)             Requested size: 418.25552pt x 249.25998pt.
-<Images/evolution_map.png, id=51, 615.80063pt x 388.45125pt>
+<Images/evolution_map.png, id=54, 615.80063pt x 388.45125pt>
 File: Images/evolution_map.png Graphic file (type png)
 <use Images/evolution_map.png>
-Package pdftex.def Info: Images/evolution_map.png  used on input line 182.
+Package pdftex.def Info: Images/evolution_map.png  used on input line 184.
 (pdftex.def)             Requested size: 418.25552pt x 263.84105pt.
 
 
-[5 <./Images/international_tourism_results.png>]
-<Images/avg_receipt.png, id=57, 715.473pt x 497.2176pt>
+[6 <./Images/international_tourism_results.png>]
+<Images/avg_receipt.png, id=60, 715.473pt x 497.2176pt>
 File: Images/avg_receipt.png Graphic file (type png)
 <use Images/avg_receipt.png>
-Package pdftex.def Info: Images/avg_receipt.png  used on input line 194.
+Package pdftex.def Info: Images/avg_receipt.png  used on input line 196.
 (pdftex.def)             Requested size: 418.25552pt x 290.66248pt.
-
-
-[6 <./Images/evolution_map.png>]
-<Images/country_rank.png, id=62, 713.3049pt x 426.393pt>
+<Images/country_rank.png, id=61, 713.3049pt x 426.393pt>
 File: Images/country_rank.png Graphic file (type png)
 <use Images/country_rank.png>
-Package pdftex.def Info: Images/country_rank.png  used on input line 209.
+Package pdftex.def Info: Images/country_rank.png  used on input line 211.
 (pdftex.def)             Requested size: 418.25552pt x 250.02771pt.
+
+
+[7 <./Images/evolution_map.png>]
+
+[8 <./Images/avg_receipt.png>]
+
+[9 <./Images/country_rank.png>]
+
+[10]
+<Images/arrivals_top_cities.png, id=79, 1003.8303pt x 426.393pt>
+File: Images/arrivals_top_cities.png Graphic file (type png)
+<use Images/arrivals_top_cities.png>
+Package pdftex.def Info: Images/arrivals_top_cities.png  used on input line 245.
+(pdftex.def)             Requested size: 418.25552pt x 177.65897pt.
+<Images/top_cities_evolution.png, id=80, 1006.7211pt x 498.663pt>
+File: Images/top_cities_evolution.png Graphic file (type png)
+<use Images/top_cities_evolution.png>
+Package pdftex.def Info: Images/top_cities_evolution.png  used on input line 257.
+(pdftex.def)             Requested size: 418.25552pt x 207.17715pt.
+
+
+[11 <./Images/arrivals_top_cities.png>]
+<Images/top_cities_rnr.png, id=85, 714.7503pt x 353.4003pt>
+File: Images/top_cities_rnr.png Graphic file (type png)
+<use Images/top_cities_rnr.png>
+Package pdftex.def Info: Images/top_cities_rnr.png  used on input line 267.
+(pdftex.def)             Requested size: 418.25552pt x 206.80573pt.
+<Images/ascoli_rnr.png, id=86, 715.473pt x 70.8246pt>
+File: Images/ascoli_rnr.png Graphic file (type png)
+<use Images/ascoli_rnr.png>
+Package pdftex.def Info: Images/ascoli_rnr.png  used on input line 277.
+(pdftex.def)             Requested size: 418.25552pt x 41.40248pt.
+
+
+[12 <./Images/top_cities_evolution.png> <./Images/top_cities_rnr.png>]
+
+[13 <./Images/ascoli_rnr.png>]
+
+[14]
+Chapter 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[7 <./Images/avg_receipt.png>]
-
-[8 <./Images/country_rank.png>]
-
-[9]
-<Images/arrivals_top_cities.png, id=75, 1003.8303pt x 426.393pt>
-File: Images/arrivals_top_cities.png Graphic file (type png)
-<use Images/arrivals_top_cities.png>
-Package pdftex.def Info: Images/arrivals_top_cities.png  used on input line 243.
-(pdftex.def)             Requested size: 418.25552pt x 177.65897pt.
-
-
-[10 <./Images/arrivals_top_cities.png>]
-<Images/top_cities_evolution.png, id=81, 1006.7211pt x 498.663pt>
-File: Images/top_cities_evolution.png Graphic file (type png)
-<use Images/top_cities_evolution.png>
-Package pdftex.def Info: Images/top_cities_evolution.png  used on input line 255.
-(pdftex.def)             Requested size: 418.25552pt x 207.17715pt.
-<Images/top_cities_rnr.png, id=82, 714.7503pt x 353.4003pt>
-File: Images/top_cities_rnr.png Graphic file (type png)
-<use Images/top_cities_rnr.png>
-Package pdftex.def Info: Images/top_cities_rnr.png  used on input line 265.
-(pdftex.def)             Requested size: 418.25552pt x 206.80573pt.
-
-
-[11 <./Images/top_cities_evolution.png> <./Images/top_cities_rnr.png>]
-<Images/ascoli_rnr.png, id=88, 715.473pt x 70.8246pt>
-File: Images/ascoli_rnr.png Graphic file (type png)
-<use Images/ascoli_rnr.png>
-Package pdftex.def Info: Images/ascoli_rnr.png  used on input line 275.
-(pdftex.def)             Requested size: 418.25552pt x 41.40248pt.
-
-
-[12 <./Images/ascoli_rnr.png>]
-
-[13]
-Chapter 3.
-
-
-[14
-
-]
-Chapter 4.
-
-
 [15
 
 ]
-Overfull \hbox (116.04732pt too wide) in paragraph at lines 331--332
+
+[16]
+
+[17]
+<Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png, id=109, 682.80093pt x 430.60875pt>
+File: Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png Graphic file (type png)
+<use Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png>
+Package pdftex.def Info: Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png  used on input line 336.
+(pdftex.def)             Requested size: 418.25552pt x 263.7748pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 336--338
+ [][] 
+ []
+
+
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+
+
+[18]
+
+[19 <./Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png>]
+Chapter 4.
+
+
+[20
+
+]
+Overfull \hbox (116.04732pt too wide) in paragraph at lines 375--376
 \OT1/cmtt/m/n/12 europe-[]mass-[]tourism-[]france-[]spain-[]italy-[]overtourism-[]fc99da0aa610dca84b8a2753645a0d6a$  
  []
 
 
 
-[16
+[21
 
 ]
-Overfull \hbox (18.74727pt too wide) in paragraph at lines 343--344
+Overfull \hbox (18.74727pt too wide) in paragraph at lines 387--388
 \OT1/cmtt/m/n/12 over-[]tourism-[]the-[]most-[]overcrowded-[]destinations-[]and-[]what-[]can-[]be-[]done$  
  []
 
 
 
-[17] (Material/2. Interviews/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt
+[22]
 
-[18
+[23] (Material/2. Interviews/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt
+
+[24
 
 ]) (Material/2. Interviews/1. Qualitative Interview/1. Interview 31-07-2025 18-15/1. Interview 31-07-2025 18-15 (ENGLISH).txt
 
-[19]
-
-[20]
-
-[21]
-
-[22]
-
-[23]
-
-[24]
-
-[25]) (Material/2. Interviews/1. Qualitative Interview/2. Interview 31-07-2025 19-15/2. Interview 31-07-2025 19-15 (ENGLISH).txt
+[25]
 
 [26]
 
@@ -410,12 +425,9 @@ Overfull \hbox (18.74727pt too wide) in paragraph at lines 343--344
 
 [30]
 
-[31]) (Material/2. Interviews/1. Qualitative Interview/3. Interview 01-08-2025 19/3. Interview 01-08-2025 19 (ENGLISH).txt
+[31]) (Material/2. Interviews/1. Qualitative Interview/2. Interview 31-07-2025 19-15/2. Interview 31-07-2025 19-15 (ENGLISH).txt
 
 [32]
-Underfull \vbox (badness 4266) has occurred while \output is active []
-
-
 
 [33]
 
@@ -425,12 +437,12 @@ Underfull \vbox (badness 4266) has occurred while \output is active []
 
 [36]
 
-[37]
-Underfull \vbox (badness 1264) has occurred while \output is active []
+[37]) (Material/2. Interviews/1. Qualitative Interview/3. Interview 01-08-2025 19/3. Interview 01-08-2025 19 (ENGLISH).txt
+
+[38]
+Underfull \vbox (badness 4266) has occurred while \output is active []
 
 
-
-[38]) (Material/2. Interviews/1. Qualitative Interview/4. Interview 02-08-2025 19/4. Interview 02-08-2025 19 (ENGLISH).txt
 
 [39]
 
@@ -441,8 +453,11 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 [42]
 
 [43]
+Underfull \vbox (badness 1264) has occurred while \output is active []
 
-[44]) (Material/2. Interviews/1. Qualitative Interview/5. Interview 02-08-2025 22/5. Interview 02-08-2025 22 (ENGLISH).txt
+
+
+[44]) (Material/2. Interviews/1. Qualitative Interview/4. Interview 02-08-2025 19/4. Interview 02-08-2025 19 (ENGLISH).txt
 
 [45]
 
@@ -452,9 +467,9 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 
 [48]
 
-[49]) (Material/2. Interviews/1. Qualitative Interview/6. Interview 03-08-2025 15/6. Interview 03-08-2025 15 (ENGLISH).txt
+[49]
 
-[50]
+[50]) (Material/2. Interviews/1. Qualitative Interview/5. Interview 02-08-2025 22/5. Interview 02-08-2025 22 (ENGLISH).txt
 
 [51]
 
@@ -462,9 +477,9 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 
 [53]
 
-[54]) (Material/2. Interviews/1. Qualitative Interview/7. Interview 03-08-2025 16/7. Interview 03-08-2025 16 (ENGLISH).txt
+[54]
 
-[55]
+[55]) (Material/2. Interviews/1. Qualitative Interview/6. Interview 03-08-2025 15/6. Interview 03-08-2025 15 (ENGLISH).txt
 
 [56]
 
@@ -474,32 +489,32 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 
 [59]
 
-[60]) (Material/2. Interviews/1. Qualitative Interview/8. Interview 03-08-2025 17/8. Interview 03-08-2025 17 (ENGLISH).txt
+[60]) (Material/2. Interviews/1. Qualitative Interview/7. Interview 03-08-2025 16/7. Interview 03-08-2025 16 (ENGLISH).txt
 
 [61]
 
 [62]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
-
 
 [63]
 
 [64]
 
-[65]) (Material/2. Interviews/1. Qualitative Interview/9. Interview 03-08-2025 19/9. Interview 03-08-2025 19 (ENGLISH).txt
+[65]
 
-[66]
+[66]) (Material/2. Interviews/1. Qualitative Interview/8. Interview 03-08-2025 17/8. Interview 03-08-2025 17 (ENGLISH).txt
 
 [67]
 
 [68]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+
 
 [69]
 
-[70])
+[70]
 
-[71] (Material/2. Interviews/1. Qualitative Interview/10. Interview 03-08-2025 19-30/10. Interview 03-08-2025 19-30 (ENGLISH).txt
+[71]) (Material/2. Interviews/1. Qualitative Interview/9. Interview 03-08-2025 19/9. Interview 03-08-2025 19 (ENGLISH).txt
 
 [72]
 
@@ -511,24 +526,36 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 
 [76])
 
-[77] (Thesis.aux)
+[77] (Material/2. Interviews/1. Qualitative Interview/10. Interview 03-08-2025 19-30/10. Interview 03-08-2025 19-30 (ENGLISH).txt
+
+[78]
+
+[79]
+
+[80]
+
+[81]
+
+[82])
+
+[83] (Thesis.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3954 strings out of 468134
- 77570 string characters out of 5430740
- 476948 words of memory out of 5000000
- 32499 multiletter control sequences out of 15000+600000
+ 3984 strings out of 468134
+ 78461 string characters out of 5430740
+ 477092 words of memory out of 5000000
+ 32529 multiletter control sequences out of 15000+600000
  633503 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,3676b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,7n,65p,3676b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (86 pages, 963465 bytes).
+Output written on Thesis.pdf (92 pages, 1012728 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
+ 355 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

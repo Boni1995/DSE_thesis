@@ -1,28 +1,35 @@
 \contentsline {chapter}{Acknowledgments}{i}{}%
 \contentsline {chapter}{\numberline {1}Introduction}{2}{}%
 \contentsline {section}{\numberline {1.1}Previous Work}{2}{}%
-\contentsline {section}{\numberline {1.2}Thesis Roadmap}{3}{}%
-\contentsline {chapter}{\numberline {2}Literature Review}{4}{}%
-\contentsline {section}{\numberline {2.1}Tourism on a Global Scale}{4}{}%
-\contentsline {section}{\numberline {2.2}The Italian Context}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}International Tourism and Overnight Stays}{6}{}%
+\contentsline {section}{\numberline {1.2}Thesis Roadmap}{4}{}%
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{}%
+\contentsline {section}{\numberline {2.1}Tourism on a Global Scale}{5}{}%
+\contentsline {section}{\numberline {2.2}The Italian Context}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}International Tourism and Overnight Stays}{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}Spending and Economic Contribution}{8}{}%
-\contentsline {section}{\numberline {2.3}Ascoli Piceno}{9}{}%
-\contentsline {subsection}{\numberline {2.3.1}Touristic Situation}{9}{}%
-\contentsline {subsection}{\numberline {2.3.2}Overtourism: Ascoli Piceno's Opportunity?}{12}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{14}{}%
-\contentsline {section}{\numberline {3.1}Qualitative Interviews}{14}{}%
-\contentsline {section}{\numberline {3.2}Quantitative Survey}{14}{}%
-\contentsline {chapter}{\numberline {4}Results}{15}{}%
-\contentsline {chapter}{Appendix}{18}{}%
-\contentsline {section}{A. Example of Qualitative Interview from Previous Project}{18}{}%
-\contentsline {section}{C. Qualitative Interview 1}{19}{}%
-\contentsline {section}{D. Qualitative Interview 2}{26}{}%
-\contentsline {section}{E. Qualitative Interview 3}{32}{}%
-\contentsline {section}{F. Qualitative Interview 4}{39}{}%
-\contentsline {section}{G. Qualitative Interview 5}{45}{}%
-\contentsline {section}{H. Qualitative Interview 6}{50}{}%
-\contentsline {section}{I. Qualitative Interview 7}{55}{}%
-\contentsline {section}{J. Qualitative Interview 8}{61}{}%
-\contentsline {section}{K. Qualitative Interview 9}{66}{}%
-\contentsline {section}{L. Qualitative Interview 10}{72}{}%
+\contentsline {section}{\numberline {2.3}Ascoli Piceno}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Touristic Situation}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Overtourism: Ascoli Piceno's Opportunity?}{13}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{15}{}%
+\contentsline {section}{\numberline {3.1}A Mixed Research Methodology}{16}{}%
+\contentsline {subsection}{\numberline {3.1.1}Qualitative Approach}{16}{}%
+\contentsline {subsubsection}{Advantages of Qualitative Approach}{16}{}%
+\contentsline {subsubsection}{Disadvantages of Qualitative Approach}{16}{}%
+\contentsline {subsection}{\numberline {3.1.2}Quantitative Approach}{17}{}%
+\contentsline {subsubsection}{Advantages of Quanitative Approach}{17}{}%
+\contentsline {subsubsection}{Disadvantages of Quanitative Approach}{18}{}%
+\contentsline {subsection}{\numberline {3.1.3}Mixed Methodology: The Implementation}{18}{}%
+\contentsline {section}{\numberline {3.2}Machine Learning Techniques}{19}{}%
+\contentsline {chapter}{\numberline {4}Results}{20}{}%
+\contentsline {chapter}{Appendix}{24}{}%
+\contentsline {section}{A. Example of Qualitative Interview from Previous Project}{24}{}%
+\contentsline {section}{C. Qualitative Interview 1}{25}{}%
+\contentsline {section}{D. Qualitative Interview 2}{32}{}%
+\contentsline {section}{E. Qualitative Interview 3}{38}{}%
+\contentsline {section}{F. Qualitative Interview 4}{45}{}%
+\contentsline {section}{G. Qualitative Interview 5}{51}{}%
+\contentsline {section}{H. Qualitative Interview 6}{56}{}%
+\contentsline {section}{I. Qualitative Interview 7}{61}{}%
+\contentsline {section}{J. Qualitative Interview 8}{67}{}%
+\contentsline {section}{K. Qualitative Interview 9}{72}{}%
+\contentsline {section}{L. Qualitative Interview 10}{78}{}%
