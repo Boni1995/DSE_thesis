@@ -9,6 +9,7 @@
 \usepackage{titlesec}
 \usepackage{caption} % For figures' caption
 \usepackage{url} % For adding url, mainly in references
+\usepackage{pdfpages} % To include PDFs
 
 \onehalfspacing  % Set line spacing to 1.5
 
@@ -129,278 +130,519 @@ Y a este hermoso país del que era mi bisnonno y que me recibió para vivir una 
 
 \begin{abstract}
 
-    Tourism plays a fundamental role in the economic development of many Italian cities, including \textbf{Ascoli Piceno}, a destination with significant untapped potential. Despite its rich cultural, historical, and gastronomic heritage, the city has yet to establish itself as a highly competitive tourist destination compared to other Italian locations.
+    Tourism plays a fundamental role in the economic development of many Italian cities, including Ascoli Piceno, a destination with significant untapped potential. Despite its rich cultural, historical, and gastronomic heritage, the city has yet to establish itself as a highly competitive tourist destination compared to other Italian locations.
 
-    This project analyzes tourism data from various Italian cities to identify key trends in visitor segmentation, pricing models, and market positioning. To address this challenge, this study seeks to answer the following research question: "\textbf{\textit{What is the optimal combination of pricing, positioning, and promotional strategies for Ascoli Piceno to increase tourism competitiveness?}}". By combining secondary data analysis with primary research through surveys, the project provides insights into tourist preferences, spending behavior, and the effectiveness of different promotional strategies. Additionally, financial factors—including cost structures, potential partnerships, and the role of influencer marketing—are examined to understand their impact on tourism promotion.
+    This project analyzes tourism data from various Italian cities to identify key trends in visitor segmentation, pricing models, and market positioning. To address this challenge, this study seeks to answer the following research question: "What is the optimal combination of pricing, positioning, and promotional strategies for Ascoli Piceno to increase tourism competitiveness?". By combining secondary data analysis with primary research through surveys, the project provides insights into tourist preferences, spending behavior, and the effectiveness of different promotional strategies. Additionally, financial factors—including cost structures, potential partnerships, and the role of influencer marketing—are examined to understand their impact on tourism promotion.
         
     Using clustering techniques and strategic pricing models, the research proposes optimized tourism packages tailored to different market segments. The findings aim to offer evidence-based recommendations for Ascoli Piceno to improve its tourism appeal, increase visitor numbers, and strengthen its overall economic sustainability. Further research could explore the long-term effects of these strategies and identify additional factors that influence the competitiveness of tourist destinations.
 \end{abstract}
 
 \chapter{Introduction}
 
-\section{Previous Work}
+\indent This chapter introduces the context and motivation behind this thesis. It first presents an overview of tourism at the global, national, and local levels, showing its importance and recent trends. The focus then narrows to Italy and finally to Ascoli Piceno, the case study of this work. By looking at data on arrivals, overnight stays, and spending patterns, this section provides a clear picture of the tourism situation. The chapter also briefly describes the previous work that inspired this research and explains how this thesis builds on it with a more detailed and structured approach.
 
-\indent This research originates from a project initially developed for the Marketing Analytics course within the Master’s Degree in Data Science for Economics, for the academic year 2024/2025, at the Università degli studi di Milano. The project had a similar objective to the present work, but was \textbf{carried out over a shorter time period} and primarily aimed at applying the techniques taught during the course, not too focused on delivering an in-depth analysis to the city. The course had a duration of almost 3 months, and the project had a duration of around 1 month. In view of this, \textbf{the earlier project presented several limitations}, apart from the short timeframe, which are addressed differently and in greater depth in the current thesis.
+\section{Tourism Through the Data Lens}
 
-\indent First, there was a significant limitation in the \textbf{qualitative interviews} conducted during the initial stage of the project (see \textit{Appendix A} for an example of these interviews). The main objective of these interviews was to collect qualitative data about participants’ tourist behaviour, which would then serve as the basis for defining the final attributes to be analysed in the quantitative survey. The main limitation was that the interviews contained a small number of predefined questions that were very specific, \textbf{leaving little room for respondents to describe their genuine behaviour in a tourist destination}. Moreover, this limitation may have resulted in the \textbf{omission of potential attributes} that could have further enriched the study. These ``open" questions were formulated so narrowly that interviewees often provided \textbf{very short answers}. Furthermore, the interviews lacked questions related to actual travel experiences, which resulted in a generalised understanding of certain tourist topics rather than experience-based insights.
+\subsection{Tourism on a Global Scale}
 
-\indent Second, after the qualitative interviews stage, came the \textbf{definition of the main attributes}. This phase also had its limitations regarding the project’s main goal, as the defined attributes were \textbf{very general}. Such generalization led to a limited analysis of tourist behaviour, mainly because attributes such as \textbf{price, food, culture, and accessibility}, among others, did not clearly describe specific tourist behaviours, and failed to describe important aspects that Ascoli Piceno could focus on. For instance, the attribute price could refer to food prices, accommodation costs, transportation costs, or even event ticket prices, among others. In addition, most of the interviews were not recorded, so the final transcriptions relied on the interviewer’s notes, making it impossible for other team members to verify them and maybe extract more valuable insights. Although the project’s final outcome was sufficient for the course's goal, the definition of attributes could have been improved to achieve more precise and insightful results.
-
-\indent Third, the following stage was the \textbf{online survey}, which aimed to obtain quantitative data for the final results and analysis. Although the outcomes were satisfactory and considered sufficient for the course's objective, \textbf{the total number of responses (80) was relatively low}. In terms of sample size, a target of at least 300 responses would have provided a larger and more diverse dataset, thereby strengthening the validity of the results. On the other hand, \textbf{some questions could have been removed} because they were already covered by others, or did not contribute at all. For example, respondents from Italy were asked an additional question: ``From which Italian region are you?". This question not only failed to add value to the analysis but was not even used. Another example is the question ``How far would you be willing to travel for a weekend getaway?", which aimed to assess the distance that respondents were willing to travel over a weekend. The main issue here was that the question assumed a short trip, thereby excluding the possibility of longer journeys, and again it did not add meaningful value due to its specificity. Another limitation of this survey was that \textbf{most questions did not allow for a deeper exploration of attributes}. Although there were questions designed to obtain a good description of each cluster, they failed to provide further insight into the rationale behind the order in which respondents ranked the attributes.
-
-\indent Following the online survey, several questions related to \textbf{Van Westendorp’s Price Sensitivity Meter}, explained in detail in \textit{Chapter 3: Methodology}, were included. These questions targeted very specific cases, such as the Quintana event, the Ascoliva Festival, a wine tasting, and a city tour. However, the model is designed to estimate willingness to pay for a representative product within the target market. \cite{vw_model}. A more appropriate approach would have been to formulate a single, general question referring to a typical tourist package, in order to obtain results that are more representative and comparable.
-
-\indent Fourth, \textbf{the project was conducted as a group assignment, mainly during the winter break}, which created challenges in terms of coordination. Each member faced different personal contexts: some were engaged with other courses and examinations, while others were travelling to their home countries. As a result, finding common times for meetings was often difficult, and the overall progress of the work advanced more slowly than expected.
-
-\indent Last but not least, \textbf{the survey was written exclusively in English, which excluded some potential respondents who spoke Spanish}, the third most widely spoken language in the world and commonly used across many regions. Although English is often regarded as a universal language, providing a Spanish version could have increased participation, particularly among older individuals less familiar with English. This would have enriched the dataset by incorporating perspectives from a group that may have distinct travel behaviours and preferences.
-
-\indent In summary, while the original project successfully met the requirements of the course and provided an initial exploration of the research topic, \textbf{these limitations constrained the depth, precision, and representativeness of its findings}. The present thesis builds upon that foundation, addressing them through a more extensive working time period, improved qualitative methods, a refined survey design, and a larger and more diverse sample.
-
-\section{Thesis Roadmap}
-Explain a little bit the idea, but this will be explained in depth later in literature
-
-
-\chapter{Literature Review}
-
-\indent This chapter aims to provide a comprehensive contextualization of the research by reviewing both \textbf{existing literature and relevant data} on tourism performance at different territorial levels. While the previous chapter introduced the motivations and objectives of this study, here the focus shifts toward a \textbf{broader and more analytical perspective}. The review is structured in three parts, progressing from the general to the specific.
-
-\indent The \textbf{first section} outlines the evolution of \textbf{tourism on a global scale}, emphasizing key trends, particularly the impact of the COVID-19 pandemic and the sector's subsequent recovery. It explores how international tourism flows have changed in recent years. \textbf{The second section} describes the \textbf{Italian context}, examining national trends and worldwide position. \textbf{The third and last section} reviews the \textbf{available data on tourism in Ascoli Piceno}, identifying key patterns or limitations. Together, these sections provide the necessary background to understand the motivations for this research and the added value of the current thesis.
-
-\section{Tourism on a Global Scale}
-
-\indent \textbf{Tourism} is recognized as one of the most important economic sectors in the world. In 2019, it represented a significant share of the global economy, accounting for \textbf{7\% of global trade}. However, despite its importance, tourism was also among the sectors \textbf{most severely impacted by the Covid-19 pandemic}, which affected not only global economies but also livelihoods, public services, and development opportunities in countries across all continents \cite{unwtocovid}. Now, four years after the onset of the pandemic, the sector has shown strong signs of recovery. International tourist arrivals have returned to \textbf{99\% of 2019 levels}, signaling that tourism has bounced back from what is considered the worst crisis in its history \cite{unwtoppt}. As shown in \textit{Figure 1.1}, in addition to the rebound in arrivals, there has also been a notable rise in international tourism revenues. Total international tourism receipts reached \textbf{USD 1.7 trillion in 2024}, reflecting a 10.5\% increase compared to 2023 and a 14.1\% increase from 2019 in real terms \cite{unwtodash}.
+\indent Tourism is recognized as one of the most important economic sectors in the world. In 2019, it represented a significant share of the global economy, accounting for 7\% of global trade. However, despite its importance, tourism was also among the sectors most severely impacted by the Covid-19 pandemic, which affected not only global economies but also livelihoods, public services, and development opportunities in countries across all continents \cite{unwtocovid}. Now, four years after the onset of the pandemic, the sector has shown strong signs of recovery. International tourist arrivals have returned to 99\% of 2019 levels, signaling that tourism has bounced back from what is considered the worst crisis in its history \cite{unwtoppt}. As shown in Figure~\ref{fig:global_results}, in addition to the rebound in arrivals, there has also been a notable rise in international tourism revenues. Total international tourism receipts reached USD 1.7 trillion in 2024, reflecting a 10.5\% increase compared to 2023 and a 14.1\% increase from 2019 in real terms \cite{unwtodash}.
 
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{Images/international_tourism_results.png}
+    \includegraphics[width=0.9\textwidth]{Images/international_tourism_results.png}
     \captionsetup{font=footnotesize}
-    \caption{International Tourist Arrivals \& Receipts. Source: UNWTO.}
+    \caption{\textit{International Tourist Arrivals \& Receipts. Source: UNWTO.}}
     \label{fig:global_results}
 \end{figure}
 
-\indent Moreover, when the data is broken down by region, it becomes clear that the \textbf{Middle East} continued to be the best-performing region in 2024. As shown in \textit{Figure 1.2}, this region experienced a strong growth in tourist arrivals, which were \textbf{32\% above 2019} levels and also showed a \textbf{1\% increase compared to 2023}. In the case of \textbf{Africa}, the continent received \textbf{7\% more} tourists than it did before the pandemic began, indicating a solid recovery. \textbf{Europe}, known as the world’s largest destination region, also showed positive results by recording \textbf{1\% more} international tourist arrivals than in 2019. Meanwhile, the \textbf{Americas} managed to recover \textbf{97\%} of its pre-pandemic tourist numbers, which is just a \textbf{3\% decrease compared to 2019}. Finally, the region of \textbf{Asia and the Pacific} reached \textbf{87\%} of its 2019 levels, showing a \textbf{13\% decline} in international arrivals compared to the pre-pandemic period \cite{unwtoppt}.
+\indent Moreover, when the data is broken down by region, it becomes clear that the Middle East continued to be the best-performing region in 2024. As shown in Figure~\ref{fig:regional_results}, this region experienced a strong growth in tourist arrivals, which were 32\% above 2019 levels and also showed a 1\% increase compared to 2023. In the case of Africa, the continent received 7\% more tourists than it did before the pandemic began, indicating a solid recovery. Europe, known as the world’s largest destination region, also showed positive results by recording 1\% more international tourist arrivals than in 2019. Meanwhile, the Americas managed to recover 97\% of its pre-pandemic tourist numbers, which is just a 3\% decrease compared to 2019. Finally, the region of Asia and the Pacific reached 87\% of its 2019 levels, showing a 13\% decline in international arrivals compared to the pre-pandemic period \cite{unwtoppt}.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{Images/evolution_map.png}
+    \includegraphics[width=0.8\textwidth]{Images/evolution_map.png}
     \captionsetup{font=footnotesize}
-    \caption{Internationl Tourist Arrivals by Region (\% change vs 2019). Source: UNWTO.}
+    \caption{\textit{Internationl Tourist Arrivals by Region (\% change vs 2019). Source: UNWTO.}}
     \label{fig:regional_results}
 \end{figure}
 
-\indent Nevertheless, when considering absolute values, \textbf{Europe continues to dominate global tourism} (\textit{see Figure 1.3}). In \textbf{2024}, the region recorded approximately \textbf{755.7 million international tourist arrivals}, accounting for \textbf{52\% of total global arrivals}. In terms of expenditure, Europe generated an estimated \textbf{USD 725.3 billion in international tourism receipts}, representing \textbf{42\% of the world’s total} \cite{unwtodash}.
+\indent Nevertheless, when considering absolute values, Europe continues to dominate global tourism (see Figure~\ref{fig:avg_receipt}). In 2024, the region recorded approximately 755.7 million international tourist arrivals, accounting for 52\% of total global arrivals. In terms of expenditure, Europe generated an estimated USD 725.3 billion in international tourism receipts, representing 42\% of the world’s total \cite{unwtodash}.
 
-These not only confirm Europe’s position as the most visited region globally but also highlight its high capacity for \textbf{monetizing tourism flows}. The average revenue per international arrival in Europe stood at around \textbf{USD 960}, while the global average is around \textbf{USD 1,182} per tourist in 2024. This gap highlights the advantage of Europe, where \textbf{shorter trips and lower per-capita spending are more common} compared to other top regions such as Amercias (around USD 1,814) and Middle East (around USD 1,458).
+These not only confirm Europe’s position as the most visited region globally but also highlight its high capacity for monetizing tourism flows. The average revenue per international arrival in Europe stood at around USD 960, while the global average is around USD 1,182 per tourist in 2024. This gap highlights the advantage of Europe, where shorter trips and lower per-capita spending are more common compared to other top regions such as Amercias (around USD 1,814) and Middle East (around USD 1,458).
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/avg_receipt.png}
     \captionsetup{font=footnotesize}
-    \caption{Arrivals, Receipts, and Avg. Spend per Tourist. Source: UNWTO.}
+    \caption{\textit{Arrivals, Receipts, and Avg. Spend per Tourist. Source: UNWTO.}}
     \label{fig:avg_receipt}
 \end{figure}
 
 
-\section{The Italian Context}
+\subsection{The Italian Context}
 
-\subsection{International Tourism and Overnight Stays}
+\subsubsection{International Tourism and Overnight Stays}
 
-\indent \textbf{Italy} continues to be a an important destination for international tourism, ranked among the \textbf{top 5} countries in the world, behind Türkiye who had 60.6 million visitors (\textit{see Figure 1.4}). The country counts with a rich cultural heritage, natural beauty, and culinary excellence. However, recent trends show a mixed picture in terms of volume and economic impact. According to the United Nations World Tourism Organization (UNWTO), Italy recorded \textbf{57.8 million} international tourist arrivals in 2024, which reflects a \textbf{10.4\% decrease compared to 2019}. Despite the decline in visitor numbers, the country experienced a \textbf{strong financial recovery}, with international tourism receipts reaching \textbf{USD 58.7 billion}, an \textbf{18.5\% increase over 2019} \cite{unwtodash}. This highlights that the country has \textbf{not yet fully returned to its pre-pandemic levels} in terms of international arrivals, suggesting that there is still significant room for growth and strategic interventions aimed at increasing the level of tourism.
+\indent Italy continues to be a an important destination for international tourism, ranked among the top 5 countries in the world, behind Türkiye who had 60.6 million visitors (see Figure~\ref{fig:country_rank}). The country counts with a rich cultural heritage, natural beauty, and culinary excellence. However, recent trends show a mixed picture in terms of volume and economic impact. According to the United Nations World Tourism Organization (UNWTO), Italy recorded 57.8 million international tourist arrivals in 2024, which reflects a 10.4\% decrease compared to 2019. Despite the decline in visitor numbers, the country experienced a strong financial recovery, with international tourism receipts reaching USD 58.7 billion, an 18.5\% increase over 2019 \cite{unwtodash}. This highlights that the country has not yet fully returned to its pre-pandemic levels in terms of international arrivals, suggesting that there is still significant room for growth and strategic interventions aimed at increasing the level of tourism.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/country_rank.png}
     \captionsetup{font=footnotesize}
-    \caption{Ranking of International Arrivals by Country. Source: UNWTO.}
+    \caption{\textit{Ranking of International Arrivals by Country. Source: UNWTO.}}
     \label{fig:country_rank}
 \end{figure}
 
-\indent Tourism in Italy is also measured by the number of \textbf{overnight stays in accommodations}, where the country positioned itself as the second-largest European destination in terms of total nights spent. According to the Italian National Institute of Statistics (ISTAT), Italy recorded \textbf{458.4 million overnight stays in 2024}, representing a \textbf{2.5\% increase compared to 2023}. Among these, \textbf{foreign tourists} accounted for around \textbf{250 million nights}, a 6.8\% increase, while domestic stays declined by 2.2\%, totaling roughly 208 million nights. Foreign visitors now represent \textbf{54.6\% of all overnight stays}, indicating that international tourism has regained its leading role in the Italian tourism sector. This trend became especially evident in the fourth quarter of 2024, when total overnight stays grew by 11.1\%, mainly driven by international travelers (+15.6\%), who outnumbered domestic tourists in that quarter for the first time \cite{istat_q4}.
+\indent Tourism in Italy is also measured by the number of overnight stays in accommodations, where the country positioned itself as the second-largest European destination in terms of total nights spent. According to the Italian National Institute of Statistics (ISTAT), Italy recorded 458.4 million overnight stays in 2024, representing a 2.5\% increase compared to 2023. Among these, foreign tourists accounted for around 250 million nights, a 6.8\% increase, while domestic stays declined by 2.2\%, totaling roughly 208 million nights. Foreign visitors now represent 54.6\% of all overnight stays, indicating that international tourism has regained its leading role in the Italian tourism sector. This trend became especially evident in the fourth quarter of 2024, when total overnight stays grew by 11.1\%, mainly driven by international travelers (+15.6\%), who outnumbered domestic tourists in that quarter for the first time \cite{istat_q4}.
 
-\subsection{Spending and Economic Contribution}
+\subsubsection{Spending and Economic Contribution}
 
-\indent According to the first edition of the ``Tourism and Incoming Watch" report, developed by Nexi in collaboration with the National Tourism Observatory of the Ministry of Tourism, foreign travellers spent over €20.9 billion in Italy in 2024 using \textbf{payment cards} alone, representing a substantial \textbf{increase of 37.9\% compared to 2022}. This figure reflects not only the volume of international tourism but also the growing role of digital payments in capturing economic value across the tourism sector.
+\indent According to the first edition of the ``Tourism and Incoming Watch" report, developed by Nexi in collaboration with the National Tourism Observatory of the Ministry of Tourism, foreign travellers spent over €20.9 billion in Italy in 2024 using payment cards alone, representing a substantial increase of 37.9\% compared to 2022. This figure reflects not only the volume of international tourism but also the growing role of digital payments in capturing economic value across the tourism sector \cite{nexi}.
 
-\indent The report also highlighted a notable diversification in the origin of \textbf{high-spending tourists}. Travellers from Brazil and Australia showed the largest increases in card-based spending, with growth rates of +155\% and +100\%, respectively. Meanwhile, US tourists remained the most significant contributors in absolute terms, with more than €3.8 billion spent, accounting for 18.3\% of total foreign tourist expenditure. Tourists from Saudi Arabia (€913) and the United Arab Emirates (€822) had the highest average card spend per transaction, both nearly double the international average of €411.
+\indent The report also highlighted a notable diversification in the origin of high-spending tourists. Travellers from Brazil and Australia showed the largest increases in card-based spending, with growth rates of +155\% and +100\%, respectively. Meanwhile, US tourists remained the most significant contributors in absolute terms, with more than €3.8 billion spent, accounting for 18.3\% of total foreign tourist expenditure. Tourists from Saudi Arabia (€913) and the United Arab Emirates (€822) had the highest average card spend per transaction, both nearly double the international average of €411 \cite{nexi}.
 
-\indent In terms of spending categories, almost \textbf{half (49.6\%)} of all international tourist expenditure in Italy went to \textbf{restaurants and accommodation services}. \textbf{Fashion and accessories} accounted for another \textbf{12.2\%}, with visitors from Arab countries and Southeast Asia allocating an above-average share of their budgets to jewellery and department store shoppings.
+\indent In terms of spending categories, almost half (49.6\%) of all international tourist expenditure in Italy went to restaurants and accommodation services. Fashion and accessories accounted for another 12.2\%, with visitors from Arab countries and Southeast Asia allocating an above-average share of their budgets to jewellery and department store shoppings \cite{nexi}.
 
-\indent The geographic distribution of tourist spending also reveals concentration patterns. Just \textbf{20 provinces generated 75\% of all foreign tourist value}, confirming the dominance of Italy’s major cultural and urban destinations: \textbf{Rome, Milan, Venice, Florence, and Naples}. These cities continue to attract visitors and generate sustained economic benefits for the national economy.
+\indent The geographic distribution of tourist spending also reveals concentration patterns. Just 20 provinces generated 75\% of all foreign tourist value, confirming the dominance of Italy’s major cultural and urban destinations: Rome, Milan, Venice, Florence, and Naples. These cities continue to attract visitors and generate sustained economic benefits for the national economy \cite{nexi}.
 
-\indent Among the most popular travel routes, the \textbf{Rome – Naples and Pompeii – Amalfi Coast} circuits generated the highest overall turnover for the third consecutive year, with a \textbf{31\% increase} over the 2022–2024 period. However, the \textbf{Rome – Florence – Venice} itinerary recorded the highest growth rate in the same period, rising by \textbf{+69.2\%}. This trend suggests that traditional cultural circuits remain dominant, but their internal dynamics are shifting due to changing tourist preferences and purchasing behaviors.
+\indent Among the most popular travel routes, the Rome – Naples and Pompeii – Amalfi Coast circuits generated the highest overall turnover for the third consecutive year, with a 31\% increase over the 2022–2024 period. However, the Rome – Florence – Venice itinerary recorded the highest growth rate in the same period, rising by +69.2\%. This trend suggests that traditional cultural circuits remain dominant, but their internal dynamics are shifting due to changing tourist preferences and purchasing behaviors \cite{nexi}.
 
-\indent Another key finding is the \textbf{decline in tourism seasonality}. Thanks to diversified travel flows and evolving preferences, international visitor demand is now \textbf{more evenly distributed throughout the year}. This has reinforced Italy’s profile as a \textbf{year-round destination}, which contributes to greater economic resilience and offers new opportunities for regional development beyond the summer peak.
+\indent Another key finding is the decline in tourism seasonality. Thanks to diversified travel flows and evolving preferences, international visitor demand is now more evenly distributed throughout the year. This has reinforced Italy’s profile as a year-round destination, which contributes to greater economic resilience and offers new opportunities for regional development beyond the summer peak \cite{nexi}.
 
-\section{Ascoli Piceno}
+\subsection{Ascoli Piceno}
 
-\indent \textbf{Ascoli Piceno} is a historic city located in the \textbf{Marche region of central Italy}, known for its rich cultural heritage, well-preserved medieval architecture, and local traditions. It is a city of ancient origins, once a strategic Roman center along the Via Salaria. Known as the \textbf{“City of a Hundred Towers”}, it has one of the most elegant and well-preserved historical centers in Italy, largely built in travertine stone. The city is renowned for its harmonious urban layout and architectural beauty, especially visible in its iconic squares, \textbf{Piazza del Popolo and Piazza Arringo}, which serve as central hubs of civic and cultural life. Rich in Romanesque, Gothic, and Renaissance heritage, Ascoli offers an authentic and immersive experience in tradition. Its compact, walkable layout and local identity make it an ideal example of high-quality, culture-oriented tourism, away from mainstream destinations \cite{italia_it}.
+\indent Ascoli Piceno is a historic city located in the Marche region of central Italy, known for its rich cultural heritage, well-preserved medieval architecture, and local traditions. It is a city of ancient origins, once a strategic Roman center along the Via Salaria. Known as the “City of a Hundred Towers”, it has one of the most elegant and well-preserved historical centers in Italy, largely built in travertine stone. The city is renowned for its harmonious urban layout and architectural beauty, especially visible in its iconic squares, Piazza del Popolo and Piazza Arringo, which serve as central hubs of civic and cultural life. Rich in Romanesque, Gothic, and Renaissance heritage, Ascoli offers an authentic and immersive experience in tradition. Its compact, walkable layout and local identity make it an ideal example of high-quality, culture-oriented tourism, away from mainstream destinations \cite{italia_it}.
 
-\subsection{Touristic Situation}
+\subsubsection{Touristic Situation}
 
-\indent Although it experienced a \textbf{significant increase in 2024 of +18\% in tourist arrivals} compared to pre-pandemic levels in 2019, \textbf{Ascoli Piceno still shows clear potential for further growth in tourism}. Among Italy’s 5,014 municipalities available in the dataset of ISTAT (Istituto Nazionale di Statistica), Ascoli Piceno ranked \textbf{544th in 2024}, recording a total of \textbf{43,873 arrivals}. This figure, while reflecting a notable improvement, remains modest when positioned within the national context. For example, when compared to the top 10 destinations by arrivals in the same year, \textbf{Ascoli Piceno represents only 0.4\% of the total arrivals of Rome}, the top-ranked city \cite{istat}.
+\indent Although it experienced a significant increase of +18\% in 2024 in tourist arrivals compared to pre-pandemic levels in 2019, Ascoli Piceno still shows clear potential for further growth in tourism. Among Italy’s 5,014 municipalities available in the dataset of ISTAT (Istituto Nazionale di Statistica), Ascoli Piceno ranked 544th in 2024, recording a total of 43,873 arrivals. This figure, while reflecting a notable improvement, remains modest when positioned within the national context. For example, when compared to the top 10 destinations by arrivals in the same year, Ascoli Piceno represents only 0.4\% of the total arrivals of Rome, the top-ranked city \cite{istat}.
 
-\indent Furthermore, as shown in \textit{Figure 2.5}, it is important to highlight the \textbf{high concentration of tourism flows} among a small group of urban destinations. In fact, the \textbf{top four cities alone accounted for 19\% of all tourist arrivals in Italy in 2024}, demonstrating the uneven distribution of tourism across the country. Additionally, \textbf{the following six cities registered more than one million arrivals each}, underlining the dominance of a few key destinations \cite{istat}. This disparity reinforces the relevance of studying smaller but culturally rich destinations like Ascoli Piceno, which, despite their lower absolute numbers, contribute to the diversification and sustainability of Italian tourism.
+\indent Furthermore, as shown in Figure~\ref{fig:arrivals_top_cities}, it is important to highlight the high concentration of tourism flows among a small group of urban destinations. In fact, the top four cities alone accounted for 19\% of all tourist arrivals in Italy in 2024, demonstrating the uneven distribution of tourism across the country. Additionally, the following six cities registered more than one million arrivals each, underlining the dominance of a few key destinations \cite{istat}. This disparity reinforces the relevance of studying smaller but culturally rich destinations like Ascoli Piceno, which, despite their lower absolute numbers, contribute to the diversification and sustainability of Italian tourism.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/arrivals_top_cities.png}
     \captionsetup{font=footnotesize}
-    \caption{Total Arrivals by Comuna (2019 vs 2024). Source: ISTAT.}
+    \caption{\textit{Total Arrivals by Comuna (2019 vs 2024). Source: ISTAT.}}
     \label{fig:arrivals_top_cities}
 \end{figure}
 
-\indent To better understand the evolution of tourism in Italy over the past decade, the \textit{Figure 2.6} illustrates the total number of tourist arrivals (in millions) from 2014 to 2024 for the country’s ten most visited municipalities, along with Ascoli Piceno. \textbf{Rome has consistently maintained its status} as Italy’s top tourist destination, with a \textbf{drop in 2020 due to the COVID-19 pandemic}, followed by a \textbf{strong recovery}, exceeding 2019 arrivals in 2024. \textbf{Milan, Venice, and Florence} follow similar trends, with notable rebounds after the pandemic-induced decline \cite{istat}.
+\indent To better understand the evolution of tourism in Italy over the past decade, the Figure~\ref{fig:top_cities_evolution} illustrates the total number of tourist arrivals (in millions) from 2014 to 2024 for the country’s ten most visited municipalities, along with Ascoli Piceno. Rome has consistently maintained its status as Italy’s top tourist destination, with a drop in 2020 due to the COVID-19 pandemic, followed by a strong recovery, exceeding 2019 arrivals in 2024. Milan, Venice, and Florence follow similar trends, with notable rebounds after the pandemic-induced decline \cite{istat}.
 
-\indent In contrast, \textbf{Ascoli Piceno remains far below these major destinations} in terms of tourist volume, \textbf{never exceeding 0.045 million (45,000)} arrivals in any given year. This highlights its marginal role in the Italian tourism market, despite its rich cultural and historical appeal. This gap highlights the need to explore what types of tourists might be interested in discovering lesser-known destinations like Ascoli Piceno, and how they might differ from visitors to Italy’s more popular cities \cite{istat}.
+\indent In contrast, Ascoli Piceno remains far below these major destinations in terms of tourist volume, never exceeding 0.045 million (45,000) arrivals in any given year. This highlights its marginal role in the Italian tourism market, despite its rich cultural and historical appeal. This gap highlights the need to explore what types of tourists might be interested in discovering lesser-known destinations like Ascoli Piceno, and how they might differ from visitors to Italy’s more popular cities \cite{istat}.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/top_cities_evolution.png}
     \captionsetup{font=footnotesize}
-    \caption{Evolution of Arrivals by Comuna (2014 - 2024). Source: ISTAT.}
+    \caption{\textit{Evolution of Arrivals by Comuna (2014 - 2024). Source: ISTAT.}}
     \label{fig:top_cities_evolution}
 \end{figure}
 
-The structure of tourist arrivals by residency category (residents and non-residents) shows notable differences across Italian destinations. As described in section 2.2, subsection 2.2.1, of this chapter, overnight stays in accommodations by foreign tourists represented 54.6\% of all overnight stays, \textbf{highlighting the relevance of international tourism in the Italian tourism sector}. That being said, \textit{Figure 2.7} presents data from 2024 for the ten most visited Italian cities. In the \textbf{top 4 cities, international (non-resident) arrivals outnumber domestic (resident) arrivals}, representing more than 50\% of total arrivals.
+The structure of tourist arrivals by residency category (residents and non-residents) shows notable differences across Italian destinations. As described in sub-section 1.1.2, of this chapter, overnight stays in accommodations by foreign tourists represented 54.6\% of all overnight stays, highlighting the relevance of international tourism in the Italian tourism sector. That being said, Figure~\ref{fig:top_cities_rnr} presents data from 2024 for the ten most visited Italian cities. In the top 4 cities, international (non-resident) arrivals outnumber domestic (resident) arrivals, representing more than 50\% of total arrivals \cite{istat}.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/top_cities_rnr.png}
     \captionsetup{font=footnotesize}
-    \caption{Residents and Non-Residents Arrivals in top cities (2024). Source: ISTAT.}
+    \caption{\textit{Residents and Non-Residents Arrivals in top cities (2024). Source: ISTAT.}}
     \label{fig:top_cities_rnr}
 \end{figure}
 
-On the other hand, \textit{Figure 2.8} displays the same information for Ascoli Piceno in 2024. The total number of tourist arrivals is significantly lower than in the top ten destinations. Specifically, \textbf{Ascoli Piceno registered 37,709 domestic arrivals and 6,164 international arrivals}, the last representing only 14.05\% of total arrivals. The comparison between Ascoli Piceno and the major Italian tourism destinations, along with national-level data, provides a clear overview of the absolute and relative scale of domestic and international tourism flows within Italy.
+On the other hand, Figure~\ref{fig:ascoli_rnr} displays the same information for Ascoli Piceno in 2024. The total number of tourist arrivals is significantly lower than in the top ten destinations. Specifically, Ascoli Piceno registered 37,709 domestic arrivals and 6,164 international arrivals, the last representing only 14.05\% of total arrivals. The comparison between Ascoli Piceno and the major Italian tourism destinations, along with national-level data, provides a clear overview of the absolute and relative scale of domestic and international tourism flows within Italy \cite{istat}.
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=1\textwidth]{Images/ascoli_rnr.png}
     \captionsetup{font=footnotesize}
-    \caption{Residents and Non-Residents Arrivals in Ascoli Piceno (2024). Source: ISTAT.}
+    \caption{\textit{Residents and Non-Residents Arrivals in Ascoli Piceno (2024). Source: ISTAT.}}
     \label{fig:ascoli_rnr}
 \end{figure}
 
-\subsection{Overtourism: Ascoli Piceno's Opportunity?}
+\subsubsection{Overtourism: Ascoli Piceno's Opportunity?}
 
-\indent Europe has been called the world’s museum, but its record numbers of visitors have also made it ground zero for \textbf{concerns about overtourism}. Among factors driving the record numbers are cheap flights, social media, and the ease of travel planning using artificial intelligence \cite{apnews_ot}. This matter is something that is not new, and many residents of the affected cities started a time ago with \textbf{anti-tourism protests}, even a new wave of anti-tourism protests is being planned across southern Europe later for this summer (2025) \cite{bbc_ot}. Furthermore, the potential culprits point the finger at each other. For example, Airbnb says hotels are driving the problem, while Tui, Europe’s largest hotel operator, has hit back, saying Airbnb is to blame \cite{bloomberg_ot}.
+\indent Europe has been called the world’s museum, but its record numbers of visitors have also made it ground zero for concerns about overtourism. Among factors driving the record numbers are cheap flights, social media, and the ease of travel planning using artificial intelligence \cite{apnews_ot}. This matter is something that is not new, and many residents of the affected cities started a time ago with anti-tourism protests, even a new wave of anti-tourism protests is being planned across southern Europe later for this summer (2025) \cite{bbc_ot}. Furthermore, the potential culprits point the finger at each other. For example, Airbnb says hotels are driving the problem, while Tui, Europe’s largest hotel operator, has hit back, saying Airbnb is to blame \cite{bloomberg_ot}.
 
-\indent In Italy, \textbf{70\% of tourists go to only 1\% of Italy’s territory} \cite{itsegreta_ot}. There are several destinations in the country at \textbf{risk of overtourism}, including popular cities like Rome, Florence, Milan, and Venice, as well as lesser-known cities such as Bolzano, Livorno, and Rimini. According to a study organized by Demoskopika, Bolzano, Livorno, Naples, Rimini, Trento, and Venice are at a \textbf{high-level risk of overtourism}. Following them, at a \textbf{high-level of overtourism} are Aosta, Florence, Forlì-Cesena, Gorizia, Grosseto, Imperia, La Spezia and the Cinque Terre, Milan, Ravenna, Rome, Savona, and Trieste. Taking these into account, there is an immediate need for responsible actions to ensure that tourism contributes to cultural enrichment and economic development without burdening future generations \cite{trn_ot}. Taking these into account, and according to Visit Italy CEO and founder Ruben Santopietro, \textbf{``99\% of the destinations in Italy have an incredible capacity to grow"}. Nevertheless, this can backfire, as cities with small populations and little tourism infrastructure can be woefully unprepared for hordes of people \cite{itsegreta_ot}.
+\indent In Italy, 70\% of tourists go to only 1\% of Italy’s territory \cite{itsegreta_ot}. There are several destinations in the country at risk of overtourism, including popular cities like Rome, Florence, Milan, and Venice, as well as lesser-known cities such as Bolzano, Livorno, and Rimini. According to a study organized by Demoskopika, Bolzano, Livorno, Naples, Rimini, Trento, and Venice are at a high-level risk of overtourism. Following them, at a high-level of overtourism are Aosta, Florence, Forlì-Cesena, Gorizia, Grosseto, Imperia, La Spezia and the Cinque Terre, Milan, Ravenna, Rome, Savona, and Trieste. Taking these into account, there is an immediate need for responsible actions to ensure that tourism contributes to cultural enrichment and economic development without burdening future generations \cite{trn_ot}. Taking these into account, and according to Visit Italy CEO and founder Ruben Santopietro, ``99\% of the destinations in Italy have an incredible capacity to grow". Nevertheless, this can backfire, as cities with small populations and little tourism infrastructure can be woefully unprepared for hordes of people \cite{itsegreta_ot}.
 
-\indent Nowadays, the \textbf{sustainable tourism}, term first started to be batted around in the 1990s \cite{itsegreta_ot}, is gaining terrain in this field. Many destinations are responding with new ideas for a more sustainable travel season. For example, Switzerland's national train network will be run completely on hydroelectric power this year (2025), as part of its new Swisstainable strategy that aims to distribute tourism more evenly across the country and calendar. The Swisstainable website offers 33\% off public transport when booking a sustainability-certified Swisstainable hotel, or 25\% off for any stay in a Swisstainable hotel. On the other hand, in Spain they remove nearly 66,000 unregulated Airbnb listings and pulled back on social media influencer campaigns that bring selfie tourists to its small and easily overwhelmed beaches. Also, they developed a digital platform that monitors how many people are on beaches, as well as the air quality, sea temperatures, weather and even jellyfish in the water. These information can be accessed by tourism offices and hoteliers, helping them (and therefore visitors) make smarter decisions about where to go and what to do \cite{bbc_ot}.
+\indent Nowadays, the sustainable tourism, term first started to be batted around in the 1990s \cite{itsegreta_ot}, is gaining terrain in this field. Many destinations are responding with new ideas for a more sustainable travel season. For example, Switzerland's national train network will be run completely on hydroelectric power this year (2025), as part of its new Swisstainable strategy that aims to distribute tourism more evenly across the country and calendar. The Swisstainable website offers 33\% off public transport when booking a sustainability-certified Swisstainable hotel, or 25\% off for any stay in a Swisstainable hotel. On the other hand, in Spain they remove nearly 66,000 unregulated Airbnb listings and pulled back on social media influencer campaigns that bring selfie tourists to its small and easily overwhelmed beaches. Also, they developed a digital platform that monitors how many people are on beaches, as well as the air quality, sea temperatures, weather and even jellyfish in the water. These information can be accessed by tourism offices and hoteliers, helping them (and therefore visitors) make smarter decisions about where to go and what to do \cite{bbc_ot}.
 
+
+\section{Previous Work}
+
+\indent This research originates from a project initially developed for the Marketing Analytics course within the Master’s Degree in Data Science for Economics, for the academic year 2024/2025, at the Università degli studi di Milano. The project had a similar objective to the present work, but was carried out over a shorter time period and primarily aimed at applying the techniques taught during the course, not too focused on delivering an in-depth analysis to the city. The course had a duration of almost 3 months, and the project had a duration of around 1 month. In view of this, the earlier project presented several limitations, apart from the short timeframe, which are addressed differently and in greater depth in the current thesis.
+
+\indent First, there was a significant limitation in the qualitative interviews conducted during the initial stage of the project (see Appendix A for an example of these interviews). The main objective of these interviews was to collect qualitative data about participants’ tourist behaviour, which would then serve as the basis for defining the final attributes to be analysed in the quantitative survey. The main limitation was that the interviews contained a small number of predefined questions that were very specific, leaving little room for respondents to describe their genuine behaviour in a tourist destination. Moreover, this limitation may have resulted in the omission of potential attributes that could have further enriched the study. These ``open" questions were formulated so narrowly that interviewees often provided very short answers. Furthermore, the interviews lacked questions related to actual travel experiences, which resulted in a generalised understanding of certain tourist topics rather than experience-based insights.
+
+\indent Second, after the qualitative interviews stage, came the definition of the main attributes. This phase also had its limitations regarding the project’s main goal, as it defined very general attributes. Such generalization led to a limited analysis of tourist behaviour, mainly because attributes such as price, food, culture, and accessibility, among others, did not clearly describe specific tourist behaviours, and failed to describe important aspects that Ascoli Piceno could focus on. For instance, the attribute price could refer to food prices, accommodation costs, transportation costs, or even event ticket prices, among others. Moreover, attributes such as price may have been interpreted in opposite ways by different types of respondents (e.g. budget vs premium travellers), leading to answers that looked equally important but for contradictory interpretations. This ambiguity prevented the attributes from effectively discriminating across tourist segments. In addition, most of the interviews were not recorded, so the final transcriptions relied on the interviewer’s notes, making it impossible for other team members to verify them and maybe extract more valuable insights. Although the project’s final outcome was sufficient for the course's goal, the definition of attributes could have been improved to achieve more precise and insightful results.
+
+\indent Third, the following stage was the online survey, which aimed to obtain quantitative data for the final results and analysis. Although the outcomes were satisfactory and considered sufficient for the course's objective, the total number of responses (80) was relatively low. In terms of sample size, a target of at least 300 responses would have provided a larger and more diverse dataset, thereby strengthening the validity of the results. On the other hand, some questions could have been removed because they were already covered by others, or did not contribute at all. For example, respondents from Italy were asked an additional question: ``From which Italian region are you?". This question not only failed to add value to the analysis but was not even used. Another example is the question ``How far would you be willing to travel for a weekend getaway?", which aimed to assess the distance that respondents were willing to travel over a weekend. The main issue here was that the question assumed a short trip, thereby excluding the possibility of longer journeys, and again it did not add meaningful value due to its specificity. Another limitation of this survey was that most questions did not allow for a deeper exploration of attributes. Although there were questions designed to obtain a good description of each cluster, they failed to provide further insight into the rationale behind the order in which respondents ranked the attributes. Additionally, some of the collected data appeared rather noisy, which complicated the possibility of deriving robust clusters. For instance, repeated applications of clustering validation techniques (such as KElbowVisualizer) yielded unstable and inconsistent results, suggesting that the attributes were not sufficiently discriminative. This issue was further amplified by the role of respondents’ imagination: answers could vary depending on who planned the trip, the season, or the travel companions, which are factors that were not controlled in the survey.
+
+\indent Following the online survey, several questions related to Van Westendorp’s Price Sensitivity Meter, explained in detail in chapter 3, were included. These questions targeted very specific cases, such as the Quintana event, the Ascoliva Festival, a wine tasting, and a city tour. However, the model is designed to estimate willingness to pay for a representative product within the target market. \cite{vw_model}. A more appropriate approach would have been to formulate a single, general question referring to a typical tourist package, in order to obtain results that are more representative and comparable.
+
+\indent Fourth, the project was conducted as a group assignment, mainly during the winter break, which created challenges in terms of coordination. Each member faced different personal contexts: some were engaged with other courses and examinations, while others were travelling to their home countries. As a result, finding common times for meetings was often difficult, and the overall progress of the work advanced more slowly than expected.
+
+\indent Last but not least, the survey was written exclusively in English, which excluded some potential respondents who spoke Spanish, the third most widely spoken language in the world and commonly used across many regions. Although English is often regarded as a universal language, providing a Spanish version could have increased participation, particularly among older individuals less familiar with English. This would have enriched the dataset by incorporating perspectives from a group that may have distinct travel behaviours and preferences.
+
+\indent In summary, while the original project successfully met the requirements of the course and provided an initial exploration of the research topic, these limitations constrained the depth, precision, and representativeness of its findings. The present thesis builds upon that foundation, addressing them through a more extensive working time period, improved qualitative methods, a refined survey design, and a larger and more diverse sample.
+
+
+\chapter{Literature Review}
+
+\indent This chapter reviews the main literature that supports and informs this research. It presents studies that explain the main ideas, theories, and methods relevant to this work. The goal is to show what other researchers have already done and to provide the methodological foundations for the work done in this study.
+
+\indent The review begins with a discussion of qualitative and quantitative research approaches, including their strengths and weaknesses. It then examines important models and methods used in tourism research, such as destination image formation, segmentation techniques, discrete choice experiments, and conjoint analysis. Issues such as response-style effects and hypothetical bias are also discussed, as they affect the quality of results. Finally, the chapter highlights studies that focus on tourist heterogeneity and the links between travel decisions.
+
+\section{Qualitative Approach}
+
+\indent The qualitative approach relies on non-numerical evidence to generate insights and draw conclusions \cite{finnetal}. Such conclusions are based on rich, descriptive data, including words, narrative and observations, often referred to as ``soft" data \cite{mcdowell}. This method is particularly suited to the in-depth exploration of a topic and is commonly employed to understand how individuals experience and interpret the world \cite{scribbr}. It allows the identification of previously unknown processes, provides explanations of why and how phenomena occur, and reveals the range of their effects \cite{creswelletal}. In this approach, the researcher seeks to interpret situations without imposing pre-existing assumptions or expectations on the phenomenon or setting under investigation \cite{amaratunga}. 
+
+\indent The literature also highlights several potential risks that should be considered and mitigated:
+
+\begin{enumerate}
+    \item Compliance bias: refers to situations in which participants’ responses may be influenced by their perception of what they believe is expected of them \cite{massimo}.
+    \item Offset bias: occurs when participants are encouraged to reflect on issues they had not previously considered or to perceive certain topics as more complex than they would under normal circumstances \cite{massimo}.
+    \item Speculation bias: arises when participants are asked to predict their own behaviour in hypothetical future scenarios. Research suggests that individuals are generally not accurate in forecasting their actions in situations they have never experienced \cite{massimo}.
+\end{enumerate}
+
+\subsection{Advantages of Qualitative Approach}
+
+\indent The qualitative approach seeks to preserve the voice and perspective of participants and can be adapted as new research questions emerge \cite{scribbr}. It is characterised by flexible design, which allows the researcher to experiment with different techniques to determine what is most effective within the context of the project \cite{gilmore}. Furthermore, it is typically conducted in natural settings, where data collection takes place in real-world contexts or in ways that closely mirror participants’ everyday environments. This facilitates the gathering of meaningful insights by listening to detailed descriptions of people’s experiences, feelings, and opinions. Such information can help improve the design, testing, or development of systems, services, or products. In addition, using open-ended questions and flexible approaches makes it easier to come up with new ideas and discover problems or opportunities that were not expected at the start of the study \cite{scribbr}.
+
+\subsection{Disadvantages of Qualitative Approach}
+
+\indent On the other hand, qualitative research has several limitations. First, its real-world setting can make findings less reliable because many factors influencing the data cannot be controlled. Second, the strong role of the researcher in interpreting results introduces subjectivity, meaning the same data could be analysed differently by different people and the study cannot be exactly replicated \cite{scribbr}. This reinforces the long-standing criticism that qualitative research findings are not
+verifiable, and verifiability, the principle that empirical investigations should be capable of replication so that their findings can be confirmed or refuted, is a central tenet of scientific research. It is difficult to replicate qualitative studies in the same way as quantitative ones; however, this does not mean that qualitative research entirely lacks verifiability \cite{allan}. This is why it is important for the researcher to carefully document each step of the process, thereby creating an audit trail that allows other researchers to trace and review the original procedures if needed \cite{lincoln}. Third, the use of small samples limits the extent to which results can be generalised to a broader population, even when the analysis is rigorous \cite{scribbr}. This criticism may not be entirely justified, as the generalisability of results to an entire population is rarely the primary objective of the qualitative research approach \cite{deruyter}. Finally, qualitative research can be labour-intensive, as the review and interpretation of large amounts of textual data often require manual checking, despite the availability of software tools to assist with the process \cite{scribbr}.
+
+\section{Quantitative Approach}
+
+\indent The quantitative approach is defined as a research strategy that relies primarily on numerical evidence to draw conclusions \cite{veal}. Because of its focus on measurement and statistical analysis, it has often been described as a ``hard" or ``number-crunching" approach to research \cite{murphyblack}. This approach involves the systematic collection and analysis of numerical data in order to identify patterns and averages, test relationships between variables, make predictions, and, when appropriate, generalise results to larger populations. It can be applied in various forms, including descriptive research, which summarises characteristics of variables; correlational research, which explores relationships between variables; and experimental research, which examines cause-and-effect links under controlled conditions. Data collection methods range from surveys and structured observations to experiments and secondary data analysis, all of which require clear operational definitions to translate abstract concepts into measurable indicators. Once collected, the data are processed and subjected to statistical analysis to answer the research questions and test the hypotheses \cite{scribbrquant}.
+
+\subsection{Advantages of Quanitative Approach}
+
+\indent The quantitative research offers several advantages, particularly in terms of standardisation and the potential to generalise findings to broader populations. One of its key strengths is replication, as the use of standardised data collection procedures and tangible definitions of abstract concepts allows studies to be repeated under similar conditions. This also facilitates direct comparisons of results, enabling research to be reproduced across different cultural contexts, time periods, or participant groups, with outcomes compared statistically. The accuracy of these measurement tools, such as questionnaires, can be strengthened by testing their reliability using objective measures prior to data collection \cite{neuman}. Furthermore, the approach is also well-suited to working with large samples, as quantitative data can be processed and analysed through consistent and reliable statistical procedures \cite{scribbrquant}. The knowledge gained from this group or subset of the population is representative of of the entire population under study \cite{bernard}. Finally, an additional advantage of the quantitative approach is that it is generally considered as a relatively impersonal method of conducting research, which helps to minimise the influence of the researcher’s personal biases on the outcomes of the study \cite{cooper}.
+
+\subsection{Disadvantages of Quanitative Approach}
+
+\indent Despite its strengths, quantitative research also has its own limitations. One of them is superficiality, as the use of precise and restrictive operational definitions may inadequately represent complex concepts. For example, an abstract notion such as ``mood" may be represented by a single numerical score, whereas qualitative research could provide a richer explanation. A narrow focus can also be an issue, since predetermined variables and measurement procedures may lead to the omission of other relevant observations. Moreover, even with standardised procedures, structural bias can occur due to factors such as missing data, imprecise measurements, or inappropriate sampling methods, which may distort the findings\cite{scribbrquant}. Finally, the quantitative approach can be relatively inflexible, as there is little a researcher can do after discovering an error in the data collection instrument. For instance, a question that is ambiguous or has been misinterpreted \cite{carsonetal}.
+
+\section{Model of Destination Image Formation}
+
+\indent Baloglu and McCleary’s (1999) study is one of the most influential contributions to destination image research, offering both a conceptual framework and empirical evidence on how such images are formed. Their model shifts the focus from static descriptions of image, which dominated earlier studies, to the dynamic process through which potential tourists develop perceptions and impressions of destinations, particularly when they have not previously visited. They propose that destination image is a multi-dimensional construct composed of cognitive, affective, and global components. The cognitive or perceptual dimension reflects an individual’s knowledge and beliefs about a destination’s attributes—such as infrastructure, safety, cultural attractions, and value for money. The affective dimension refers to the emotional responses a destination evokes, such as whether it feels pleasant, exciting, or relaxing. Together, these components shape the overall image, which ultimately guides destination choice \cite{destinationimg}.
+
+\indent Destination image arises from two broad forces: stimulus factors and personal factors. Stimulus factors include external influences such as marketing communications, media portrayals, word-of-mouth, and prior experience. Personal factors, in contrast, are characteristics of the perceiver, covering sociodemographic attributes like age and education as well as socio-psychological travel motivations, such as the desire for relaxation, excitement, knowledge, social interaction, or prestige. When individuals have not yet visited a destination, three determinants are particularly important in shaping image: tourism motivations, sociodemographic characteristics, and information sources. In their model, as shown in Figure~\ref{fig:destinationimage}, information sources act as stimulus variables, while motivations and sociodemographics represent personal characteristics \cite{destinationimg}.
+
+\begin{figure}[ht]
+    \centering
+    \fbox{\includegraphics[width=1\textwidth]{Images/Destination Image.png}}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{A General Framework of Destination Image Formation. Source: Baloglu and McCleary’s (1999).}}
+    \label{fig:destinationimage}
+\end{figure}
+
+\indent To test these propositions, Baloglu and McCleary developed a path model that hypothesized causal relationships among these variables. They predicted that cognitive evaluations would significantly influence affective ones, and that both dimensions would in turn affect overall image, with affect expected to carry the stronger impact. They also proposed that the variety and type of information sources, along with age and education, would affect cognitive evaluations, while motivations would directly influence affective responses. In total, eight hypotheses were tested through path analysis, using survey data from 448 potential tourists evaluating four Mediterranean destinations (Turkey, Greece, Italy, and Egypt) \cite{destinationimg}.
+
+\indent The findings strongly supported the proposed model. Cognitive evaluations emerged as significant predictors of affective responses, with “quality of experience” standing out as the most powerful cognitive factor shaping emotions. Affective evaluations, in turn, had the strongest direct effect on overall image, underscoring their mediating role. The study also revealed that the variety of information sources used positively influenced cognitive evaluations, while word-of-mouth proved to be the single most powerful information source. Age and education, however, showed a negative influence on cognitive evaluations, with older and more educated respondents assessing destination attributes less positively. Motivations played a weaker role overall, with only relaxation and escape motives showing a significant—though negative—relationship with affect \cite{destinationimg}.
+
+\indent The study carries important implications for both theory and practice. Theoretically, it provides understanding of destination image by integrating cognitive and affective components into a single causal framework, showing the process to be dynamic and multi-dimensional. Practically, it reaffirms the central role of information sources, particularly word-of-mouth, in shaping perceptions, suggesting that destinations should invest in strategies that foster the sharing of positive experiences. Because motivations such as knowledge, prestige, and social interaction also influence image, marketers can adapt campaigns to tap into these psychological drivers. Finally, the negative relationship between age, education, and cognitive evaluations emphasize the need for targeted communication strategies that speak differently to diverse demographic groups. In essence, Baloglu and McCleary’s work demonstrates that destination image is co-created by external stimuli and personal characteristics, with affective responses serving as the critical bridge between cognition and overall impression \cite{destinationimg}.
+
+\section{Segmentation and Response-Style Effects}
+
+\indent Pesonen and Honkanen (2014) examine how tourists’ response styles can influence segmentation outcomes when applying k-means cluster analysis. A response style refers to the tendency of individuals to answer questionnaires in a systematic way that is unrelated to the actual content. For example, consistently giving high or low ratings, or avoiding the extremes of a scale. These patterns, known as response-style effects, can significantly distort cluster solutions by grouping individuals based on their answering habits rather than their true motivations or attitudes. Since segmentation aims to form clusters that are internally homogenous and externally distinct, ignoring response styles may lead to producing segments that are artificial and unhelpful for marketing purposes \cite{clustering}.
+
+\indent The authors note that cluster analysis, particularly k-means, remains the most widely used technique in tourism segmentation research. However, this approach is highly sensitive to response styles. Past research has sometimes produced clusters resembling “want-it-all” tourists who rate everything highly, or “passive” tourists who rate everything poorly, patterns that may reflect answering tendencies rather than meaningful market segments. Such results challenge the practical utility of segmentation for identifying actionable strategies \cite{clustering}.
+
+\indent To investigate this issue, the authors collected data via an online survey hosted on a Finnish cottage holiday website. Respondents rated 31 travel motivation items on a 7-point Likert scale. After data cleaning, 709 responses were retained, of which 25 motivation items were used for segmentation. The researchers applied k-means cluster analysis to four versions of the dataset \cite{clustering}:
+
+\begin{enumerate}
+    \item The original unstandardized data.
+    \item Data adjusted to remove acquiescence response style (ARS) through within-case standardization (row-centering), which highlights relative item importance per respondent.
+    \item Data adjusted to remove extreme response style (ERS) by dividing responses by each individual’s standard deviation.
+    \item Data with both ARS and ERS removed.
+\end{enumerate}
+
+\indent The results revealed marked differences across the cluster solutions. Using the original data, the clusters largely mirrored response styles: some groups scored consistently high, others low, and some in the middle. This confirmed that k-means was capturing answering patterns rather than motivational differences. Once ARS was removed, however, the clusters displayed distinct motivational profiles, with respondents prioritizing certain travel motives over others. This approach produced more interpretable and actionable segmentations. By contrast, removing only ERS offered little improvement, as the clustering still reflected broad high–low patterns. When both ARS and ERS were removed, the solution resembled the ARS-only result, suggesting that acquiescence was the dominant factor influencing clustering \cite{clustering}.
+
+\indent The study emphasizes the methodological importance of addressing response-style bias in tourism segmentation studies. Without accounting for these effects, researchers risk generating misleading clusters that do not represent real market segments. Pesonen and Honkanen conclude that correcting for ARS yields the most meaningful results in this case, and they stress the need for segmentation studies to explicitly report how response styles are handled. They further recommend that future research explore alternative segmentation methods and use simulated data to deepen understanding of how response styles shape clustering outcomes \cite{clustering}.
+
+\section{Discrete Choice Experiments in Tourism}
+
+\indent Kemperman (2021) provides a comprehensive review of the use of discrete choice experiments (DCEs) in tourism, analyzing 49 studies published between 2010 and 2020 in the five leading tourism journals. DCEs are widely employed to measure and predict preferences by presenting individuals with alternatives that vary in their attributes. This approach allows researchers to estimate the relative importance of different destination, product, or service features and to calculate willingness to pay for specific attributes. In tourism, DCEs have been applied to questions such as destination choice, travel mode, accommodation type, and activity selection \cite{discretechoice}. 
+
+\indent The method is rooted in random utility theory, which assumes that individuals choose the option that maximizes their utility. Utility consists of a systematic component, based on observable attributes, and a random component that captures unobserved factors. In tourism, this means that travelers are assumed to select the destination, activity, or service that provides the highest perceived benefit given their motivations and constraints. By putting together destinations or services as bundles of attributes such as price, quality, amenities, and location, and asking respondents to choose between hypothetical alternatives, researchers can estimate the marginal utility of each attribute \cite{discretechoice}.
+
+\indent DCEs can use both revealed and stated choice data. Revealed data come from actual behavior such as bookings, while stated data are gathered in controlled experiments. The former reflects real-world decisions, whereas the latter allows researchers to anticipate preferences for products or services that do not yet exist. In practice, when market data are unavailable or lack variation, stated choice experiments often provide the only viable means of capturing likely behavior \cite{discretechoice}.
+
+\indent A key strength of DCEs is their ability to simulate decision-making in a structured way. Tourists are presented with multiple choice scenarios in which attributes vary systematically, allowing researchers to isolate the impact of each factor. This design provides high internal validity, though external validity can be more limited since the choices are hypothetical. Kemperman’s review shows that most studies still examine single, independent decisions but relatively few investigate linked or sequential decisions, such as destination, transport, and accommodation together. In reality, these choices are interdependent \cite{discretechoice}.
+
+\indent Kemperman (2021) shows that discrete choice experiments provide a powerful lens for understanding tourist preferences and predicting responses to innovations in tourism products and services. She argues that future research should design more realistic experiments, incorporate dynamic needs and social influences, and make use of emerging tools such as virtual reality and eye-tracking to enhance engagement and data quality. Such advancements would extend DCEs beyond predicting what choices tourists make toward offering richer insights into how and why those choices are made \cite{discretechoice}.
+
+\section{Conjoint Analysis in Tourism}
+
+\indent Altin (2023) offers a comprehensive overview of how conjoint analysis has been applied in tourism research as a method for measuring tourist preferences. Conjoint analysis is a choice-based technique that allows researchers to understand how travelers value different attributes of destinations, services, or experiences. By decomposing a tourism product into key elements, such as price, accommodation type, attractions, or amenities, it estimates the value respondents assign to each attribute. This makes it possible to capture the trade-offs travelers are willing to make when choosing between alternatives, providing useful insights for destination management organizations (DMOs), tour operators, and other industry stakeholders seeking to design competitive offerings \cite{conjointaltin}.
+
+\indent Methodologically, conjoint analysis involves presenting respondents with sets of hypothetical profiles or “bundles” that combine different attribute levels. Respondents are asked to select their preferred option from each set. Statistical analysis of these choices produces utilities and relative importance estimates for each attribute, showing which features drive satisfaction and willingness to pay (WTP). In tourism, this approach has been applied to diverse products such as destination packages, activity mixes, accommodation types, and other experience-based offerings. Given that tourism products are typically multi-attribute in nature, conjoint analysis provides a structured way to reflect their combined influence on decision-making \cite{conjointaltin}.
+
+\indent Altin (2023) \cite{conjointaltin} also highlights the practical advantages of conjoint analysis for industry practitioners. Well-designed studies can guide product development and market positioning by identifying which attributes matter most to particular traveler segments. By simulating realistic decision-making, conjoint analysis also supports market segmentation, differentiation, and competitive benchmarking, which are critical in a crowded and highly competitive industry \cite{conjointaltin}.
+
+\indent The author also describes several considerations and challenges in applying conjoint analysis. First, the careful selection of attributes is essential: including too many risks overwhelming respondents, whereas omitting key features may reduce validity. Second, samples must be sufficiently representative to ensure generalizable results. Altin further notes the growing relevance of digital and adaptive conjoint approaches, which ease data collection and allow more flexible, personalized designs. As tourism evolves toward increasing complexity, through sustainability concerns, digital innovations, and shifting traveler expectations, conjoint analysis continues to adapt in order to capture these new dimensions of tourist choice \cite{conjointaltin}.
+
+\indent Altin’s work serves as a methodological anchor in tourism research by demonstrating the value of conjoint analysis for understanding preferences, informing product design, and supporting strategic decisions at both managerial and policy levels. By linking conjoint studies with broader frameworks of tourism behavior, this contribution provides a roadmap for integrating preference modeling into the study of tourist decision-making \cite{conjointaltin}.
+
+\section{Hypothetical Bias}
+
+\indent Hensher (2010) reviews how hypothetical bias affects willingness-to-pay (WTP) estimates derived from stated preference (SP) methods and discrete choice experiments (DCEs). Hypothetical bias arises from discrepancies between what people report they would choose or pay in surveys, and what they actually do in real-world situations. Since SP and DCE studies typically lack financial consequences, respondents may overstate their preferences or WTP, often producing inflated values. This poses a serious challenge in transport, environmental, and tourism research, where WTP estimates are commonly used to justify policies and investments \cite{hypotheticalbias}.
+
+\indent The paper synthesizes evidence comparing WTP from hypothetical surveys with values obtained from revealed preference (RP) studies or actual market behavior. Some studies detect no difference, while others find that WTP from SP and DCEs tends to be much lower than real-market values. Hensher (2010) \cite{hypotheticalbias} argues that no single factor explains this variation and that outcomes depend on the type of good, survey design, and respondents’ familiarity with the decision context \cite{hypotheticalbias}.
+
+\indent To mitigate hypothetical bias, several strategies are discussed. One is anchoring surveys in real experiences, for example by “pivoting” choice sets around respondents’ existing travel habits. This grounds choices in familiar conditions, and narrows the gap between hypothetical and real decisions. Other techniques include adding opt-out alternatives, using “cheap-talk” scripts that warn about overstatement, or providing consequentiality scripts and honesty oaths to increase the perceived importance of responses. While these tools have shown promise, their effectiveness is context-dependent \cite{hypotheticalbias}.
+
+\indent The author also highlights the role of calibration methods. Ex ante approaches (instrument-based) seek to prevent bias during survey design, while ex post techniques (statistical adjustments) correct results after data collection using confidence ratings or benchmark comparisons. For instance, calibration functions derived from observed market data have been applied to adjust WTP values, producing results more consistent with revealed behavior \cite{hypotheticalbias}.
+
+\indent A key contribution of the paper is its emphasis on reference alternatives in DCEs. Anchoring choice tasks to respondents’ actual experiences, rather than purely hypothetical scenarios, was shown to reduce bias. Case studies in Australia and New Zealand demonstrated that mean values of travel time savings (VTTS) were significantly higher and more realistic when based on a reference commute compared to forced-choice scenarios. This suggests that reference-dependent designs yield WTP estimates that are more reliable for policy analysis \cite{hypotheticalbias}.
+
+\indent Hensher (2010) \cite{hypotheticalbias} concludes that no universal remedy exists for hypothetical bias. Instead, researchers should use a combination of careful survey design, calibration techniques, and validation against real behavior. The paper highlights the need for further research into hybrid data approaches and pivot-based experiments, which show strong potential for narrowing the gap between hypothetical and real-world valuations \cite{hypotheticalbias}.
+
+\section{Representing Tourists’ Heterogeneous Destination and Travel Party Choices}
+
+\indent Wu, Zhang, and Fujiwara (2011) develop a modeling approach that jointly analyzes tourists’ choices of destination and travel party, recognizing that these decisions are interdependent and vary across individuals. Travel decisions are rarely made in isolation; the choice of destination often depends on who tourists travel with, and the composition of the travel party can influence destination selection. The authors argue that treating these choices separately, as prior studies often did, overlooks the sequential and interactive nature of travel decisions. Their paper addresses this by integrating a latent class model with a nested logit model to capture both the interdependency and heterogeneity in tourist decision-making \cite{touristheterogenity}.
+
+\indent The latent class model identifies unobserved tourist segments that follow different decision-making sequences. Some decide on a destination first, then their travel companions, while others choose their travel party before selecting a destination. Within each segment, the nested logit model reflects the sequential choice process based on random utility maximization. This combined approach allows distinguishing groups with distinct “decision hierarchies,” offering a more realistic representation of travel behavior \cite{touristheterogenity}.
+
+\indent The model uses survey data from over 2,000 tourists in Japan, covering 14 destination zones and three travel party categories: traveling alone, traveling with family, and traveling with friends or others. Variables influencing destination choice included travel time, destination attractiveness (measured by annual visitors), and number of tourist spots. Travel party choice was explained by gender, age, and marital status. Results showed all explanatory variables were statistically significant. Travel time had the strongest impact on destination choice, while marital status most strongly predicted travel party composition. Women and married individuals were more likely to travel with family or friends, whereas younger travelers leaned toward independent travel. Crucially, about half of tourists followed a decision sequence beginning with destination choice (latent class 1), while the other half started by selecting their travel party (latent class 2). This demonstrates the absence of a single dominant pattern and emphasizes the importance of modeling heterogeneity rather than assuming uniform behavior. The nested logit parameters confirmed significant interdependencies \cite{touristheterogenity}.
+
+\indent The authors conclude that this integrated latent class–nested logit model provides a more flexible and realistic framework for capturing tourist decision-making. For planners and marketers, the findings highlight the value of understanding destinations’ sensitivity to travel party structure, enabling more targeted promotions. The study also points to the importance of considering decision-making structures alongside sociodemographic segmentation. The authors suggest future research should expand the model to include additional decision dimensions, such as accommodation and travel mode choices, and test its applicability across cultural contexts \cite{touristheterogenity}.
 
 \chapter{Methodology}
 
-\indent This chapter outlines the methodological approach adopted to address the research objective. The study combines qualitative and quantitative research methods in a sequential design, supported by advanced analytical techniques. Both the qualitative and quantitative approaches are presented separately \cite{creswell} and in the chronological order in
-which they were done.
+Add an introduction to the chapter
 
-\textbf{The first stage consists of qualitative interviews} aimed at exploring tourist behaviours, motivations, and preferences in a flexible way. Insights from this stage were then used to define the attributes incorporated into the quantitative survey. It also provided additional information that was valuable for refining and deepening the survey questions. \textbf{The second stage employs a quantitative survey} to gather structured data from a larger and more diverse sample. This design ensures the collection of statistically significant information while maintaining direct relevance on the attributes identified during the qualitative phase. Since both the qualitative and quantitative research approaches were employed, the field research can be viewed as having adopted a mixed research methodology design, which combines both approaches in the methodology of a study \cite{tashakkori}.
+\section{Qualitative Interviews}
 
-\indent \textbf{The final stage implied the application of selected machine learning methods}, including clustering algorithms for identifying distinct tourist profiles, and classification techniques for describing the potential touristic profiles that Ascoli Piceno could expect, based on respondent characteristics. This mixed-methods and data-driven approach allows for both an in-depth understanding of individual perspectives and a robust statistical foundation for generalisation.
+\subsection{The Interviews}
 
-\section{A Mixed Research Methodology}
-
-\subsection{Qualitative Approach}
-
-\indent \textbf{The qualitative approach} relies on non-numerical evidence to generate insights and draw conclusions \cite{finnetal}. Such conclusions are based on rich, descriptive data, including words, narrative and observations, often referred to as ``soft" data \cite{mcdowell}. This method is particularly suited to the in-depth exploration of a topic and is commonly employed to understand how individuals experience and interpret the world \cite{scribbr}. It allows the identification of previously unknown processes, provides explanations of why and how phenomena occur, and reveals the range of their effects \cite{creswelletal}. In this approach, the researcher seeks to interpret situations without imposing pre-existing assumptions or expectations on the phenomenon or setting under investigation \cite{amaratunga}.
-
-\subsubsection{Advantages of Qualitative Approach}
-
-\indent The qualitative approach seeks to preserve the voice and perspective of participants and can be adapted as new research questions emerge \cite{scribbr}. It is characterised by \textbf{flexible design}, which allows the researcher to experiment with different techniques to determine what is most effective within the context of the project \cite{gilmore}. Furthermore, it is typically conducted in \textbf{natural settings}, where data collection takes place in real-world contexts or in ways that closely mirror participants’ everyday environments. This facilitates the gathering of \textbf{meaningful insights} by listening to detailed descriptions of people’s experiences, feelings, and opinions. Such information can help improve the design, testing, or development of systems, services, or products. In addition, using open-ended questions and flexible approaches makes it easier to come up with \textbf{new ideas and discover problems or opportunities} that were not expected at the start of the study \cite{scribbr}.
-
-\subsubsection{Disadvantages of Qualitative Approach}
-
-\indent On the other hand, qualitative research has several limitations. First, its real-world setting can make findings \textbf{less reliable} because many factors influencing the data cannot be controlled. Second, the strong role of the researcher in interpreting results introduces \textbf{subjectivity}, meaning the same data could be analysed differently by different people and the study cannot be exactly replicated \cite{scribbr}. This reinforces the long-standing criticism that qualitative research findings are not
-verifiable, and verifiability, the principle that empirical investigations should be capable of replication so that their findings can be confirmed or refuted, is a central tenet of scientific research. It is difficult to replicate qualitative studies in the same way as quantitative ones; however, this does not mean that qualitative research entirely lacks verifiability \cite{allan}. This is why it is important for the researcher to carefully document each step of the process, thereby creating an audit trail that allows other researchers to trace and review the original procedures if needed \cite{lincoln}. Third, the use of small samples \textbf{limits the extent to which results can be generalised to a broader population}, even when the analysis is rigorous \cite{scribbr}. This criticism may not be entirely justified, as the generalisability of results to an entire population is rarely the primary objective of the qualitative research approach \cite{deruyter}. Finally, qualitative research can be \textbf{labour-intensive}, as the review and interpretation of large amounts of textual data often require manual checking, despite the availability of software tools to assist with the process \cite{scribbr}.
-
-\subsection{Quantitative Approach}
-
-\indent \textbf{The quantitative approach} is defined as a research strategy that relies primarily on numerical evidence to draw conclusions \cite{veal}. Because of its focus on measurement and statistical analysis, it has often been described as a ``hard" or ``number-crunching" approach to research \cite{murphyblack}. This approach involves the systematic collection and analysis of numerical data in order to identify patterns and averages, test relationships between variables, make predictions, and, when appropriate, generalise results to larger populations. It can be applied in various forms, including descriptive research, which summarises characteristics of variables; correlational research, which explores relationships between variables; and experimental research, which examines cause-and-effect links under controlled conditions. Data collection methods range from surveys and structured observations to experiments and secondary data analysis, all of which require clear operational definitions to translate abstract concepts into measurable indicators. Once collected, the data are processed and subjected to statistical analysis to answer the research questions and test the hypotheses \cite{scribbrquant}.
-
-\subsubsection{Advantages of Quanitative Approach}
-
-\indent The quantitative research offers several advantages, particularly in terms of standardisation and the potential to generalise findings to broader populations. One of its key strengths is \textbf{replication}, as the use of standardised data collection procedures and tangible definitions of abstract concepts allows studies to be repeated under similar conditions. This also facilitates \textbf{direct comparisons of results}, enabling research to be reproduced across different cultural contexts, time periods, or participant groups, with outcomes compared statistically. The accuracy of these measurement tools, such as questionnaires, can be strengthened by testing their \textbf{reliability} using objective measures prior to data collection \cite{neuman}. Furthermore, the approach is also well-suited to working with \textbf{large samples}, as quantitative data can be processed and analysed through consistent and reliable statistical procedures \cite{scribbrquant}. The knowledge gained from this group or subset of the population is representative of of the entire population under study \cite{bernard}. Finally, an additional advantage of the quantitative approach is that it is generally considered as a relatively impersonal method of conducting research, which helps to minimise the influence of the researcher’s personal biases on the outcomes of the study \cite{cooper}.
-
-\subsubsection{Disadvantages of Quanitative Approach}
-
-\indent Despite its strengths, quantitative research also has its own limitations. One of them is \textbf{superficiality}, as the use of precise and restrictive operational definitions may inadequately represent complex concepts. For example, an abstract notion such as ``mood" may be represented by a single numerical score, whereas qualitative research could provide a richer explanation. A \textbf{narrow focus} can also be an issue, since predetermined variables and measurement procedures may lead to the omission of other relevant observations. Moreover, even with standardised procedures, \textbf{structural bias} can occur due to factors such as missing data, imprecise measurements, or inappropriate sampling methods, which may distort the findings\cite{scribbrquant}. Finally, the quantitative approach can be \textbf{relatively inflexible}, as there is little a researcher can do after discovering an error in the data collection instrument. For instance, a question that is ambiguous or has been misinterpreted \cite{carsonetal}.
-
-\subsection{Mixed Methodology}
-
-\indent As discussed in the previous subsections, both qualitative and quantitative research approaches offer distinct advantages but also present some limitations. This has led to a growing agreement among scholars that an effective strategy is to integrate the two. By combining qualitative and quantitative methods, the weaknesses of one approach can be neutralised by the strengths of the other \cite{jick}. Both methodologies were implemented into two different stages.
-
-\subsubsection{First Stage: Qualitative Interviews}
-
-\indent \textbf{The first stage consisted of qualitative interviews}, which were used to identify possible attributes related to tourist destinations, so they could later be analysed in greater depth in the \textbf{second stage}. This was carried out through \textbf{flexible open questions}, mainly focusing on \textbf{real-world experiences}. Although flexible, a guide of predefined questions was created (\textit{see Figure 3.1}) to provide a general structure for the interviews, while still leaving the possibility to deviate and follow the flow of each individual conversation. Each new interview generated additional ideas and opportunities that informed subsequent ones, thus enriching the insights obtained. Furthermore, all interviews were conducted online and recorded, and the corresponding transcriptions were produced (\textit{see Appendices B for an example}), allowing the subsequent analysis to be validated against the original data. In this way, the approach sought to address the limitations of \textbf{reliability and subjectivity}. On the other hand, although the process was \textbf{labour-intensive}, only ten interviews were conducted, and \textbf{generalisability} was not considered a limitation, since the main purpose of this first stage was to generate a list of attributes to be tested in the second stage (where the larger sample makes generalisation possible).
+\indent The first step consisted of qualitative interviews, which were used to identify possible attributes related to tourist destinations. This was carried out through flexible open questions, mainly focusing on real-world experiences. Although flexible, a guide of predefined questions was created (see Figure~\ref{fig:qualitativeguide}) to provide a general structure for the interviews, while still leaving the possibility to deviate and follow the flow of each individual conversation. Each new interview generated additional ideas and opportunities that informed subsequent ones, thus enriching the insights obtained. Furthermore, all interviews were conducted online and recorded, and the corresponding transcriptions were produced (see Appendices B for an example), allowing the subsequent analysis to be validated against the original data.
 
 \begin{figure}[ht]
     \centering
     \fbox{\includegraphics[width=1\textwidth]{Material/2. Interviews/1. Qualitative Interview/Qualitative Interview Questions.png}}
     \captionsetup{font=footnotesize}
-    \caption{Guide for Qualitative Interview Questions.}
+    \caption{\textit{Guide for Qualitative Interview Questions. Source: Author’s own elaboration}}
     \label{fig:qualitativeguide}
 \end{figure}
 
 \indent For these interviews, the aim was to gather perspectives from individuals of different generations, nationalities, and professional backgrounds. The sample included:
 
-
     \begin{itemize}
-        \item \textbf{Sex:} 8 males and 2 females
-        \item \textbf{Age:} median of 26 years old, with a maximum equal to 41 years old, and a minimum equal to 21 years old.
-        \item \textbf{Nationalities:} 5 Argentinians, 2 Spanish, 1 Italian, 1 Colombian, and 1 Iranian.
-        \item \textbf{Occupations:} 5 employed people and 5 Master's students (one of whom had worked for approximately 20 years before starting the degree).
+        \item Sex: 8 males and 2 females
+        \item Age: median of 26 years old, with a maximum equal to 41 years old, and a minimum equal to 21 years old.
+        \item Nationalities: 5 Argentinians, 2 Spanish, 1 Italian, 1 Colombian, and 1 Iranian.
+        \item Occupations: 5 employed people and 5 Master's students (one of whom had worked for approximately 20 years before starting the degree).
     \end{itemize}
 
-\indent As with any qualitative method, the interview process also involved potential risks that needed to be considered and mitigated. A first risk was the possibility of \textbf{compliance bias}, where responses could be influenced by participants’ personal impression of what they were expected to answer. This was addressed by avoiding any disclosure of the project’s purpose and by formulating questions without references to what other people might do. Interviewees were simply invited to participate in an interview, and once the session began, they were explained only that the topic was tourism before moving directly to the questions. The approach followed the principles of the \textit{``Mom Test"} described by Rob Fitzpatrick, where participants are asked \textit{``questions that even your mom could answer honestly"} \cite{massimo}.
+\indent The interviews were conducted through the Zoom platform and in the original language of each interviewee, allowing them to clearly and fully describe their real experiences. In cases where the interviewer and interviewee did not share the same mother tongue, English was used as the common language. Among all the interviews, the only one conducted in English was with the Iranian participant. Furthermore, all interviewees were informed about the recording process, with emphasis placed on the fact that no personal or sensitive information would be disclosed. The main objective at this stage was to understand the genuine process by which interviewees defined and prepared a trip. For this reason, participants were asked to share their screen (or, in cases where this was not possible, the interviewer shared the screen and followed the steps as described by the interviewee) and to demonstrate step by step how they organised either a past trip or an upcoming one. While describing their planning process, they showed the resources they used and expressed both positive and negative impressions. When needed, the interviewer intervened to ask additional questions in order to explore certain topics in greater depth. Nevertheless, the main goal was to allow the interviewee to speak as freely as possible, and as mentioned before, without introducing any potential bias.
 
-\indent A second risk concerned \textbf{offset bias}, in which participants might be forced to reflect on problems they were not aware of or to consider certain issues as more complex than they normally would. This was mitigated by avoiding the introduction of unfamiliar terms and by ensuring that the evaluation of a problem remained entirely with the interviewee.
-
-\indent Finally, there was a risk of \textbf{speculation bias}, where participants could be asked to predict their own behaviour in hypothetical future situations. Since people are not generally good at determining what they would do in an hypothetical scenario that never happened to them, participants were instead asked about past and present experiences, and to tell ``stories” about what they normally do and don’t do. In this way, deeper questions were asked progressively and with patience, as individuals are not able to correctly determine the underlying reasons for their own behavior \cite{massimo}.
-
-\indent The interviews were conducted through the Zoom platform and in the original language of each interviewee, allowing them to clearly and fully describe their real experiences. In cases where the interviewer and interviewee did not share the same mother tongue, English was used as the common language. Among all the interviews, the only one conducted in English was with the Iranian participant. Furthermore, all interviewees were informed about the recording process, with emphasis placed on the fact that no personal or sensitive information would be disclosed. The main objective at this stage was to understand the genuine process by which interviewees defined and prepared a trip. For this reason, participants were asked to share their screen (or, in cases where this was not possible, the interviewer shared the screen and followed the steps as described by the interviewee) and to demonstrate step by step how they organised either a past trip or an upcoming one. While describing their planning process, they showed the resources they used and expressed both positive and negative impressions. When needed, the interviewer intervened to ask additional questions in order to explore certain topics in greater depth. Nevertheless, the main goal was to allow the interviewee to speak as freely as possible, and as mentioned beofre, without introducing any potential bias.
-
-\indent After this initial block, in which participants described their real-life experiences of trip planning, they were asked specifically about Ascoli Piceno. In this section, they were invited to demonstrate how they would prepare for a hypothetical trip to the city. It is important to note that this exercise did not involve speculation bias, since participants were not asked to predict hypothetical future behaviours. Instead, they were asked to apply their usual, real-life trip planning process to the case of Ascoli Piceno, following the same steps, tools, and resources they normally use. The aim was to capture their genuine opinions about Ascoli Piceno and to identify potential attributes associated with it, both positive and negative. One of the most relevant aspects of this stage concerned their impressions when analysing the map and the geographical position of Ascoli. In some cases, participants were also asked to compare Ascoli Piceno with Pistoia, a city of similar characteristics located near Florence. At this point, further attributes emerged, particularly when interviewees were asked to decide whether they would prefer to visit one city over the other, and to explain their reasons.
+\indent After this initial block, in which participants described their real-life experiences of trip planning, they were asked specifically about Ascoli Piceno. In this section, they were invited to demonstrate how they would prepare for a hypothetical trip to the city. They were asked to apply their usual, real-life trip planning process to the case of Ascoli Piceno, following the same steps, tools, and resources they normally use. The aim was to capture their genuine opinions about Ascoli Piceno and to identify potential attributes associated with it, both positive and negative. One of the most relevant aspects of this stage concerned their impressions when analysing the map and the geographical position of the city. In some cases, participants were also asked to compare Ascoli Piceno with Pistoia, a city of similar characteristics located near Florence. At this point, further attributes emerged, particularly when interviewees were asked to decide whether they would prefer to visit one city over the other, and to explain their reasons.
 
 \indent Finally, they were introduced to specific topics related to Ascoli Piceno, such as the olive ascolane and the Quintana festival, in order to gather insights about attributes associated with local events and cultural traditions. At the end of the interview, participants were given the opportunity to add any further comments, which often provided additional perspectives or reinforced the main points that had emerged throughout the session.
 
-\indent After all interviews were completed, the transcription cleaning process was carried out. For the first two interviews, since the automatic transcription feature had not been enabled, the audio files were transcribed in Google Colab using \textbf{WhisperX}, an enhanced transcription tool built on OpenAI’s Whisper that incorporates speaker diarization from Hugging Face to provide more accurate transcripts and speaker separation \cite{whisperx}. Once the raw transcriptions were obtained (either from Google Colab or Zoom), a manual verification process was conducted. During this stage, the transcripts were checked against the recordings and corrected where necessary, particularly in cases where words or phrases had been inaccurately transcribed. Finally, ChatGPT was used carefully to efficiently translate each transcription into English.
+\subsection{The Transcriptions}
 
-\indent The next step consisted of carefully re-reading each transcription, taking notes of the most relevant insights, and linking them to potential attributes. For instance, in the interview with the Italian participant, he noted: \textit{“…I prefer Airbnb for these types of trips, because usually I travel with a group, and we like to have one meal out and one at home.”} This highlighted accommodation type as a potential attribute. Similarly, in the second interview with an Argentinian participant, he explained: \textit{“What interests me most about Italy is the history, and of course everything that comes with it—architecture, culture…”}, which pointed to the importance of historical buildings and cultural immersion. In cases such as this one, more than one attribute was identified from the same response. This process was repeated for each interview, noting key phrases and extracting potential attributes for the quantitative survey.
+\indent After all interviews were completed, the transcription cleaning process was carried out. For the first two interviews, since the automatic transcription feature had not been enabled, the audio files were transcribed in Google Colab using WhisperX, an enhanced transcription tool built on OpenAI’s Whisper that incorporates speaker diarization from Hugging Face to provide more accurate transcripts and speaker separation \cite{whisperx}. Once the raw transcriptions were obtained (either from Google Colab or Zoom), a manual verification process was conducted. During this stage, the transcripts were checked against the recordings and corrected where necessary, particularly in cases where words or phrases had been inaccurately transcribed. Finally, ChatGPT was used carefully to efficiently translate each transcription into English. Following this, each transcription was carefully re-read, with notes taken on the most relevant insights and linked to potential attributes. This process was repeated for every interview, highlighting key phrases and extracting attributes to inform the quantitative survey.
 
-\indent Once this analysis was completed, all unique attributes were compiled in an Excel sheet together with their corresponding frequency. Frequency was defined as the number of interviews in which a given attribute appeared, with a maximum possible frequency of 10 (equal to the total number of interviews). As shown in \textit{Figure 3.2}, the top attributes appeared in between 6 and 9 interviews. From this, the top 8 attributes were initially selected as the final ones. However, a small adjustment was made to ensure topic diversity: the 7th attribute (accommodation price) was replaced because the 1st attribute already referred to accommodation type, and the 8th attribute (distance to reach the destination) was exchanged because the 6th attribute already concerned cost to reach the destination.
+\indent Once this analysis was completed, all unique attributes were compiled in an Excel sheet together with their corresponding frequency. Frequency was defined as the number of interviews in which a given attribute appeared, with a maximum possible frequency of 10 (equal to the total number of interviews). 
+
+\section{Textual Analysis of Online Accommodation Reviews}
+
+\subsection{Airbnb}
+
+\indent One of the datasets used in this analysis was related to Airbnb reviews in different Italian cities. This was obtained from Inside Airbnb, where quarterly data for the last year for different regions is available for free download \cite{airbnbdata}. The Italian cities included in this analysis were Bergamo, Bologna, Florence, Milan, Naples, Puglia, Rome, Sicily, Trentino, and Venice, and all of the individual datasets were concatenated into one single dataset. A total of 7,141,844 records were retrieved, including listing\_id, id, date, reviewer\_id, reviewer\_name, comments and locations. To optimize workload and time, a new column was created with the count of words used in the comments column, and the data was imited to the upper queartile (75\%) of this new column. This ended up with a dataset of 5,383,460 records. Following with the data preparation, a language detector was implemented as comments had a mix of lanugages. For this, the Compact Language Detector 2 was used, which probabilistically detects over 80 languages in Unicode UTF-8 text \cite{cld2}. To reduce data size, only the 2,800,779 english reviews were retrieved (see Figure~\ref{fig:cld2}). Finally, only a 15\% of the english reviews was used for the analysis, aiming to optimize and reduce the running time of the natural language programming models implemented. 
+
+\begin{figure}[ht]  
+    \centering
+    \fbox{\includegraphics[width=0.5\textwidth]{Images/cld2.png}}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Compact Language Detector 2 Results. Source: Author’s own elaboration based on Inside Airbnb}}
+    \label{fig:cld2}
+\end{figure}
+
+\indent All remaining reviews were tokenized into individual words using the word\_tokenize function, from the NLTK library. During this stage, all tokens were also converted to lowercase to maintain consistency and reduce redundancy caused by case differences. Next, a stopword and punctuation removal process was conducted. Stopwords were identified using the NLTK English stopword list, while punctuation symbols were extracted from string library. A custom cleaning function was then implemented to remove both stopwords and punctuation marks from the tokenized reviews, leaving only meaningful terms. After cleaning, the processed tokens were lemmatized using the spaCy library. This step reduced words to their base or dictionary form (e.g., “running” is transformed into “run”). To optimize performance, texts were processed in batches of 2,000 with parallelization across four processes. Finally, the cleaned and lemmatized tokens were stored as a new variable in the dataset. This transformed dataset provided the standardized textual representation required for further computational analysis, such as topic modeling and sentiment classification.
+
+\indent Following the text preprocessing stage, the cleaned and lemmatized tokens were transformed into numerical features using the Term Frequency–Inverse Document Frequency (TF–IDF) method, implemented with the TfidfVectorizer from the scikit-learn library. This representation captures the relative importance of words across the collection of reviews, balancing term frequency within a document against how widely the term occurs across the entire dataset. The vectorizer was configured to extract both unigrams (single words) and trigrams (group of 3 consecutive words). The parameters were defined as follows:
+
+\begin{itemize}
+    \item \verb|lowercase=False|: case sensitivity was preserved, as tokens had already been normalized before this step.
+    \item \verb|token_pattern=r"(?u)\b\w+\b"|: ensured that only alphanumeric tokens were included.
+    \item \verb|ngram_range=(x,y)|: defines the minimum (x) and maximum (y) size of n-grams to include in the analysis. In this study, unigrams (1,1) and trigrams (3,3) were used.
+    \item \verb|min_df=5|: excluded words appearing in fewer than five reviews to reduce noise.
+    \item \verb|max_df=0.8|: excluded terms present in more than 80\% of reviews, filtering out overly common words.
+    \item \verb|max_features=100,000|: restricted the feature space to the most informative terms.
+\end{itemize}
+
+The TF–IDF scores were then aggregated across all documents to obtain a global measure of each term’s importance. To visualize the most frequent terms in the corpus, a word cloud was generated using the WordCloud library, with word size proportional to cumulative TF–IDF scores. Additionally, the top 20 terms were identified and displayed in tabular form, ranked by their total TF–IDF score.
+
+\subsection{Booking.com}
+
+\indent The Booking.com Reviews Dataset is a comprehensive collection of hotel reviews and ratings gathered from the popular travel booking website, Booking.com. This dataset provides valuable insights into the experiences and opinions of customers who have stayed at various hotels across different locations \cite{bookingdata}. After importing the dataset, reviews containing the text “There are no comments available for this review” were removed, leaving a total of 18,988 valid records for analysis. Each review was then tokenized using the NLTK word\_tokenize function, with all tokens converted to lowercase to ensure uniformity. As in the Airbnb pipeline, stopwords (from NLTK’s English stopword list) and punctuation marks (from Python’s string library) were filtered out, producing a set of cleaned tokens. Subsequently, the tokens were lemmatized using the spaCy language model. This step reduced words to their base form, thereby consolidating morphological variants. A final cleaning step removed generic terms such as “review” and “comment” that added little semantic value. After all this preprocessing steps, the dataset was splited into positive and negative reviews based on the rating score:
+
+\begin{itemize}
+    \item Positive reviews: ratings $\geq 7$
+    \item Negative reviews: ratings $< 7$
+\end{itemize}
+
+\indent For each subset (positive and negative reviews), a TF–IDF vectorizer was applied to transform the lemmatized text into a numerical representation. The vectorizer parameters were configured as follows:
+
+\begin{itemize}
+    \item \verb|lowercase=False|: case sensitivity was preserved, as tokens had already been normalized before this step.
+    \item \verb|token_pattern=r"(?u)\b\w+\b"|: ensured that only alphanumeric tokens were included.
+    \item \verb|ngram_range=(x,y)|: defines the minimum (x) and maximum (y) size of n-grams to include in the analysis. In this study, unigrams (1,1) and trigrams (3,3) were used.
+    \item \verb|min_df=5|: excluded words appearing in fewer than five reviews to reduce noise.
+    \item \verb|max_df=0.8|: excluded terms present in more than 80\% of reviews, filtering out overly common words.
+    \item \verb|max_features=100,000|: restricted the feature space to the most informative terms.
+\end{itemize}
+
+The resulting TF–IDF scores were aggregated to identify the most relevant terms in positive and negative reviews. To illustrate these patterns, word clouds were generated, where the size of each term corresponds to its cumulative TF–IDF score. In addition, the top 20 terms were extracted and tabulated for each subset, providing a clear overview of the most prominent lexical features distinguishing positive from negative customer experiences.
+
+\section{Explanatory Survey for Attribute Validation}
+
+\indent Further in the analysis, an explanatory survey (see Appendix D) was conducted, through Microsoft Forms, to capture travelers’ perceptions, decision-making processes, and experiences related to tourism. The questions were were written in English and Spanish. It was sent to 25 respondents, with no additional details. After reaching the 25 responses the survey was closed. This worked as a bridge between the qualitative interviews and the final quantitative survey, serving both to test the clarity of questions and to generate additional insights for attribute refinement. The survey consisted of a combination of open-ended and structured questions. Open-ended questions invited respondents to narrate personal travel experiences (e.g., bad trip story, representative trip, vacation story) and to provide advice to their “past self” in terms of decision-making. Scenario-based questions (scene choices) were included to explore how travelers evaluate different destination settings. Structured questions addressed decision-making steps, missing factors in information search, levels of information saturation, and perceptions of pricing. For this last topic, a Van Westendorp’s Price Sensitivity Model's question was included to estimate acceptable price ranges for a touristic package. This model provides a more comprehensive, multi-question model that indirectly measures willingness to pay instead of directly posing the question to potential buyers. Rather than asking potential buyers to identify a single price point, the Van Westendorp model helps assess a range of prices instead of just one \cite{vanwestern}.
+
+\indent For the analysis, Google Colab was used as it provides 
+
+
+
+
+
+\chapter{Results}
+
+Introduction of this chapter.
+
+\section{Qualitative Interviews}
+
+\indent After the interview transcriptions were properly cleaned, the main insights were extracted from each case. Some phrases contained a single attribute, while others referred to multiple ones. For instance, in the first interview with the Italian respondent, he said: “…in that famous Tuscany trip, we also included the Palio di Siena…”. This was linked to a general attribute: local events. On the other hand, in the second interview with an Argentinian respondent, he said: “…we looked a lot into what the transportation is like there, food prices, which beaches are recommended.”. In this case, the phrase was related to three attributes: public transportation, food prices, and beaches. These initial attributes were not definitive but rather a starting point. All detailed notes from each interview are available in Appendix C.
+
+\indent Based on these notes, the frequency of each attribute was calculated. As shown in Figure~\ref{fig:attributesfreq}, the top attributes appeared in 6 to 9 interviews. From this, the eight most frequent attributes were initially selected as the final ones. However, a small adjustment was made to ensure topic diversity: the 7th attribute (accommodation price) was excluded because the 1st attribute already referred to accommodation type, and the 8th attribute (distance to reach the destination) was excluded because the 6th attribute already addressed cost to reach the destination.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=1\textwidth]{Images/attributes_freq.png}
+    \includegraphics[width=0.5\textwidth]{Images/attributes_freq.png}
     \captionsetup{font=footnotesize}
-    \caption{Preliminary Top 10 Attributes by Frequency.}
+    \caption{\textit{Preliminary Top 10 Attributes by Frequency. Source: Author’s own elaboration}}
     \label{fig:attributesfreq}
 \end{figure}
 
-\indent Finally, after visiting Ascoli Piceno, the list of attributes was refined in order to improve their accuracy and clarity. Some attribute names were adjusted to avoid ambiguity or misinterpretation, and a few new ones were added based on observations during the visit. The final set of attributes included:
+\indent Finally, after a visit to Ascoli Piceno, the initial list of attributes was refined to improve their accuracy and clarity. Some attribute names were adjusted to avoid ambiguity or misinterpretation, and a few new ones were added based on observations during the visit. The final set of attributes included:
 
 \begin{itemize}
-        \item Accommodation type.
-        \item Online recommendations.
-        \item Proximity to other touristic destinations.
-        \item Local traditional cuisine (the word \textit{traditional} was added to emphasise the focus on local food).
-        \item Availability of tourist attractions at the destination (the attribute \textit{“accessibility to touristic points”} was discarded after the visit, as it was not considered accurate).
-        \item Ease to reach the destination.
-        \item Cost to reach the destination (added to capture the trade-off between cost and ease of access noted during the visit).
-        \item Historical architecture.
-        \item Local events.
-        \item Proximity to the beach (added after observing Ascoli’s proximity to coastal areas such as San Benedetto del Tronto, and supported by interviewees who mentioned it as an important attribute).
-    \end{itemize}
+    \item Accommodation type.
+    \item Online recommendations.
+    \item Proximity to other touristic destinations.
+    \item Local traditional cuisine (the word traditional was added to emphasise the focus on local food).
+    \item Availability of tourist attractions at the destination (the attribute “accessibility to touristic points” was discarded after the visit, as it was not considered accurate).
+    \item Ease of reaching the destination, Cost to reach the destination (added to capture the trade-off between cost and ease of access noted during the visit).
+    \item Historical architecture.
+    \item Local events, and Proximity to the beach (added after observing Ascoli’s proximity to coastal areas such as San Benedetto del Tronto, and supported by interviewees who mentioned it as an important attribute).
+\end{itemize}
 
-CHEQUEAR TONO; USAR TIPO "SE REALIZO", etc.
-CHEQUEAR NOMBRES DE CIUDADES, DEJARLOS EN INGLES. Florence (Italian: Firenze) Una práctica académica muy habitual es escribir en la primera aparición el nombre en inglés seguido del nombre local entre paréntesis, y luego usar solo la versión inglesa (
 
-\section{Machine Learning Techniques}
+\section{Online Accommodation Reviews}
 
-\chapter{Results}
-Here I'll show results.
+\indent After applying the TF-IDF method to the Airbnb dataset, the unigram analysis revealed that the most frequent terms were primarily related to the location of the property and the services offered by the accommodation. This suggests that, when writing reviews, guests tend to emphasise not only the geographical setting (e.g., location, walk, or close) but also the specific amenities provided (e.g., clean, comfortable, or amenity). As shown in Figure~\ref{fig:airbnbunigram}, these two dimensions (location and services) emerged as dominant topics shaping guests’ perceptions and experiences.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Airbnb Top Words.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Airbnb Reviews' Top Words. Source: Author’s own elaboration based on Inside Airbnb}}
+    \label{fig:airbnbunigram}
+\end{figure}
+
+\indent To gain a more detailed understanding, the same analysis was conducted using trigrams. As shown in Figure~\ref{fig:airbnbtrigram}, the results further reinforced the centrality of location, with frequent expressions such as “place great location,” “great location close,” “within walking distance,” and “close train station.” In contrast, there were relatively few trigrams directly associated with services, and several of the most frequent ones still referred to location, such as “clean great location.” This indicates that, even when considering multi-word expressions, guests consistently prioritise aspects related to the property’s location over other features of the accommodation.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Airbnb 3-gram.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Airbnb Reviews' Top 3-grams. Source: Author’s own elaboration based on Inside Airbnb}}
+    \label{fig:airbnbtrigram}
+\end{figure}
+
+\indent When it comes to the Booking.com dataset, the unigram analysis of positive reviews revealed that the most frequent terms were, once again, related to both the location of the property and the services offered by the accommodation. As shown in Figure~\ref{fig:bookingpword}, compared to the Airbnb reviews, a greater number of terms referred to specific services, such as ``breakfast'', ``reception'', ``garden'', and ``bed'', among others. In addition, new location-related terms appeared, including ``metro'' and ``restaurant.''
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Positive Scores Top Words.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Positive Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingpword}
+\end{figure}
+
+\indent In contrast, the unigram analysis of negative reviews (see Figure~\ref{fig:bookingnword}) indicated that, although ``location'' remained a highly frequent term, a larger share of the most common words referred to accommodation services, such as ``shower'', ``bathroom'', ``bed'', and ``staff'', among others.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Negative Scores Top Words.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Negative Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingnword}
+\end{figure}
+
+\indent The trigram analysis of positive reviews (see Figure~\ref{fig:bookingptri}) highlighted the growing importance of accommodation services, with common expressions such as ``friendly helpful staff'' and ``room comfortable bed''. Location, however, remained a crucial factor, with trigrams such as ``within walking distance'' and ``close city center''.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Positive Scores 3-Gram.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Positive Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingptri}
+\end{figure}
+
+\indent As shown in Figure~\ref{fig:bookingntri}, the trigram analysis of negative reviews revealed a stronger emphasis on location, with expressions such as ``close train station'', ``5 minute walk'', and ``close city center''. At the same time, several trigrams provided clearer insights into service-related concerns, including ``4 star hotel'', ``friendly helpful staff'', and ``coffee make facility''.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Negative Scores 3-gram.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Negative Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingntri}
+\end{figure}
+
+\indent Based on the insights obtained from this text analysis across both datasets, the list of attributes was further refined and improved as follows:
+
+\begin{itemize}
+    \item Accommodation services: reviews frequently mentioned elements such as breakfast, room quality, staff, cleanliness, and shower facilities.
+    \item Availability of centrally located accommodation: added as a new attribute, given that many reviews highlighted location; the word “centrally” provides a more precise segmentation.
+    \item Distinctive local cuisine: retained due to interviews underscoring the importance of Italian food; the term “distinctive” emphasises the uniqueness of local dishes.
+    \item Density of attractions within walking distance: refined to include “walking distance,” thereby avoiding ambiguity and providing practical meaning.
+    \item Ease of reaching the city by public transport: adjusted to specify “public transport,” distinguishing it from private transport preferences.
+    \item Proximity to natural areas: added based on interview references to beaches and mountains, capturing the importance for visitors who value nature.
+    \item Heritage ambience of the historic centre: refined to emphasise the historic heritage dimension, while avoiding overlap with “central location” of accommodation.
+    \item Low tourist density: introduced as a new attribute, mentioned in both interviews and the text analysis, reflecting a preference for less crowded areas.
+\end{itemize}
+
+
+\section{Explanatory Survey for Attribute Validation}
+
+\begin{itemize}
+    \item Age range: 13 respondents between 25 and 35 years old, 8 respondnets 60 or older, 3 respondents between 35 and 39, and 1 respondents younger than 25 years old.
+    \item Gender: 16 females and 9 males.
+    \item Region: 17 respondents from South America, 5 respondents from Italy, and 3 respondents from Europe (excluding Italy).
+    \item Professional status: most respondents (11) are employed, 5 are self-employed, 5 are retired, and 4 are students.
+    \item Trip organization: in general younger respondents tend to organize trips with other people, while older people tend to organize trips themselves.
+    \item Travelling purpose: in general respondents travel to explore new cities or for relaxation.
+    \item Type of traveler: respondents tend to travel more 
+\end{itemize}
+
+
+\chapter{Discussion}
+
+\section{Qualitative Approach}
+
+\indent In the Chapter 2, section 2.1, it was described some potential risks that may appear when developing and conducting a qualitative interview. One of them is compliance bias, where responses could be influenced by participants’ personal impression of what they were expected to answer. This was addressed by avoiding any disclosure of the project’s purpose and by formulating questions without references to what other people might do. Interviewees were simply invited to participate in an interview, and once the session began, they were explained only that the topic was tourism before moving directly to the questions. The approach followed the principles of the ``Mom Test" described by Rob Fitzpatrick, where participants are asked ``questions that even your mom could answer honestly" \cite{massimo}. Another potential risk concerned offset bias, in which participants might be forced to reflect on problems they were not aware of or to consider certain issues as more complex than they normally would. This was mitigated by avoiding the introduction of unfamiliar terms and by ensuring that the evaluation of a problem remained entirely with the interviewee. Finally, speculation bias was the last potential risk mentioned, where participants could be asked to predict their own behaviour in hypothetical future situations. Since people are not generally good at determining what they would do in an hypothetical scenario that never happened to them, participants were instead asked about past and present experiences, and to tell ``stories” about what they normally do and don’t do. In this way, deeper questions were asked progressively and with patience, as individuals are not able to correctly determine the underlying reasons for their own behavior \cite{massimo}. It is important to note that this exercise did not involve speculation bias, since participants were not asked to predict hypothetical future behaviours. Instead, they were asked to apply their usual, real-life trip planning process to the case of Ascoli Piceno, following the same steps, tools, and resources they normally use.
+
+\indent In this way, the approach sought to address the limitations of reliability and subjectivity. On the other hand, although the process was labour-intensive, only ten interviews were conducted, and generalisability was not considered a limitation, since the main purpose of this first stage was to generate a list of attributes to be tested in the following stages, and with the final survey, the larger sample makes generalisation possible.
+
+\chapter{Conclusion}
 
 \newpage
 
@@ -510,6 +752,36 @@ Max Bain. "WhisperX", \textit{GitHub repository}, June 27, 2025. \url{https://gi
 \bibitem{massimo}
 Massimo Aliberti. "Customer - Problem Interview", \textit{Imperial College London}, 2017. \url{https://drive.google.com/file/d/1pa8EQhqbvVkq0DwAQcdvMnTzyhnwMM4x/view?pli=1}
 
+\bibitem{destinationimg}
+Seyhmus Baloglu and Ken W. McCleary. "A Model of Destination Image Formation", \textit{Annals of Tourism Research}, 1999.
+
+\bibitem{clustering}
+Juho Pesonen and Antti Honkanen. "Using cluster analysis to segment tourists: response-style effects", \textit{Matkailututkimus}, 2014.
+
+\bibitem{discretechoice}
+Astrid Kemperman. "A review of research into discrete choice experiments in tourism: Launching the Annals of Tourism Research Curated Collection on Discrete Choice Experiments in Tourism", \textit{Annals of Tourism Research}, 2021.
+
+\bibitem{conjointaltin}
+Altin, M. "Conjoint Analysis in Tourism", \textit{Springer Nature}, 2023.
+
+\bibitem{hypotheticalbias}
+David A. Hensher. "Hypothetical bias, choice experiments and willingness to pay", \textit{Elsevier}, 2010.
+
+\bibitem{touristheterogenity}
+Lingling Wu, Junyi Zhang, and Akimasa Fujiwara . "Representing tourists’ heterogeneous choices of destination and travel party with an integrated latent class and nested logit model", \textit{Elsevier}, 2011.
+
+\bibitem{bookingdata}
+The Devastator. \textit{Booking.com Hotel Reviews}. Kaggle, 2019. Available at: \url{https://www.kaggle.com/datasets/thedevastator/booking-com-hotel-reviews?resource=download}.
+
+\bibitem{airbnbdata}
+"Get the Data". \textit{Inside Airbnb}. Available at: \url{https://insideairbnb.com/get-the-data/}.
+
+\bibitem{cld2}
+CLD2Owners. "Compact Language Detector 2". \textit{Github}, 2015. Available at: \url{https://github.com/CLD2Owners/cld2}.
+
+\bibitem{vanwestern}
+Rebecca Shaddix. "How To Price Your Product: A Guide To The Van Westendorp Pricing Model". \textit{Forbes}, June 22, 2020. \url{https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/}.
+
 
 \end{thebibliography}
 
@@ -523,5 +795,29 @@ Massimo Aliberti. "Customer - Problem Interview", \textit{Imperial College Londo
 \section*{B. Example of Qualitative Interview from Actual Thesis}
 \addcontentsline{toc}{section}{B. Qualitative Interview 1}
 \input{Material/2. Interviews/1. Qualitative Interview/1. Interview 31-07-2025 18-15/1. Interview 31-07-2025 18-15 (ENGLISH).txt}
+
+\includepdf[
+  pages=1,
+  pagecommand={\section*{C. Qualitative Interview Notes}}
+]{Material/2. Interviews/1. Qualitative Interview/Attributes (for thesis).pdf}
+
+\includepdf[
+  pages=2-,
+  pagecommand={}
+]{Material/2. Interviews/1. Qualitative Interview/Attributes (for thesis).pdf}
+
+
+\includepdf[
+  pages=1,
+  pagecommand={
+    \vspace*{-2.5cm}
+    \section*{D. Explanatory Survey}
+  }
+]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey.pdf}
+
+\includepdf[
+  pages=2-,
+  pagecommand={}
+]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey.pdf}
 
 \end{document}
