@@ -27,7 +27,7 @@
     \end{center}
 
     \begin{flushleft}
-        \textbf{Supervisor:} Prof Massimo ALIBERTI \\
+        \textbf{Supervisor:} Prof. Massimo ALIBERTI \\
         \textbf{Co-Supervisor:} Giorgia FERRANTI  
     \end{flushleft}
 
@@ -272,7 +272,7 @@ On the other hand, Figure~\ref{fig:ascoli_rnr} displays the same information for
 
 \indent This research originates from a project initially developed for the Marketing Analytics course within the Master’s Degree in Data Science for Economics, for the academic year 2024/2025, at the Università degli studi di Milano. The project had a similar objective to the present work, but was carried out over a shorter time period and primarily aimed at applying the techniques taught during the course, not too focused on delivering an in-depth analysis to the city. The course had a duration of almost 3 months, and the project had a duration of around 1 month. In view of this, the earlier project presented several limitations, apart from the short timeframe, which are addressed differently and in greater depth in the current thesis.
 
-\indent First, there was a significant limitation in the qualitative interviews conducted during the initial stage of the project (see Appendix A for an example of these interviews). The main objective of these interviews was to collect qualitative data about participants’ tourist behaviour, which would then serve as the basis for defining the final attributes to be analysed in the quantitative survey. The main limitation was that the interviews contained a small number of predefined questions that were very specific, leaving little room for respondents to describe their genuine behaviour in a tourist destination. Moreover, this limitation may have resulted in the omission of potential attributes that could have further enriched the study. These ``open" questions were formulated so narrowly that interviewees often provided very short answers. Furthermore, the interviews lacked questions related to actual travel experiences, which resulted in a generalised understanding of certain tourist topics rather than experience-based insights.
+\indent First, there was a significant limitation in the qualitative interviews conducted during the initial stage of the project (see Appendix~\ref{sec:previouswork} for an example of these interviews). The main objective of these interviews was to collect qualitative data about participants’ tourist behaviour, which would then serve as the basis for defining the final attributes to be analysed in the quantitative survey. The main limitation was that the interviews contained a small number of predefined questions that were very specific, leaving little room for respondents to describe their genuine behaviour in a tourist destination. Moreover, this limitation may have resulted in the omission of potential attributes that could have further enriched the study. These ``open" questions were formulated so narrowly that interviewees often provided very short answers. Furthermore, the interviews lacked questions related to actual travel experiences, which resulted in a generalised understanding of certain tourist topics rather than experience-based insights.
 
 \indent Second, after the qualitative interviews stage, came the definition of the main attributes. This phase also had its limitations regarding the project’s main goal, as it defined very general attributes. Such generalization led to a limited analysis of tourist behaviour, mainly because attributes such as price, food, culture, and accessibility, among others, did not clearly describe specific tourist behaviours, and failed to describe important aspects that Ascoli Piceno could focus on. For instance, the attribute price could refer to food prices, accommodation costs, transportation costs, or even event ticket prices, among others. Moreover, attributes such as price may have been interpreted in opposite ways by different types of respondents (e.g. budget vs premium travellers), leading to answers that looked equally important but for contradictory interpretations. This ambiguity prevented the attributes from effectively discriminating across tourist segments. In addition, most of the interviews were not recorded, so the final transcriptions relied on the interviewer’s notes, making it impossible for other team members to verify them and maybe extract more valuable insights. Although the project’s final outcome was sufficient for the course's goal, the definition of attributes could have been improved to achieve more precise and insightful results.
 
@@ -421,7 +421,7 @@ Add an introduction to the chapter
 
 \subsection{The Interviews}
 
-\indent The first step consisted of qualitative interviews, which were used to identify possible attributes related to tourist destinations. This was carried out through flexible open questions, mainly focusing on real-world experiences. Although flexible, a guide of predefined questions was created (see Figure~\ref{fig:qualitativeguide}) to provide a general structure for the interviews, while still leaving the possibility to deviate and follow the flow of each individual conversation. Each new interview generated additional ideas and opportunities that informed subsequent ones, thus enriching the insights obtained. Furthermore, all interviews were conducted online and recorded, and the corresponding transcriptions were produced (see Appendices B for an example), allowing the subsequent analysis to be validated against the original data.
+\indent The first step consisted of qualitative interviews, which were used to identify possible attributes related to tourist destinations. This was carried out through flexible open questions, mainly focusing on real-world experiences. Although flexible, a guide of predefined questions was created (see Figure~\ref{fig:qualitativeguide}) to provide a general structure for the interviews, while still leaving the possibility to deviate and follow the flow of each individual conversation. Each new interview generated additional ideas and opportunities that informed subsequent ones, thus enriching the insights obtained. Furthermore, all interviews were conducted online and recorded, and the corresponding transcriptions were produced (see Appendix~\ref{sec:interview} for an example), allowing the subsequent analysis to be validated against the original data.
 
 \begin{figure}[ht]
     \centering
@@ -448,7 +448,7 @@ Add an introduction to the chapter
 
 \subsection{The Transcriptions}
 
-\indent After all interviews were completed, the transcription cleaning process was carried out. For the first two interviews, since the automatic transcription feature had not been enabled, the audio files were transcribed in Google Colab using WhisperX, an enhanced transcription tool built on OpenAI’s Whisper that incorporates speaker diarization from Hugging Face to provide more accurate transcripts and speaker separation \cite{whisperx}. Once the raw transcriptions were obtained (either from Google Colab or Zoom), a manual verification process was conducted. During this stage, the transcripts were checked against the recordings and corrected where necessary, particularly in cases where words or phrases had been inaccurately transcribed. Finally, ChatGPT was used carefully to efficiently translate each transcription into English. Following this, each transcription was carefully re-read, with notes taken on the most relevant insights and linked to potential attributes. This process was repeated for every interview, highlighting key phrases and extracting attributes to inform the quantitative survey.
+\indent After all interviews were completed, the transcription cleaning process was carried out. For the first two interviews, since the automatic transcription feature had not been enabled, the audio files were transcribed in Google Colab using \texttt{WhisperX}, an enhanced transcription tool built on OpenAI’s Whisper that incorporates speaker diarization from Hugging Face to provide more accurate transcripts and speaker separation \cite{whisperx}. Once the raw transcriptions were obtained (either from Google Colab or Zoom), a manual verification process was conducted. During this stage, the transcripts were checked against the recordings and corrected where necessary, particularly in cases where words or phrases had been inaccurately transcribed. Finally, ChatGPT was used carefully to efficiently translate each transcription into English. Following this, each transcription was carefully re-read, with notes taken on the most relevant insights and linked to potential attributes. This process was repeated for every interview, highlighting key phrases and extracting attributes to inform the quantitative survey.
 
 \indent Once this analysis was completed, all unique attributes were compiled in an Excel sheet together with their corresponding frequency. Frequency was defined as the number of interviews in which a given attribute appeared, with a maximum possible frequency of 10 (equal to the total number of interviews). 
 
@@ -456,7 +456,9 @@ Add an introduction to the chapter
 
 \subsection{Airbnb}
 
-\indent One of the datasets used in this analysis was related to Airbnb reviews in different Italian cities. This was obtained from Inside Airbnb, where quarterly data for the last year for different regions is available for free download \cite{airbnbdata}. The Italian cities included in this analysis were Bergamo, Bologna, Florence, Milan, Naples, Puglia, Rome, Sicily, Trentino, and Venice, and all of the individual datasets were concatenated into one single dataset. A total of 7,141,844 records were retrieved, including listing\_id, id, date, reviewer\_id, reviewer\_name, comments and locations. To optimize workload and time, a new column was created with the count of words used in the comments column, and the data was imited to the upper queartile (75\%) of this new column. This ended up with a dataset of 5,383,460 records. Following with the data preparation, a language detector was implemented as comments had a mix of lanugages. For this, the Compact Language Detector 2 was used, which probabilistically detects over 80 languages in Unicode UTF-8 text \cite{cld2}. To reduce data size, only the 2,800,779 english reviews were retrieved (see Figure~\ref{fig:cld2}). Finally, only a 15\% of the english reviews was used for the analysis, aiming to optimize and reduce the running time of the natural language programming models implemented. 
+\indent One of the datasets used for this analysis consisted of Airbnb reviews from various Italian cities. These data were obtained from the Inside Airbnb platform, which provides quarterly datasets for multiple regions and cities available for free download \cite{airbnbdata}. The Italian cities included in this analysis were Bergamo, Bologna, Florence, Milan, Naples, Puglia, Rome, Sicily, Trentino, and Venice. All individual datasets were concatenated into a single dataset, resulting in a total of 7,141,844 records. The dataset contained the following variables: \texttt{listing\_id}, \texttt{id}, \texttt{date}, \texttt{reviewer\_id}, \texttt{reviewer\_name}, \texttt{comments}, and \texttt{location}. 
+
+\indent To optimise computational performance, a word count was calculated for each review, and only reviews up to the upper quartile (75\%) of this distribution were retained. This filtering step reduced the dataset to 5,383,460 records. Since reviews were written in multiple languages, a language detection process was implemented using the Compact Language Detector 2 (\texttt{cld2}), which probabilistically detects over 80 languages in UTF-8 encoded text \cite{cld2}. To ensure consistency in the subsequent text-mining process, only English-language reviews were retained, resulting in 2,800,779 entries (see Figure~\ref{fig:cld2}). To further optimise computational efficiency, a random 15\% sample of the English reviews was used in the final analysis.
 
 \begin{figure}[ht]  
     \centering
@@ -466,9 +468,9 @@ Add an introduction to the chapter
     \label{fig:cld2}
 \end{figure}
 
-\indent All remaining reviews were tokenized into individual words using the word\_tokenize function, from the NLTK library. During this stage, all tokens were also converted to lowercase to maintain consistency and reduce redundancy caused by case differences. Next, a stopword and punctuation removal process was conducted. Stopwords were identified using the NLTK English stopword list, while punctuation symbols were extracted from string library. A custom cleaning function was then implemented to remove both stopwords and punctuation marks from the tokenized reviews, leaving only meaningful terms. After cleaning, the processed tokens were lemmatized using the spaCy library. This step reduced words to their base or dictionary form (e.g., “running” is transformed into “run”). To optimize performance, texts were processed in batches of 2,000 with parallelization across four processes. Finally, the cleaned and lemmatized tokens were stored as a new variable in the dataset. This transformed dataset provided the standardized textual representation required for further computational analysis, such as topic modeling and sentiment classification.
+\indent The remaining reviews were tokenised into individual words using the \texttt{word\_tokenize} function from the \texttt{NLTK} library. All tokens were converted to lowercase to maintain consistency and reduce redundancy caused by case differences. Stopwords and punctuation marks were then removed using the NLTK English stopword list and the \texttt{string} library, respectively. A custom cleaning function was applied to remove both types of noise, leaving only meaningful tokens. Subsequently, all words were lemmatised using the \texttt{spaCy} library to reduce them to their base or dictionary form (e.g., “running” $\rightarrow$ “run”). To optimise performance, texts were processed in batches of 2,000 using parallelisation across four cores. The cleaned and lemmatised tokens were then stored as a new variable in the dataset, producing a standardised textual representation suitable for further computational analysis, such as topic modelling and sentiment classification.
 
-\indent Following the text preprocessing stage, the cleaned and lemmatized tokens were transformed into numerical features using the Term Frequency–Inverse Document Frequency (TF–IDF) method, implemented with the TfidfVectorizer from the scikit-learn library. This representation captures the relative importance of words across the collection of reviews, balancing term frequency within a document against how widely the term occurs across the entire dataset. The vectorizer was configured to extract both unigrams (single words) and trigrams (group of 3 consecutive words). The parameters were defined as follows:
+\indent Following text preprocessing, the cleaned tokens were converted into numerical features using the Term Frequency–Inverse Document Frequency (TF–IDF) method, implemented through the \texttt{TfidfVectorizer} from the \texttt{scikit-learn} library. This approach quantifies the relative importance of each term across the collection of reviews, balancing its frequency within a document against its occurrence across all documents. Both unigrams (single words) and trigrams (three-word sequences) were extracted using the following configuration parameters:
 
 \begin{itemize}
     \item \verb|lowercase=False|: case sensitivity was preserved, as tokens had already been normalized before this step.
@@ -479,18 +481,22 @@ Add an introduction to the chapter
     \item \verb|max_features=100,000|: restricted the feature space to the most informative terms.
 \end{itemize}
 
-The TF–IDF scores were then aggregated across all documents to obtain a global measure of each term’s importance. To visualize the most frequent terms in the corpus, a word cloud was generated using the WordCloud library, with word size proportional to cumulative TF–IDF scores. Additionally, the top 20 terms were identified and displayed in tabular form, ranked by their total TF–IDF score.
+\indent The TF–IDF scores were aggregated across all documents to obtain a global measure of each term’s relative importance. To visualise the most relevant words in the corpus, a word cloud was generated using the \texttt{WordCloud} library, where word size corresponds to cumulative TF–IDF scores. Additionally, the top 20 terms were identified and presented in tabular form, ranked by their total TF–IDF weight.
 
 \subsection{Booking.com}
 
-\indent The Booking.com Reviews Dataset is a comprehensive collection of hotel reviews and ratings gathered from the popular travel booking website, Booking.com. This dataset provides valuable insights into the experiences and opinions of customers who have stayed at various hotels across different locations \cite{bookingdata}. After importing the dataset, reviews containing the text “There are no comments available for this review” were removed, leaving a total of 18,988 valid records for analysis. Each review was then tokenized using the NLTK word\_tokenize function, with all tokens converted to lowercase to ensure uniformity. As in the Airbnb pipeline, stopwords (from NLTK’s English stopword list) and punctuation marks (from Python’s string library) were filtered out, producing a set of cleaned tokens. Subsequently, the tokens were lemmatized using the spaCy language model. This step reduced words to their base form, thereby consolidating morphological variants. A final cleaning step removed generic terms such as “review” and “comment” that added little semantic value. After all this preprocessing steps, the dataset was splited into positive and negative reviews based on the rating score:
+\indent The Booking.com Reviews Dataset is a comprehensive collection of hotel reviews and ratings gathered from the popular travel booking platform, Booking.com. This dataset provides valuable insights into customers’ experiences and perceptions of hotels across various destinations \cite{bookingdata}. After importing the dataset, reviews containing the text “There are no comments available for this review” were removed, leaving a total of 18,988 valid records for analysis.  
+
+\indent Each review was tokenised using the \texttt{word\_tokenize} function from the \texttt{NLTK} library, and all tokens were converted to lowercase to ensure consistency. As in the Airbnb pipeline, stopwords (from NLTK’s English stopword list) and punctuation marks (from Python’s \texttt{string} library) were removed to retain only semantically meaningful words. The resulting tokens were then lemmatised using the \texttt{spaCy} language model, reducing each word to its base form and consolidating morphological variants (e.g., “rooms” $\rightarrow$ “room”). A final cleaning step was applied to remove generic or low-information terms such as “review” and “comment.”
+
+\indent After preprocessing, the dataset was divided into two subsets based on the rating score:
 
 \begin{itemize}
     \item Positive reviews: ratings $\geq 7$
     \item Negative reviews: ratings $< 7$
 \end{itemize}
 
-\indent For each subset (positive and negative reviews), a TF–IDF vectorizer was applied to transform the lemmatized text into a numerical representation. The vectorizer parameters were configured as follows:
+\indent For each subset (positive and negative), a TF–IDF vectoriser was applied to transform the lemmatised text into a numerical representation. The configuration parameters used were as follows:
 
 \begin{itemize}
     \item \verb|lowercase=False|: case sensitivity was preserved, as tokens had already been normalized before this step.
@@ -501,17 +507,47 @@ The TF–IDF scores were then aggregated across all documents to obtain a global
     \item \verb|max_features=100,000|: restricted the feature space to the most informative terms.
 \end{itemize}
 
-The resulting TF–IDF scores were aggregated to identify the most relevant terms in positive and negative reviews. To illustrate these patterns, word clouds were generated, where the size of each term corresponds to its cumulative TF–IDF score. In addition, the top 20 terms were extracted and tabulated for each subset, providing a clear overview of the most prominent lexical features distinguishing positive from negative customer experiences.
-
-\section{Explanatory Survey for Attribute Validation}
-
-\indent Further in the analysis, an explanatory survey (see Appendix D) was conducted, through Microsoft Forms, to capture travelers’ perceptions, decision-making processes, and experiences related to tourism. The questions were were written in English and Spanish. It was sent to 25 respondents, with no additional details. After reaching the 25 responses the survey was closed. This worked as a bridge between the qualitative interviews and the final quantitative survey, serving both to test the clarity of questions and to generate additional insights for attribute refinement. The survey consisted of a combination of open-ended and structured questions. Open-ended questions invited respondents to narrate personal travel experiences (e.g., bad trip story, representative trip, vacation story) and to provide advice to their “past self” in terms of decision-making. Scenario-based questions (scene choices) were included to explore how travelers evaluate different destination settings. Structured questions addressed decision-making steps, missing factors in information search, levels of information saturation, and perceptions of pricing. For this last topic, a Van Westendorp’s Price Sensitivity Model's question was included to estimate acceptable price ranges for a touristic package. This model provides a more comprehensive, multi-question model that indirectly measures willingness to pay instead of directly posing the question to potential buyers. Rather than asking potential buyers to identify a single price point, the Van Westendorp model helps assess a range of prices instead of just one \cite{vanwestern}.
-
-\indent For the analysis, Google Colab was used as it provides 
+\indent The resulting TF–IDF matrices were aggregated to identify the most relevant terms within positive and negative reviews. To visualise these patterns, word clouds were generated, with word size proportional to cumulative TF–IDF scores. Additionally, the top 20 terms were extracted and presented in tabular form for each subset, offering a clear comparison of the dominant lexical features that distinguish positive and negative customer experiences.
 
 
+\section{Explanatory Survey}
 
+\indent To further advance the analysis, an explanatory survey (see Appendix~\ref{sec:explanatorysurvey}) was conducted using Microsoft Forms to capture travelers’ perceptions, decision-making processes, and experiences related to tourism. The survey was available in both English and Spanish and distributed to 25 respondents without disclosing the specific research purpose. Data collection concluded once all 25 responses had been received. This stage functioned as a bridge between the qualitative interviews and the final quantitative survey, serving both to test question clarity and to generate additional insights for refining the set of destination attributes.
 
+\indent The survey combined open-ended and structured questions. The open-ended questions invited respondents to narrate personal travel experiences (e.g., unsatisfactory trips, representative vacations, or memorable journeys) and to offer advice to their “past self” regarding travel decision-making. Scenario-based questions (scene choices) were also included to explore how travelers evaluate different destination settings. The structured questions focused on decision-making steps, missing factors in information searches, levels of information saturation, and perceptions of pricing. For the latter, a question based on Van Westendorp’s Price Sensitivity Meter was included to estimate acceptable price ranges for a tourism package. This model offers a comprehensive multi-question framework that indirectly measures willingness to pay, identifying a range of acceptable prices rather than a single point estimate \cite{vanwestern}.
+
+\indent Once collected, responses in Spanish were translated into English using ChatGPT, followed by careful manual verification to ensure accuracy. The dataset was then imported into Google Colab for processing, where column names were standardised. An exploratory data analysis (EDA) was conducted to summarise key statistics and visualise general respondent characteristics. For the Van Westendorp model, inconsistent responses, such as cases in which the “too cheap” value exceeded the “bargain” value, were removed. Outliers were excluded using the interquartile range thresholds (\texttt{Q1 - 1.5 × IQR} and \texttt{Q3 + 1.5 × IQR}). This procedure enabled the estimation of price thresholds for “too cheap,” “bargain,” “expensive,” and “too expensive,” ultimately identifying the Optimal Price Point (OPP).
+
+\indent The textual responses were processed using a standardised natural language preprocessing pipeline, which included:
+
+\begin{itemize}
+    \item Conversion of text to lowercase.
+    \item Removal of punctuation, special characters, and extra spaces.
+    \item Normalisation of accented characters.
+    \item Tokenisation and lemmatisation using \texttt{spaCy}.
+    \item Stopword removal to retain only meaningful terms.
+\end{itemize}
+
+\indent The analysis followed a text-mining approach combining semantic and frequency-based techniques. Sentence embeddings (using \texttt{SentenceTransformers}) were employed to capture semantic similarity and group related responses, with cosine similarity calculated through the \texttt{networkx} library. TF–IDF vectorisation was subsequently applied within each semantic cluster to identify the most frequent words and expressions. Sentence embeddings were first used to group responses, followed by TF–IDF analysis within each group, for the following open-ended questions:
+
+\begin{itemize}
+\item “Tell us about a trip of yours that you were not satisfied with. What would you not do again, especially in the planning phase?” (similarity fixed greater than 0.7).
+\item “Which trip or vacation best represents your way of choosing how to travel? Tell us about the destination: how you chose it, why it reflects you, etc” (similarity fixed greater than 0.67).
+\item “If you had to teach someone your method of choosing, which 3 fundamental steps would you tell them to follow?” (similarity fixed greater than 0.7).
+\item “If instead you had to give 3 pieces of advice to your past self about organising a vacation, what would you say?” (similarity fixed greater than 0.7).
+\item “When you organised your last vacation, did you have a list of destinations in mind? How did you make your final choice? And among them, was there a destination you said, ‘No, this is not for me’?” (similarity fixed greater than 0.7).
+\end{itemize}
+
+\indent For other questions, only TF–IDF vectorisation was applied, using different n-gram configurations depending on the length and structure of responses:
+
+\begin{itemize}
+\item “Imagine organising a vacation. Sketch a short story of your choice: what would be the 3–4 main scenes?”
+\item “Which was the decisive piece of information you looked at last before choosing?”
+\item “When did you feel you had ‘enough’ information to decide? What made you stop searching? And if you had had more time, what would you have added to your research?”
+\item “What type of trip do you usually choose: a short trip, a medium-length trip, or a long one? Please explain the reason for your choice.”
+\end{itemize}
+
+\indent In some cases, additional steps were taken prior to text analysis. For the question “Which was the decisive piece of information you looked at last before choosing?”, responses were divided into two groups (A and B) according to the answer to the preceding question, “If you had to choose right now, which of the two screens would you pick?”. For the question “What type of trip do you usually choose: a short trip, a medium-length trip, or a long one? Please explain the reason for your choice”, responses were manually labelled based on the preferred trip length (short, medium, long, or not defined). Finally, for the questions “If you had to teach someone your method of choosing, which 3 fundamental steps would you tell them to follow?” and “If instead you had to give 3 pieces of advice to your past self about organising a vacation, what would you say?”, all steps were concatenated for each case, preserving their order, so that each respondent’s full set of steps or pieces of advice could be analysed as a single continuous text.
 
 \chapter{Results}
 
@@ -519,7 +555,7 @@ Introduction of this chapter.
 
 \section{Qualitative Interviews}
 
-\indent After the interview transcriptions were properly cleaned, the main insights were extracted from each case. Some phrases contained a single attribute, while others referred to multiple ones. For instance, in the first interview with the Italian respondent, he said: “…in that famous Tuscany trip, we also included the Palio di Siena…”. This was linked to a general attribute: local events. On the other hand, in the second interview with an Argentinian respondent, he said: “…we looked a lot into what the transportation is like there, food prices, which beaches are recommended.”. In this case, the phrase was related to three attributes: public transportation, food prices, and beaches. These initial attributes were not definitive but rather a starting point. All detailed notes from each interview are available in Appendix C.
+\indent After the interview transcriptions were properly cleaned, the main insights were extracted from each case. Some phrases contained a single attribute, while others referred to multiple ones. For instance, in the first interview with the Italian respondent, he said: “…in that famous Tuscany trip, we also included the Palio di Siena…”. This was linked to a general attribute: local events. On the other hand, in the second interview with an Argentinian respondent, he said: “…we looked a lot into what the transportation is like there, food prices, which beaches are recommended.”. In this case, the phrase was related to three attributes: public transportation, food prices, and beaches. These initial attributes were not definitive but rather a starting point. All detailed notes from each interview are available in Appendix~\ref{sec:interviewnotes}.
 
 \indent Based on these notes, the frequency of each attribute was calculated. As shown in Figure~\ref{fig:attributesfreq}, the top attributes appeared in 6 to 9 interviews. From this, the eight most frequent attributes were initially selected as the final ones. However, a small adjustment was made to ensure topic diversity: the 7th attribute (accommodation price) was excluded because the 1st attribute already referred to accommodation type, and the 8th attribute (distance to reach the destination) was excluded because the 6th attribute already addressed cost to reach the destination.
 
@@ -547,7 +583,7 @@ Introduction of this chapter.
 
 \section{Online Accommodation Reviews}
 
-\indent After applying the TF-IDF method to the Airbnb dataset, the unigram analysis revealed that the most frequent terms were primarily related to the location of the property and the services offered by the accommodation. This suggests that, when writing reviews, guests tend to emphasise not only the geographical setting (e.g., location, walk, or close) but also the specific amenities provided (e.g., clean, comfortable, or amenity). As shown in Figure~\ref{fig:airbnbunigram}, these two dimensions (location and services) emerged as dominant topics shaping guests’ perceptions and experiences.
+\indent After applying the TF–IDF method to the Airbnb dataset, the unigram analysis revealed that the most frequent terms were primarily related to the location of the property and the services offered by the accommodation. This suggests that, when writing reviews, guests tend to emphasise not only the geographical setting (e.g., location, walk, or close) but also the specific amenities provided (e.g., clean, comfortable, or amenity). As shown in Figure~\ref{fig:airbnbunigram}, these two dimensions—location and services—emerged as dominant topics shaping guests’ perceptions and experiences.
 
 \begin{figure}[ht]
     \centering
@@ -557,7 +593,7 @@ Introduction of this chapter.
     \label{fig:airbnbunigram}
 \end{figure}
 
-\indent To gain a more detailed understanding, the same analysis was conducted using trigrams. As shown in Figure~\ref{fig:airbnbtrigram}, the results further reinforced the centrality of location, with frequent expressions such as “place great location,” “great location close,” “within walking distance,” and “close train station.” In contrast, there were relatively few trigrams directly associated with services, and several of the most frequent ones still referred to location, such as “clean great location.” This indicates that, even when considering multi-word expressions, guests consistently prioritise aspects related to the property’s location over other features of the accommodation.
+\indent To gain a more detailed understanding, the same analysis was conducted using trigrams. As shown in Figure~\ref{fig:airbnbtrigram}, the results further reinforced the centrality of location, with frequent expressions such as “place great location”, “great location close”, “within walking distance”, and “close train station”. In contrast, there were relatively few trigrams directly associated with services, and several of the most frequent ones still referred to location, such as “clean great location”. This indicates that, even when considering multi-word expressions, guests consistently prioritise aspects related to the property’s location over other features of the accommodation.
 
 \begin{figure}[ht]
     \centering
@@ -567,27 +603,11 @@ Introduction of this chapter.
     \label{fig:airbnbtrigram}
 \end{figure}
 
-\indent When it comes to the Booking.com dataset, the unigram analysis of positive reviews revealed that the most frequent terms were, once again, related to both the location of the property and the services offered by the accommodation. As shown in Figure~\ref{fig:bookingpword}, compared to the Airbnb reviews, a greater number of terms referred to specific services, such as ``breakfast'', ``reception'', ``garden'', and ``bed'', among others. In addition, new location-related terms appeared, including ``metro'' and ``restaurant.''
+\indent Turning to the Booking.com dataset, the unigram analysis of positive reviews revealed that the most frequent terms were again related to both the location of the property and the services provided by the accommodation. As shown in Figure~\ref{fig:bookingpword} (see Appendix~\ref{sec:bookingtopwords}), compared with the Airbnb reviews, a greater number of terms referred to specific services such as “breakfast”, “reception”, “garden”, and “bed”. In addition, new location-related terms appeared, including “metro” and “restaurant”.
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Analysis/Booking Positive Scores Top Words.png}
-    \captionsetup{font=footnotesize}
-    \caption{\textit{Booking.com Positive Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
-    \label{fig:bookingpword}
-\end{figure}
+\indent In contrast, the unigram analysis of negative reviews (see Figure~\ref{fig:bookingnword} in Appendix~\ref{sec:bookingtopwords}) showed that, although “location” remained a highly frequent term, a larger share of the most common words referred to accommodation services, including “shower”, “bathroom”, “bed”, and “staff”.
 
-\indent In contrast, the unigram analysis of negative reviews (see Figure~\ref{fig:bookingnword}) indicated that, although ``location'' remained a highly frequent term, a larger share of the most common words referred to accommodation services, such as ``shower'', ``bathroom'', ``bed'', and ``staff'', among others.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.9\textwidth]{Analysis/Booking Negative Scores Top Words.png}
-    \captionsetup{font=footnotesize}
-    \caption{\textit{Booking.com Negative Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
-    \label{fig:bookingnword}
-\end{figure}
-
-\indent The trigram analysis of positive reviews (see Figure~\ref{fig:bookingptri}) highlighted the growing importance of accommodation services, with common expressions such as ``friendly helpful staff'' and ``room comfortable bed''. Location, however, remained a crucial factor, with trigrams such as ``within walking distance'' and ``close city center''.
+\indent The trigram analysis of positive reviews (see Figure~\ref{fig:bookingptri}) highlighted the growing importance of accommodation services, with common expressions such as “friendly helpful staff” and “room comfortable bed”. Location, however, remained a crucial factor, with trigrams such as “within walking distance” and “close city center”.
 
 \begin{figure}[ht]
     \centering
@@ -597,7 +617,7 @@ Introduction of this chapter.
     \label{fig:bookingptri}
 \end{figure}
 
-\indent As shown in Figure~\ref{fig:bookingntri}, the trigram analysis of negative reviews revealed a stronger emphasis on location, with expressions such as ``close train station'', ``5 minute walk'', and ``close city center''. At the same time, several trigrams provided clearer insights into service-related concerns, including ``4 star hotel'', ``friendly helpful staff'', and ``coffee make facility''.
+\indent As shown in Figure~\ref{fig:bookingntri}, the trigram analysis of negative reviews revealed a stronger emphasis on location, with expressions such as “close train station”, “5 minute walk”, and “close city center”. At the same time, several trigrams provided clearer insights into service-related concerns, including “4 star hotel”, “friendly helpful staff”, and “coffee make facility”.
 
 \begin{figure}[ht]
     \centering
@@ -607,7 +627,7 @@ Introduction of this chapter.
     \label{fig:bookingntri}
 \end{figure}
 
-\indent Based on the insights obtained from this text analysis across both datasets, the list of attributes was further refined and improved as follows:
+\indent Based on the insights obtained from the textual analyses of both datasets, the list of attributes was refined and improved as follows:
 
 \begin{itemize}
     \item Accommodation services: reviews frequently mentioned elements such as breakfast, room quality, staff, cleanliness, and shower facilities.
@@ -621,17 +641,256 @@ Introduction of this chapter.
 \end{itemize}
 
 
-\section{Explanatory Survey for Attribute Validation}
+\section{Explanatory Survey}
+
+\subsection{Exploratory Data Analysis (EDA)}
+
+\indent The exploratory analysis of the explanatory survey dataset provided a general profile of the average respondent (see Figures~\ref{fig:descriptivedata} and~\ref{fig:descriptivedata2} in Appendix~\ref{sec:expsurvresults} for additional visualisations). The results suggest that most participants were young adults between 25 and 35 years old, although a secondary group of respondents aged over 60 was also identified. The majority of respondents were female and employed, with South America representing the most common region of origin. In terms of travel behaviour, participants typically organised trips collaboratively and tended to travel with companions such as partners, family, or friends. As shown in Figure~\ref{fig:descriptivemain}, the primary motivation for travel was exploring new cities, although relaxation was also cited as a complementary purpose.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/Explanatory Survey/Descriptive_main.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Main Purpose for Travelling. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:descriptivemain}
+\end{figure}
+
+\indent Notable differences emerged across age groups: younger respondents reported relying primarily on Google or similar platforms—and in some cases ChatGPT—for information searches, whereas older respondents showed a stronger reliance on travel blogs or agencies. Regarding decision-making patterns, respondents generally reported considering three to four destination options and taking several days to evaluate alternatives before confirming their booking, as shown in Figure~\ref{fig:descriptivemain2}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/Explanatory Survey/Descriptive_main2.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:descriptivemain2}
+\end{figure}
+
+\subsection{Van Westendorp Price Sensitivity Analysis}
+
+\indent The analysis of price perceptions using the Van Westendorp method revealed notable differences across age groups. For the full sample (see Figure~\ref{fig:vwfull}), after removing outliers and inconsistent responses, the Optimal Price Point (OPP) was estimated at €250.06. When the analysis was segmented, clear differences emerged: respondents aged 35 or younger reported a substantially lower OPP of €150.20 (see Figure~\ref{fig:vwyoung} in Appendix~\ref{sec:vanwestendorp}), whereas those older than 35 years displayed a much higher OPP of €279.46 (see Figure~\ref{fig:vwold} in Appendix~\ref{sec:vanwestendorp}). For the latter group, outliers were retained, as their removal resulted in no definable OPP. These findings indicate that younger respondents demonstrate greater price sensitivity and a lower willingness to pay for tourism products, whereas older respondents are generally more willing to spend, suggesting distinct consumer profiles relevant for market segmentation and pricing strategies.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/Explanatory Survey/Van Westendorp.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Van Westendorp Pricing Method with Full Sample. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:vwfull}
+\end{figure}
+
+\subsection{Text Mining, Embeddings \& TF-IDF}
+
+\subsubsection{Unsatisfying Trip}
+
+\indent In response to the question “Tell us about a trip of yours that you were not satisfied with. What would you not do again, especially in the planning phase?”, two groups were identified. The first group (see Figure~\ref{fig:worst1}), composed mainly of young adults (25–35), emphasised poor organisation as the main reason for dissatisfaction.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Worst Trip - Group 1.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Unsatisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:worst1}
+\end{figure}
+
+\indent The second group (see Figure~\ref{fig:worst2}) comprised respondents aged over 60, who mainly attributed their unsatisfactory experience to not booking tours conducted in their native language.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Worst Trip - Group 2.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Unsatisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:worst2}
+\end{figure}
+
+\subsubsection{Satisfying Trip}
+
+\indent For the question “Which trip or vacation best represents your way of choosing how to travel? Tell us about the destination: how you chose it, why it reflects you, etc.”, two groups were also identified. The first group (see Figure~\ref{fig:best1}) included both young adults (25–35) and older participants (>60). These respondents typically described trips in which they visited multiple destinations, most often in Europe, a continent that enables visiting several cities within a single trip.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Best Trip - Group 1.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Satisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:best1}
+\end{figure}
+
+\indent The second group (see Figure~\ref{fig:best2}) comprised two respondents, both young adults, who expressed a preference for visiting multiple destinations, including cruises, while highlighting the importance of relaxation as a core element of their ideal trip.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Best Trip - Group 2.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Satisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:best2}
+\end{figure}
+
+\subsubsection{Organizing a Vacation}
+
+\indent In the question “Imagine organising a vacation. Sketch a short story of your choice: what would be the 3–4 main scenes?”, each step was analysed separately using TF–IDF vectorisation. In the first stage, respondents primarily focused on defining the destination, often new or unexplored places, and aligning it with their available budget (see Figure~\ref{fig:organizing1}).
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/Explanatory Survey/Organizing (step 1).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Organizing a Vacation - Step 1. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:organizing1}
+\end{figure}
+
+\indent The second stage (see Figure~\ref{fig:organizing2}) was mainly described by planning logistics, such as defining travel dates, purchasing plane tickets, booking accommodation, and comparing different options.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/Explanatory Survey/Organizing (step 2).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Organizing a Vacation - Step 2. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:organizing2}
+\end{figure}
+
+\indent The third stage focused mainly on defining the itinerary and selecting activities at the destination (see Figure~\ref{fig:organizing3}). The optional fourth stage (see Figure~\ref{fig:organizing4}) often repeated previous elements, such as defining accommodation or activities, confirming their importance in the final stages of trip planning.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/Explanatory Survey/Organizing (step 3).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Organizing a Vacation - Step 3. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:organizing3}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/Explanatory Survey/Organizing (step 4).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Organizing a Vacation - Step 4. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:organizing4}
+\end{figure}
+
+\subsubsection{Choosing Between Two options}
+
+\indent Most participants (72\%) preferred option B, primarily due to the possibility of free cancellation. Some also mentioned reviews as a secondary factor. Conversely, those who chose option A (28\%) mainly cited price as the decisive factor. Figure~\ref{fig:screenchoose} displays the most frequent bigrams for each group.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Images/Explanatory Survey/Screen Choose.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Group A and B. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:screenchoose}
+\end{figure}
+
+\subsubsection{Choosing Method}
+
+\indent The embedding similarity analysis for the question “If you had to teach someone your method of choosing, which 3 fundamental steps would you tell them to follow?” yielded a single cluster containing 11 responses (see Figure~\ref{fig:choosingmethod}). This group comprised mainly young adults (25–35) and a smaller proportion of older respondents (>60). Both embedding similarity and TF–IDF analyses highlighted a consistent decision-making pattern: beyond defining the destination, respondents placed strong emphasis on checking recommendations, verifying accommodation availability, and planning the trip in advance.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Method of Choosing.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Choosing Method Group. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:choosingmethod}
+\end{figure}
+
+\indent Based on these insights, the decision-making process for this group can be summarised in three steps:
+
+\begin{enumerate}
+    \item Define \& Learn: Decide on the type of trip and preferred destination, and gather initial information about the location.
+    \item Check \& Compare: Review recommendations, compare accommodation and transport options, and verify availability.
+    \item Plan \& Book: Create a detailed plan, book accommodations and key activities in advance, and prepare financially.
+\end{enumerate}
+
+\subsubsection{Advice to Their ``Past Self''}
+
+\indent For the question “If instead you had to give 3 pieces of advice to your past self about organising a vacation, what would you say?”, two groups were identified. The first (see Figure~\ref{fig:choosingmethod}) included a majority of older participants (>60) but also a considerable number of young adults (25–35).
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Advice (Group 1).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Advice to ``Past Self'' - Group 1. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:choosingmethod}
+\end{figure}
+
+\indent The main themes extracted were as follows:
 
 \begin{itemize}
-    \item Age range: 13 respondents between 25 and 35 years old, 8 respondnets 60 or older, 3 respondents between 35 and 39, and 1 respondents younger than 25 years old.
-    \item Gender: 16 females and 9 males.
-    \item Region: 17 respondents from South America, 5 respondents from Italy, and 3 respondents from Europe (excluding Italy).
-    \item Professional status: most respondents (11) are employed, 5 are self-employed, 5 are retired, and 4 are students.
-    \item Trip organization: in general younger respondents tend to organize trips with other people, while older people tend to organize trips themselves.
-    \item Travelling purpose: in general respondents travel to explore new cities or for relaxation.
-    \item Type of traveler: respondents tend to travel more 
+    \item Good preparation:
+    \begin{itemize}
+        \item Read offers carefully and understand what is included.
+        \item Plan and book early, especially for flights and hotels.
+        \item Get informed from reliable sources, such as experienced travelers, review sites, and travel forums.
+    \end{itemize}
+    \item Choose Carefully:
+    \begin{itemize}
+        \item Quality and reliability matter.
+        \item Choose hotels with at least 3 stars or good reviews.
+        \item Select transfers carefully.
+    \end{itemize}
+    \item Spend Smart:
+    \begin{itemize}
+        \item Be willing to pay a bit more for better quality and comfort.
+        \item Balance between booking in advance and leaving room for spontaneous activities.
+    \end{itemize}
 \end{itemize}
+
+\indent The second group (see Figure~\ref{fig:choosingmethod2}) consisted primarily of young adults (25–35), along with a few older respondents (>60). The main pieces of advice identified from this group were:
+
+\begin{itemize}
+    \item Plan with time but leave some room for spontaneous experiences.
+    \item Take your time to compare options.
+    \item Book tours to get to know better the city.
+    \item Check transportation.
+\end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Explanatory Survey/Advice (Group 2).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Advice to ``Past Self'' - Group 2. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:choosingmethod2}
+\end{figure}
+
+\subsubsection{Defining the Destination}
+
+\indent The question “When you organised your last vacation, did you have a list of destinations in mind? How did you make your final choice?” produced two groups. The first (see Figure~\ref{fig:definition1}) comprised mainly young adults (25–35) and a few older participants (>60). Most respondents began with a list of potential destinations, narrowing it down based on preferences such as activities, local events, and desired experiences. Some excluded destinations considered overly touristic, while a few made spontaneous choices without a predefined list, balancing planning with flexibility.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/Explanatory Survey/Definition (Group 1).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Defining the Destination - Group 1. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:definition1}
+\end{figure}
+
+\indent The second group (see Figure~\ref{fig:definition2}) included only young adults. Their responses focused strongly on practical factors such as cost and time availability, indicating decisions guided more by feasibility and affordability than by emotional preference.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/Explanatory Survey/Definition (Group 2).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Defining the Destination - Group 2. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:definition2}
+\end{figure}
+
+\subsubsection{Information Saturation}
+
+\indent As shown in Figure~\ref{fig:infosaturation}, most participants reported stopping their search once they had gathered essential information, such as dates, accommodation, transport, and prices, that made them feel confident in their decision. Avoiding information overload was a key trigger to stop searching. For example, one respondent noted that social media can sometimes create unnecessary information overload, promoting distrust rather than clarity. If given more time, some respondents indicated they would have explored nearby destinations, searched for better deals, or extended their stay, while a few felt no need to add anything further.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.3\textwidth]{Images/Explanatory Survey/Info Saturation.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Top Trigrams for Information Saturation. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:infosaturation}
+\end{figure}
+
+\subsection{Attributes Refinement}
+
+\indent Combined with the results presented above, responses to the question “Is there something important we haven’t asked you but that influenced your decision? Tell us about it.” provided additional insights for attribute refinement. Although few participants provided responses, some noteworthy comments included:
+
+\begin{itemize}
+    \item ``...the opportunity to learn something new. Whether it’s history, local traditions, or even trying a completely new activity.''
+    \item ``Ticket prices and promotions always influence my decision.''
+    \item ``I listen to other travelers’ stories and take what might interest me.''
+\end{itemize}
+
+\indent Finally, .......here put the final attributes to be included in the final survey.
 
 
 \chapter{Discussion}
@@ -785,20 +1044,34 @@ Rebecca Shaddix. "How To Price Your Product: A Guide To The Van Westendorp Prici
 
 \end{thebibliography}
 
+\newcounter{appendixsection}
+\renewcommand{\theappendixsection}{\Alph{appendixsection}}
+
+\newcommand{\appendixsection}[2][]{%
+  \refstepcounter{appendixsection}%
+  \section*{\theappendixsection. #2}%
+  \addcontentsline{toc}{section}{\theappendixsection. #2}%
+  \ifx&#1&%
+  \else%
+    \label{#1}%
+  \fi%
+}
+
 \chapter*{Appendix}
 \addcontentsline{toc}{chapter}{Appendix}
 
-\section*{A. Example of Qualitative Interview from Previous Project}
-\addcontentsline{toc}{section}{A. Example of Qualitative Interview from Previous Project}
+
+\appendixsection[sec:previouswork]{Example of Qualitative Interview from Previous Project}
 \input{Material/2. Interviews/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt}
 
-\section*{B. Example of Qualitative Interview from Actual Thesis}
-\addcontentsline{toc}{section}{B. Qualitative Interview 1}
+
+\appendixsection[sec:interview]{Example of Qualitative Interview from Actual Thesis}
 \input{Material/2. Interviews/1. Qualitative Interview/1. Interview 31-07-2025 18-15/1. Interview 31-07-2025 18-15 (ENGLISH).txt}
 
+
 \includepdf[
   pages=1,
-  pagecommand={\section*{C. Qualitative Interview Notes}}
+  pagecommand={\appendixsection[sec:interviewnotes]{Qualitative Interview Notes}}
 ]{Material/2. Interviews/1. Qualitative Interview/Attributes (for thesis).pdf}
 
 \includepdf[
@@ -807,17 +1080,65 @@ Rebecca Shaddix. "How To Price Your Product: A Guide To The Van Westendorp Prici
 ]{Material/2. Interviews/1. Qualitative Interview/Attributes (for thesis).pdf}
 
 
+\appendixsection[sec:bookingtopwords]{Booking.com Top Words}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Positive Scores Top Words.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Positive Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingpword}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Analysis/Booking Negative Scores Top Words.png}
+    \captionsetup{font=footnotesize}
+    \caption{\textit{Booking.com Negative Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}
+    \label{fig:bookingnword}
+\end{figure}
+
+
+\newpage
 \includepdf[
   pages=1,
-  pagecommand={
-    \vspace*{-2.5cm}
-    \section*{D. Explanatory Survey}
-  }
-]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey.pdf}
+  pagecommand={\appendixsection[sec:explanatorysurvey]{Explanatory Survey}}
+]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey (for thesis).pdf}
 
 \includepdf[
   pages=2-,
   pagecommand={}
-]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey.pdf}
+]{Material/2. Interviews/2. Intermediate Survey/Explanatory Survey (for thesis).pdf}
+
+
+\appendixsection[sec:expsurvresults]{Explanatory Survey Results}
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.75\textwidth]{Images/Explanatory Survey/Descriptive.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:descriptivedata}
+\end{center}
+
+\begin{center}
+    \centering
+    \includegraphics[width=0.9\textwidth]{Images/Explanatory Survey/Descriptive2.png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:descriptivedata2}
+\end{center}
+
+
+\newpage
+\appendixsection[sec:vanwestendorp]{Van Westendorp Results by Age Group}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/Explanatory Survey/Van Westendorp (Young & Old).png}
+    \captionsetup{font=footnotesize}
+    \captionof{figure}{\textit{Van Westendorp Pricing Method by Age Group. Source: Author’s own elaboration based on survey data.}}
+    \label{fig:vwyoung}
+\end{figure}
 
 \end{document}
