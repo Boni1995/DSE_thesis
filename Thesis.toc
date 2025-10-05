@@ -1,0 +1,59 @@
+\contentsline {chapter}{Acknowledgments}{i}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {1.1}Tourism Through the Data Lens}{2}{}%
+\contentsline {subsection}{\numberline {1.1.1}Tourism on a Global Scale}{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}The Italian Context}{4}{}%
+\contentsline {subsubsection}{International Tourism and Overnight Stays}{4}{}%
+\contentsline {subsubsection}{Spending and Economic Contribution}{6}{}%
+\contentsline {subsection}{\numberline {1.1.3}Ascoli Piceno}{7}{}%
+\contentsline {subsubsection}{Touristic Situation}{7}{}%
+\contentsline {subsubsection}{Overtourism: Ascoli Piceno's Opportunity?}{9}{}%
+\contentsline {section}{\numberline {1.2}Previous Work}{10}{}%
+\contentsline {chapter}{\numberline {2}Literature Review}{14}{}%
+\contentsline {section}{\numberline {2.1}Qualitative Approach}{14}{}%
+\contentsline {subsection}{\numberline {2.1.1}Advantages of Qualitative Approach}{15}{}%
+\contentsline {subsection}{\numberline {2.1.2}Disadvantages of Qualitative Approach}{15}{}%
+\contentsline {section}{\numberline {2.2}Quantitative Approach}{16}{}%
+\contentsline {subsection}{\numberline {2.2.1}Advantages of Quanitative Approach}{16}{}%
+\contentsline {subsection}{\numberline {2.2.2}Disadvantages of Quanitative Approach}{17}{}%
+\contentsline {section}{\numberline {2.3}Model of Destination Image Formation}{17}{}%
+\contentsline {section}{\numberline {2.4}Segmentation and Response-Style Effects}{19}{}%
+\contentsline {section}{\numberline {2.5}Discrete Choice Experiments in Tourism}{20}{}%
+\contentsline {section}{\numberline {2.6}Conjoint Analysis in Tourism}{22}{}%
+\contentsline {section}{\numberline {2.7}Hypothetical Bias}{23}{}%
+\contentsline {section}{\numberline {2.8}Representing Tourists’ Heterogeneous Destination and Travel Party Choices}{24}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{26}{}%
+\contentsline {section}{\numberline {3.1}Qualitative Interviews}{26}{}%
+\contentsline {subsection}{\numberline {3.1.1}The Interviews}{26}{}%
+\contentsline {subsection}{\numberline {3.1.2}The Transcriptions}{28}{}%
+\contentsline {section}{\numberline {3.2}Textual Analysis of Online Accommodation Reviews}{29}{}%
+\contentsline {subsection}{\numberline {3.2.1}Airbnb}{29}{}%
+\contentsline {subsection}{\numberline {3.2.2}Booking.com}{31}{}%
+\contentsline {section}{\numberline {3.3}Explanatory Survey}{32}{}%
+\contentsline {chapter}{\numberline {4}Results}{35}{}%
+\contentsline {section}{\numberline {4.1}Qualitative Interviews}{35}{}%
+\contentsline {section}{\numberline {4.2}Online Accommodation Reviews}{36}{}%
+\contentsline {section}{\numberline {4.3}Explanatory Survey}{39}{}%
+\contentsline {subsection}{\numberline {4.3.1}Exploratory Data Analysis (EDA)}{39}{}%
+\contentsline {subsection}{\numberline {4.3.2}Van Westendorp Price Sensitivity Analysis}{41}{}%
+\contentsline {subsection}{\numberline {4.3.3}Text Mining, Embeddings \& TF-IDF}{41}{}%
+\contentsline {subsubsection}{Unsatisfying Trip}{41}{}%
+\contentsline {subsubsection}{Satisfying Trip}{42}{}%
+\contentsline {subsubsection}{Organizing a Vacation}{43}{}%
+\contentsline {subsubsection}{Choosing Between Two options}{43}{}%
+\contentsline {subsubsection}{Choosing Method}{44}{}%
+\contentsline {subsubsection}{Advice to Their ``Past Self''}{45}{}%
+\contentsline {subsubsection}{Defining the Destination}{47}{}%
+\contentsline {subsubsection}{Information Saturation}{47}{}%
+\contentsline {subsection}{\numberline {4.3.4}Attributes Refinement}{48}{}%
+\contentsline {chapter}{\numberline {5}Discussion}{49}{}%
+\contentsline {section}{\numberline {5.1}Qualitative Approach}{49}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{51}{}%
+\contentsline {chapter}{Appendix}{56}{}%
+\contentsline {section}{A. Example of Qualitative Interview from Previous Project}{56}{}%
+\contentsline {section}{B. Example of Qualitative Interview from Actual Thesis}{57}{}%
+\contentsline {section}{C. Qualitative Interview Notes}{65}{}%
+\contentsline {section}{D. Booking.com Top Words}{73}{}%
+\contentsline {section}{E. Explanatory Survey}{74}{}%
+\contentsline {section}{F. Explanatory Survey Results}{78}{}%
+\contentsline {section}{G. Van Westendorp Results by Age Group}{80}{}%
