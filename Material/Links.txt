@@ -1,5 +1,0 @@
-UNWTO --> data until 2022
-
-https://data.worldbank.org/indicator/ST.INT.ARVL --> data until 2020
-
-https://ourworldindata.org/grapher/ratio-of-inbound-to-outbound-tourists --> Ratio of inbound vs outband (to add in intro)

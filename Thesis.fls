@@ -122,8 +122,6 @@ INPUT Thesis.lof
 OUTPUT Thesis.lof
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
@@ -132,71 +130,38 @@ INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\evolution_map.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\avg_receipt.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
-INPUT .\Images\country_rank.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT .\Images\pw_attributes.png
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Images\Destination Image.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\arrivals_top_cities.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_evolution.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\top_cities_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\ascoli_rnr.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Images\Destination Image.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Qualitative Interview Questions.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
+INPUT .\Images\attributes_freq.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
@@ -204,42 +169,35 @@ INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Airbnb 3-gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Positive Scores 3-Gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Analysis\Booking Negative Scores 3-gram.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tctt1200.tfm
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Airbnb 3-gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Positive Scores 3-Gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
-INPUT .\Analysis\Booking Negative Scores 3-gram.png
 INPUT .\Images\Explanatory Survey\Descriptive_main.png
 INPUT .\Images\Explanatory Survey\Descriptive_main.png
 INPUT .\Images\Explanatory Survey\Descriptive_main.png
@@ -366,68 +324,68 @@ INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
-INPUT Material\2. Interviews\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
-INPUT .\Material\2. Interviews\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
-INPUT .\Material\2. Interviews\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
-INPUT Material\2. Interviews\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
-INPUT .\Material\2. Interviews\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
+INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
+INPUT Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
+INPUT Material\2. Interviews & Surveys\1. Qualitative Interview\1. Interview 31-07-2025 18-15\1. Interview 31-07-2025 18-15 (ENGLISH).txt
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
 INPUT .\Analysis\Booking Positive Scores Top Words.png
 INPUT .\Analysis\Booking Positive Scores Top Words.png
 INPUT .\Analysis\Booking Positive Scores Top Words.png
@@ -442,42 +400,42 @@ INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
