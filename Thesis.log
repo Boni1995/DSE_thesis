@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  14 OCT 2025 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  2 NOV 2025 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -156,39 +156,133 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks23
 \c@AM@survey=\count295
 \AM@templatesizebox=\box57
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen179
+)) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen180
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count296
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count297
+\leftroot@=\count298
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count299
+\DOTSCASE@=\count300
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count301
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count302
+\dotsspace@=\muskip18
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
+\tag@help=\toks25
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
+\andhelp@=\toks26
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks27
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks29
+\float@box=\box60
+\@float@everytoks=\toks30
+\@floatcapt=\box61
+)
+\@float@every@algorithm=\toks31
+\c@algorithm=\count309
+) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+ (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count310
+\c@ALG@rem=\count311
+\c@ALG@nested=\count312
+\ALG@tlm=\skip59
+\ALG@thistlm=\skip60
+\c@ALG@Lnr=\count313
+\c@ALG@blocknr=\count314
+\c@ALG@storecount=\count315
+\c@ALG@tmpcounter=\count316
+\ALG@tmplength=\skip61
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
+\l__color_backend_stack_int=\count317
 ) (Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen179
-\scratchbox=\box58
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen180
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count318
+\scratchdimen=\dimen188
+\scratchbox=\box62
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen189
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -230,6 +324,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\franc\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -275,7 +370,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <Images/UNIMI.png, id=1, 341.3553pt x 156.585pt>
 File: Images/UNIMI.png Graphic file (type png)
 <use Images/UNIMI.png>
-Package pdftex.def Info: Images/UNIMI.png  used on input line 23.
+Package pdftex.def Info: Images/UNIMI.png  used on input line 28.
 (pdftex.def)             Requested size: 341.35445pt x 156.58461pt.
 
 
@@ -294,13 +389,6 @@ Package pdftex.def Info: Images/UNIMI.png  used on input line 23.
 ]
 
 [2] (Thesis.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-
 
 [3
 
@@ -315,20 +403,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [5
 
-])
+]
+
+[6])
 \tf@lof=\write4
 \openout4 = `Thesis.lof'.
 
 
 
-[6]
+[7]
 
 [1]
 Chapter 1.
-<Images/international_tourism_results.png, id=36, 715.473pt x 426.393pt>
+<Images/international_tourism_results.png, id=40, 715.473pt x 426.393pt>
 File: Images/international_tourism_results.png Graphic file (type png)
 <use Images/international_tourism_results.png>
-Package pdftex.def Info: Images/international_tourism_results.png  used on input line 127.
+Package pdftex.def Info: Images/international_tourism_results.png  used on input line 134.
 (pdftex.def)             Requested size: 376.42741pt x 224.33463pt.
 
 
@@ -337,339 +427,504 @@ Package pdftex.def Info: Images/international_tourism_results.png  used on input
 ]
 
 [3 <./Images/international_tourism_results.png>]
-<Images/pw_attributes.png, id=46, 163.812pt x 162.6075pt>
+<Images/pw_attributes.png, id=50, 254.1495pt x 131.2905pt>
 File: Images/pw_attributes.png Graphic file (type png)
 <use Images/pw_attributes.png>
-Package pdftex.def Info: Images/pw_attributes.png  used on input line 145.
-(pdftex.def)             Requested size: 167.29965pt x 166.08324pt.
+Package pdftex.def Info: Images/pw_attributes.png  used on input line 152.
+(pdftex.def)             Requested size: 209.12776pt x 108.0355pt.
 
+Underfull \vbox (badness 8019) has occurred while \output is active []
+
+
+
+[4 <./Images/pw_attributes.png>]
 Underfull \vbox (badness 4266) has occurred while \output is active []
 
 
 
-[4]
-Underfull \vbox (badness 5105) has occurred while \output is active []
-
-
-
-[5 <./Images/pw_attributes.png>]
-Overfull \hbox (11.81221pt too wide) in paragraph at lines 161--161
-|[]\OT1/cmr/bx/n/17.28 Current Ap-proaches and Method-olog-i-cal Con-
- []
-
-
+[5]
 
 [6]
-
-[7]
-
-[8]
 Chapter 2.
 
 
-[9
+[7
 
 ]
 
+[8]
+
+[9]
+
 [10]
-
-[11]
-
-[12]
-<Images/Destination Image.png, id=77, 423.08063pt x 172.39406pt>
+<Images/Destination Image.png, id=75, 423.08063pt x 172.39406pt>
 File: Images/Destination Image.png Graphic file (type png)
 <use Images/Destination Image.png>
-Package pdftex.def Info: Images/Destination Image.png  used on input line 227.
-(pdftex.def)             Requested size: 418.25552pt x 170.43388pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 227--229
- [][] 
- []
+Package pdftex.def Info: Images/Destination Image.png  used on input line 218.
+(pdftex.def)             Requested size: 334.60568pt x 136.34764pt.
 
 
+[11 <./Images/Destination Image.png>]
 
-[13 <./Images/Destination Image.png>]
+[12]
+
+[13]
+Underfull \vbox (badness 2478) has occurred while \output is active []
+
+
 
 [14]
 
 [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [16]
 
 [17]
 
 [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [19]
 
 [20]
+
+[21]
 Chapter 3.
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png, id=104, 910.40125pt x 510.90875pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png, id=111, 910.40125pt x 510.90875pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png Graphic file (type png)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png  used on input line 318.
-(pdftex.def)             Requested size: 418.25552pt x 234.72462pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 318--320
- [][] 
- []
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png  used on input line 346.
+(pdftex.def)             Requested size: 376.42741pt x 211.25139pt.
 
 
-
-[21
+[22
 
 ]
 
-[22 <./Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png>]
-Underfull \vbox (badness 1264) has occurred while \output is active []
+[23 <./Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[23]
-<Images/attributes_freq.png, id=118, 405.9165pt x 266.1945pt>
-File: Images/attributes_freq.png Graphic file (type png)
-<use Images/attributes_freq.png>
-Package pdftex.def Info: Images/attributes_freq.png  used on input line 351.
-(pdftex.def)             Requested size: 209.12776pt x 137.14247pt.
+[24]
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
+
+
+[25]
+Overfull \hbox (5.51604pt too wide) in paragraph at lines 381--382
+\OT1/cmr/m/n/12 then gen-er-ated us-ing the \OT1/cmtt/m/n/12 all-MiniLM-L6-v2 \OT1/cmr/m/n/12 model from the \OT1/cmtt/m/n/12 SentenceTransformer
+ []
+
+
+Overfull \hbox (7.61227pt too wide) in paragraph at lines 383--384
+\OT1/cmr/m/n/12 ``ac-tu-ally", ``ba-si-cally", ``um", ``uh", ``ok", ``okay", ``sort", ``kind", ``thing", ``things",
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[24 <./Images/attributes_freq.png>]
-<Images/cld2.png, id=123, 284.56313pt x 237.13594pt>
+[26]
+<Images/Qualitative Interviews/3-grams.png, id=131, 709.6914pt x 426.393pt>
+File: Images/Qualitative Interviews/3-grams.png Graphic file (type png)
+<use Images/Qualitative Interviews/3-grams.png>
+Package pdftex.def Info: Images/Qualitative Interviews/3-grams.png  used on input line 403.
+(pdftex.def)             Requested size: 376.42741pt x 226.16287pt.
+
+
+[27]
+<Images/Qualitative Interviews/BERTopic.png, id=135, 885.3075pt x 392.21532pt>
+File: Images/Qualitative Interviews/BERTopic.png Graphic file (type png)
+<use Images/Qualitative Interviews/BERTopic.png>
+Package pdftex.def Info: Images/Qualitative Interviews/BERTopic.png  used on input line 419.
+(pdftex.def)             Requested size: 418.25552pt x 185.29877pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[28 <./Images/Qualitative Interviews/3-grams.png>]
+<Images/Qualitative Interviews/ChatGPT_II.png, id=141, 254.1495pt x 275.8305pt>
+File: Images/Qualitative Interviews/ChatGPT_II.png Graphic file (type png)
+<use Images/Qualitative Interviews/ChatGPT_II.png>
+Package pdftex.def Info: Images/Qualitative Interviews/ChatGPT_II.png  used on input line 431.
+(pdftex.def)             Requested size: 209.12776pt x 226.97372pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[29 <./Images/Qualitative Interviews/BERTopic.png> <./Images/Qualitative Interviews/ChatGPT_II.png>]
+<Images/Qualitative Interviews/10_attributes.png, id=147, 281.853pt x 231.264pt>
+File: Images/Qualitative Interviews/10_attributes.png Graphic file (type png)
+<use Images/Qualitative Interviews/10_attributes.png>
+Package pdftex.def Info: Images/Qualitative Interviews/10_attributes.png  used on input line 443.
+(pdftex.def)             Requested size: 167.29965pt x 137.27383pt.
+
+
+[30 <./Images/Qualitative Interviews/10_attributes.png>]
+<Images/cld2.png, id=152, 284.56313pt x 237.13594pt>
 File: Images/cld2.png Graphic file (type png)
 <use Images/cld2.png>
-Package pdftex.def Info: Images/cld2.png  used on input line 370.
+Package pdftex.def Info: Images/cld2.png  used on input line 460.
 (pdftex.def)             Requested size: 209.12776pt x 174.28014pt.
 
-Overfull \hbox (27.7353pt too wide) in paragraph at lines 376--377
-[]\OT1/cmr/m/n/12 The re-main-ing re-views were to-kenised into in-di-vid-ual words us-ing the \OT1/cmtt/m/n/12 word[]tokenize
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+[]\OT1/cmr/m/n/12 Cre-ate list $\OML/cmm/m/it/12 texts \OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 join to-kens in each el-e-ment of
  []
 
 
 
-[25 <./Images/cld2.png>]
-
-[26]
-
-[27]
-<Analysis/Airbnb Top Words.png, id=136, 795.6927pt x 406.8801pt>
-File: Analysis/Airbnb Top Words.png Graphic file (type png)
-<use Analysis/Airbnb Top Words.png>
-Package pdftex.def Info: Analysis/Airbnb Top Words.png  used on input line 423.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+[31 <./Images/cld2.png>]
+Underfull \hbox (badness 2486) in paragraph at lines 499--500
+[]\OT1/cmr/m/n/12 Fit and trans-form $\OML/cmm/m/it/12 doc$ \OT1/cmr/m/n/12 us-ing \OT1/cmtt/m/n/12 vectorizer[]unigrams \OT1/cmr/m/n/12 to ob-tain ma-trix
+ []
 
 
-[28 <./Analysis/Airbnb Top Words.png>]
-<Analysis/Airbnb 3-gram.png, id=141, 795.6927pt x 406.8801pt>
-File: Analysis/Airbnb 3-gram.png Graphic file (type png)
-<use Analysis/Airbnb 3-gram.png>
-Package pdftex.def Info: Analysis/Airbnb 3-gram.png  used on input line 433.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
-<Analysis/Booking Positive Scores 3-Gram.png, id=142, 795.6927pt x 406.8801pt>
-File: Analysis/Booking Positive Scores 3-Gram.png Graphic file (type png)
-<use Analysis/Booking Positive Scores 3-Gram.png>
-Package pdftex.def Info: Analysis/Booking Positive Scores 3-Gram.png  used on input line 447.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
-<Analysis/Booking Negative Scores 3-gram.png, id=143, 795.6927pt x 406.8801pt>
-File: Analysis/Booking Negative Scores 3-gram.png Graphic file (type png)
-<use Analysis/Booking Negative Scores 3-gram.png>
-Package pdftex.def Info: Analysis/Booking Negative Scores 3-gram.png  used on input line 457.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+[]\OT1/cmr/m/n/12 Ex-tract fea-ture names $\OML/cmm/m/it/12 terms[][] \OMS/cmsy/m/n/12  $
+ []
 
 
-[29 <./Analysis/Airbnb 3-gram.png>]
+Underfull \hbox (badness 2486) in paragraph at lines 503--504
+[]\OT1/cmr/m/n/12 Fit and trans-form $\OML/cmm/m/it/12 doc$ \OT1/cmr/m/n/12 us-ing \OT1/cmtt/m/n/12 vectorizer[]trigrams \OT1/cmr/m/n/12 to ob-tain ma-trix
+ []
 
-[30 <./Analysis/Booking Positive Scores 3-Gram.png> <./Analysis/Booking Negative Scores 3-gram.png>]
 
-[31]
-Overfull \hbox (6.56784pt too wide) in paragraph at lines 497--498
-[]\OT1/cmr/m/n/12 The anal-y-sis fol-lowed a text-mining ap-proach com-bin-ing se-man-tic and frequency-
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+[]\OT1/cmr/m/n/12 Ex-tract fea-ture names $\OML/cmm/m/it/12 terms[][] \OMS/cmsy/m/n/12  $
  []
 
 
 
 [32]
+<Analysis/Airbnb 3-gram.png, id=162, 795.6927pt x 406.8801pt>
+File: Analysis/Airbnb 3-gram.png Graphic file (type png)
+<use Analysis/Airbnb 3-gram.png>
+Package pdftex.def Info: Analysis/Airbnb 3-gram.png  used on input line 533.
+(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+
 
 [33]
-<Images/Explanatory Survey/Descriptive_main.png, id=164, 545.6385pt x 278.9622pt>
+<Analysis/Booking Positive Scores 3-Gram.png, id=166, 795.6927pt x 406.8801pt>
+File: Analysis/Booking Positive Scores 3-Gram.png Graphic file (type png)
+<use Analysis/Booking Positive Scores 3-Gram.png>
+Package pdftex.def Info: Analysis/Booking Positive Scores 3-Gram.png  used on input line 547.
+(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+<Analysis/Booking Negative Scores 3-gram.png, id=167, 795.6927pt x 406.8801pt>
+File: Analysis/Booking Negative Scores 3-gram.png Graphic file (type png)
+<use Analysis/Booking Negative Scores 3-gram.png>
+Package pdftex.def Info: Analysis/Booking Negative Scores 3-gram.png  used on input line 557.
+(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+<Images/Accommodation Reviews/reviews_att.png, id=168, 579.3645pt x 246.9225pt>
+File: Images/Accommodation Reviews/reviews_att.png Graphic file (type png)
+<use Images/Accommodation Reviews/reviews_att.png>
+Package pdftex.def Info: Images/Accommodation Reviews/reviews_att.png  used on input line 567.
+(pdftex.def)             Requested size: 418.25552pt x 178.26254pt.
+
+Overfull \hbox (1.3068pt too wide) in paragraph at lines 578--579
+\OT1/cmr/m/n/12 con-ducted us-ing Mi-crosoft Forms to cap-ture trav-el-ers' per-cep-tions, decision-making
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[34 <./Analysis/Airbnb 3-gram.png>]
+
+[35 <./Analysis/Booking Positive Scores 3-Gram.png> <./Analysis/Booking Negative Scores 3-gram.png>]
+
+[36 <./Images/Accommodation Reviews/reviews_att.png>]
+Overfull \hbox (0.28615pt too wide) in paragraph at lines 594--595
+\OT1/cmr/m/n/12 frequency-based tech-niques. Sen-tence em-bed-dings (us-ing \OT1/cmtt/m/n/12 SentenceTransformers\OT1/cmr/m/n/12 )
+ []
+
+
+
+[37]
+
+[38]
+<Images/Explanatory Survey/Descriptive_main.png, id=190, 545.6385pt x 278.9622pt>
 File: Images/Explanatory Survey/Descriptive_main.png Graphic file (type png)
 <use Images/Explanatory Survey/Descriptive_main.png>
-Package pdftex.def Info: Images/Explanatory Survey/Descriptive_main.png  used on input line 526.
-(pdftex.def)             Requested size: 313.69164pt x 160.38074pt.
+Package pdftex.def Info: Images/Explanatory Survey/Descriptive_main.png  used on input line 625.
+(pdftex.def)             Requested size: 376.42741pt x 192.45433pt.
 
-Overfull \hbox (0.49294pt too wide) in paragraph at lines 532--533
+Overfull \hbox (0.49294pt too wide) in paragraph at lines 631--632
 \OT1/cmr/m/n/12 re-ly-ing pri-mar-ily on Google or sim-i-lar plat-forms|and in some cases Chat-GPT|for
  []
 
-<Images/Explanatory Survey/Descriptive_main2.png, id=165, 544.434pt x 363.2772pt>
+<Images/Explanatory Survey/Descriptive_main2.png, id=191, 544.434pt x 363.2772pt>
 File: Images/Explanatory Survey/Descriptive_main2.png Graphic file (type png)
 <use Images/Explanatory Survey/Descriptive_main2.png>
-Package pdftex.def Info: Images/Explanatory Survey/Descriptive_main2.png  used on input line 536.
-(pdftex.def)             Requested size: 313.69164pt x 209.32068pt.
+Package pdftex.def Info: Images/Explanatory Survey/Descriptive_main2.png  used on input line 635.
+(pdftex.def)             Requested size: 376.42741pt x 251.1826pt.
 
 
-[34 <./Images/Explanatory Survey/Descriptive_main.png> <./Images/Explanatory Survey/Descriptive_main2.png>]
-<Images/Explanatory Survey/Van Westendorp.png, id=171, 521.7894pt x 410.9754pt>
+[39 <./Images/Explanatory Survey/Descriptive_main.png> <./Images/Explanatory Survey/Descriptive_main2.png>]
+<Images/Explanatory Survey/Van Westendorp.png, id=197, 521.7894pt x 410.9754pt>
 File: Images/Explanatory Survey/Van Westendorp.png Graphic file (type png)
 <use Images/Explanatory Survey/Van Westendorp.png>
-Package pdftex.def Info: Images/Explanatory Survey/Van Westendorp.png  used on input line 548.
-(pdftex.def)             Requested size: 313.69164pt x 247.07pt.
-<Images/Explanatory Survey/Worst Trip - Group 1.png, id=172, 312.41719pt x 143.78719pt>
+Package pdftex.def Info: Images/Explanatory Survey/Van Westendorp.png  used on input line 647.
+(pdftex.def)             Requested size: 376.42741pt x 296.48526pt.
+
+
+[40 <./Images/Explanatory Survey/Van Westendorp.png>]
+<Images/Explanatory Survey/Worst Trip - Group 1.png, id=203, 312.41719pt x 143.78719pt>
 File: Images/Explanatory Survey/Worst Trip - Group 1.png Graphic file (type png)
 <use Images/Explanatory Survey/Worst Trip - Group 1.png>
-Package pdftex.def Info: Images/Explanatory Survey/Worst Trip - Group 1.png  used on input line 562.
+Package pdftex.def Info: Images/Explanatory Survey/Worst Trip - Group 1.png  used on input line 661.
 (pdftex.def)             Requested size: 209.12776pt x 96.25134pt.
-
-
-[35 <./Images/Explanatory Survey/Van Westendorp.png>]
-<Images/Explanatory Survey/Worst Trip - Group 2.png, id=178, 312.41719pt x 61.73062pt>
+<Images/Explanatory Survey/Worst Trip - Group 2.png, id=204, 312.41719pt x 61.73062pt>
 File: Images/Explanatory Survey/Worst Trip - Group 2.png Graphic file (type png)
 <use Images/Explanatory Survey/Worst Trip - Group 2.png>
-Package pdftex.def Info: Images/Explanatory Survey/Worst Trip - Group 2.png  used on input line 572.
+Package pdftex.def Info: Images/Explanatory Survey/Worst Trip - Group 2.png  used on input line 671.
 (pdftex.def)             Requested size: 209.12776pt x 41.32254pt.
-<Images/Explanatory Survey/Best Trip - Group 1.png, id=179, 312.41719pt x 179.16937pt>
+<Images/Explanatory Survey/Best Trip - Group 1.png, id=205, 312.41719pt x 179.16937pt>
 File: Images/Explanatory Survey/Best Trip - Group 1.png Graphic file (type png)
 <use Images/Explanatory Survey/Best Trip - Group 1.png>
-Package pdftex.def Info: Images/Explanatory Survey/Best Trip - Group 1.png  used on input line 584.
+Package pdftex.def Info: Images/Explanatory Survey/Best Trip - Group 1.png  used on input line 683.
 (pdftex.def)             Requested size: 209.12776pt x 119.93622pt.
-<Images/Explanatory Survey/Best Trip - Group 2.png, id=180, 312.41719pt x 64.74188pt>
+
+
+[41 <./Images/Explanatory Survey/Worst Trip - Group 1.png> <./Images/Explanatory Survey/Worst Trip - Group 2.png> <./Images/Explanatory Survey/Best Trip - Group 1.png>]
+<Images/Explanatory Survey/Best Trip - Group 2.png, id=212, 312.41719pt x 64.74188pt>
 File: Images/Explanatory Survey/Best Trip - Group 2.png Graphic file (type png)
 <use Images/Explanatory Survey/Best Trip - Group 2.png>
-Package pdftex.def Info: Images/Explanatory Survey/Best Trip - Group 2.png  used on input line 594.
+Package pdftex.def Info: Images/Explanatory Survey/Best Trip - Group 2.png  used on input line 693.
 (pdftex.def)             Requested size: 209.12776pt x 43.3383pt.
-
-
-[36 <./Images/Explanatory Survey/Worst Trip - Group 1.png> <./Images/Explanatory Survey/Worst Trip - Group 2.png> <./Images/Explanatory Survey/Best Trip - Group 1.png>]
-<Images/Explanatory Survey/Organizing (step 1).png, id=187, 190.46156pt x 317.68687pt>
+<Images/Explanatory Survey/Organizing (step 1).png, id=213, 190.46156pt x 317.68687pt>
 File: Images/Explanatory Survey/Organizing (step 1).png Graphic file (type png)
 <use Images/Explanatory Survey/Organizing (step 1).png>
-Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 1).png  used on input line 606.
-(pdftex.def)             Requested size: 125.47792pt x 209.29102pt.
-<Images/Explanatory Survey/Organizing (step 2).png, id=188, 249.18094pt x 316.93407pt>
+Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 1).png  used on input line 705.
+(pdftex.def)             Requested size: 83.64983pt x 139.52573pt.
+<Images/Explanatory Survey/Organizing (step 2).png, id=214, 249.18094pt x 316.93407pt>
 File: Images/Explanatory Survey/Organizing (step 2).png Graphic file (type png)
 <use Images/Explanatory Survey/Organizing (step 2).png>
-Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 2).png  used on input line 616.
+Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 2).png  used on input line 715.
 (pdftex.def)             Requested size: 125.47792pt x 159.59343pt.
-<Images/Explanatory Survey/Organizing (step 3).png, id=189, 220.57407pt x 318.43968pt>
+<Images/Explanatory Survey/Organizing (step 3).png, id=215, 220.57407pt x 318.43968pt>
 File: Images/Explanatory Survey/Organizing (step 3).png Graphic file (type png)
 <use Images/Explanatory Survey/Organizing (step 3).png>
-Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 3).png  used on input line 626.
+Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 3).png  used on input line 725.
 (pdftex.def)             Requested size: 125.47792pt x 181.15294pt.
-<Images/Explanatory Survey/Organizing (step 4).png, id=190, 237.88875pt x 317.68687pt>
+<Images/Explanatory Survey/Organizing (step 4).png, id=216, 237.88875pt x 317.68687pt>
 File: Images/Explanatory Survey/Organizing (step 4).png Graphic file (type png)
 <use Images/Explanatory Survey/Organizing (step 4).png>
-Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 4).png  used on input line 634.
+Package pdftex.def Info: Images/Explanatory Survey/Organizing (step 4).png  used on input line 733.
 (pdftex.def)             Requested size: 125.47792pt x 167.56854pt.
-<Images/Explanatory Survey/Screen Choose.png, id=191, 445.227pt x 214.62pt>
+<Images/Explanatory Survey/Screen Choose.png, id=217, 445.227pt x 214.62pt>
 File: Images/Explanatory Survey/Screen Choose.png Graphic file (type png)
 <use Images/Explanatory Survey/Screen Choose.png>
-Package pdftex.def Info: Images/Explanatory Survey/Screen Choose.png  used on input line 646.
+Package pdftex.def Info: Images/Explanatory Survey/Screen Choose.png  used on input line 745.
 (pdftex.def)             Requested size: 334.60568pt x 161.29535pt.
 
 
-[37 <./Images/Explanatory Survey/Best Trip - Group 2.png> <./Images/Explanatory Survey/Organizing (step 1).png>]
-<Images/Explanatory Survey/Method of Choosing.png, id=197, 312.41719pt x 257.46187pt>
+[42 <./Images/Explanatory Survey/Best Trip - Group 2.png> <./Images/Explanatory Survey/Organizing (step 1).png>]
+<Images/Explanatory Survey/Method of Choosing.png, id=223, 312.41719pt x 257.46187pt>
 File: Images/Explanatory Survey/Method of Choosing.png Graphic file (type png)
 <use Images/Explanatory Survey/Method of Choosing.png>
-Package pdftex.def Info: Images/Explanatory Survey/Method of Choosing.png  used on input line 658.
+Package pdftex.def Info: Images/Explanatory Survey/Method of Choosing.png  used on input line 757.
 (pdftex.def)             Requested size: 209.12776pt x 172.34534pt.
 
 
-[38 <./Images/Explanatory Survey/Organizing (step 2).png> <./Images/Explanatory Survey/Organizing (step 3).png>]
-<Images/Explanatory Survey/Advice (Group 1).png, id=203, 312.41719pt x 130.23656pt>
+[43 <./Images/Explanatory Survey/Organizing (step 2).png> <./Images/Explanatory Survey/Organizing (step 3).png>]
+<Images/Explanatory Survey/Advice (Group 1).png, id=229, 312.41719pt x 130.23656pt>
 File: Images/Explanatory Survey/Advice (Group 1).png Graphic file (type png)
 <use Images/Explanatory Survey/Advice (Group 1).png>
-Package pdftex.def Info: Images/Explanatory Survey/Advice (Group 1).png  used on input line 678.
+Package pdftex.def Info: Images/Explanatory Survey/Advice (Group 1).png  used on input line 777.
 (pdftex.def)             Requested size: 209.12776pt x 87.18053pt.
 
 
-[39 <./Images/Explanatory Survey/Organizing (step 4).png> <./Images/Explanatory Survey/Screen Choose.png>]
+[44 <./Images/Explanatory Survey/Organizing (step 4).png> <./Images/Explanatory Survey/Screen Choose.png>]
 
-[40 <./Images/Explanatory Survey/Method of Choosing.png> <./Images/Explanatory Survey/Advice (Group 1).png>]
-<Images/Explanatory Survey/Advice (Group 2).png, id=214, 313.17pt x 130.23656pt>
+[45 <./Images/Explanatory Survey/Method of Choosing.png> <./Images/Explanatory Survey/Advice (Group 1).png>]
+<Images/Explanatory Survey/Advice (Group 2).png, id=240, 313.17pt x 130.23656pt>
 File: Images/Explanatory Survey/Advice (Group 2).png Graphic file (type png)
 <use Images/Explanatory Survey/Advice (Group 2).png>
-Package pdftex.def Info: Images/Explanatory Survey/Advice (Group 2).png  used on input line 717.
+Package pdftex.def Info: Images/Explanatory Survey/Advice (Group 2).png  used on input line 816.
 (pdftex.def)             Requested size: 209.12776pt x 86.97186pt.
-<Images/Explanatory Survey/Definition (Group 1).png, id=215, 670.75594pt x 231.11343pt>
+<Images/Explanatory Survey/Definition (Group 1).png, id=241, 670.75594pt x 231.11343pt>
 File: Images/Explanatory Survey/Definition (Group 1).png Graphic file (type png)
 <use Images/Explanatory Survey/Definition (Group 1).png>
-Package pdftex.def Info: Images/Explanatory Survey/Definition (Group 1).png  used on input line 729.
-(pdftex.def)             Requested size: 292.77759pt x 100.8756pt.
-<Images/Explanatory Survey/Definition (Group 2).png, id=216, 690.32906pt x 111.41624pt>
+Package pdftex.def Info: Images/Explanatory Survey/Definition (Group 1).png  used on input line 828.
+(pdftex.def)             Requested size: 334.60568pt x 115.2884pt.
+<Images/Explanatory Survey/Definition (Group 2).png, id=242, 690.32906pt x 111.41624pt>
 File: Images/Explanatory Survey/Definition (Group 2).png Graphic file (type png)
 <use Images/Explanatory Survey/Definition (Group 2).png>
-Package pdftex.def Info: Images/Explanatory Survey/Definition (Group 2).png  used on input line 739.
-(pdftex.def)             Requested size: 292.77759pt x 47.25351pt.
+Package pdftex.def Info: Images/Explanatory Survey/Definition (Group 2).png  used on input line 838.
+(pdftex.def)             Requested size: 334.60568pt x 54.0045pt.
 
 
-[41 <./Images/Explanatory Survey/Advice (Group 2).png> <./Images/Explanatory Survey/Definition (Group 1).png>]
-<Images/Explanatory Survey/Info Saturation.png, id=223, 226.59656pt x 325.215pt>
+[46 <./Images/Explanatory Survey/Advice (Group 2).png> <./Images/Explanatory Survey/Definition (Group 1).png>]
+<Images/Explanatory Survey/Info Saturation.png, id=249, 226.59656pt x 325.215pt>
 File: Images/Explanatory Survey/Info Saturation.png Graphic file (type png)
 <use Images/Explanatory Survey/Info Saturation.png>
-Package pdftex.def Info: Images/Explanatory Survey/Info Saturation.png  used on input line 751.
+Package pdftex.def Info: Images/Explanatory Survey/Info Saturation.png  used on input line 850.
 (pdftex.def)             Requested size: 125.47792pt x 180.08954pt.
 
 
-[42 <./Images/Explanatory Survey/Definition (Group 2).png> <./Images/Explanatory Survey/Info Saturation.png>]
+[47 <./Images/Explanatory Survey/Definition (Group 2).png> <./Images/Explanatory Survey/Info Saturation.png>]
+<Images/Explanatory Survey/ChatGPT.png, id=255, 645.00975pt x 420.3705pt>
+File: Images/Explanatory Survey/ChatGPT.png Graphic file (type png)
+<use Images/Explanatory Survey/ChatGPT.png>
+Package pdftex.def Info: Images/Explanatory Survey/ChatGPT.png  used on input line 872.
+(pdftex.def)             Requested size: 418.25552pt x 272.58974pt.
+<Images/Final Set of Attributes.png, id=256, 579.1236pt x 277.9986pt>
+File: Images/Final Set of Attributes.png Graphic file (type png)
+<use Images/Final Set of Attributes.png>
+Package pdftex.def Info: Images/Final Set of Attributes.png  used on input line 886.
+(pdftex.def)             Requested size: 418.25552pt x 200.7824pt.
+
+
+[48 <./Images/Explanatory Survey/ChatGPT.png>]
+
+[49 <./Images/Final Set of Attributes.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[50]
+
+[51]
+
+[52]
+<Images/Quantitative Survey/answers by age.png, id=275, 410.4936pt x 217.2918pt>
+File: Images/Quantitative Survey/answers by age.png Graphic file (type png)
+<use Images/Quantitative Survey/answers by age.png>
+Package pdftex.def Info: Images/Quantitative Survey/answers by age.png  used on input line 975.
+(pdftex.def)             Requested size: 292.77759pt x 154.98778pt.
+<Images/Quantitative Survey/answers by gender.png, id=276, 533.8344pt x 161.8848pt>
+File: Images/Quantitative Survey/answers by gender.png Graphic file (type png)
+<use Images/Quantitative Survey/answers by gender.png>
+Package pdftex.def Info: Images/Quantitative Survey/answers by gender.png  used on input line 985.
+(pdftex.def)             Requested size: 292.77759pt x 88.78741pt.
+
+
+[53 <./Images/Quantitative Survey/answers by age.png> <./Images/Quantitative Survey/answers by gender.png>]
+<Images/Quantitative Survey/answers by residence.png, id=282, 603.6954pt x 252.945pt>
+File: Images/Quantitative Survey/answers by residence.png Graphic file (type png)
+<use Images/Quantitative Survey/answers by residence.png>
+Package pdftex.def Info: Images/Quantitative Survey/answers by residence.png  used on input line 995.
+(pdftex.def)             Requested size: 292.77759pt x 122.67046pt.
+File: Images/Quantitative Survey/answers by residence.png Graphic file (type png)
+<use Images/Quantitative Survey/answers by residence.png>
+Package pdftex.def Info: Images/Quantitative Survey/answers by residence.png  used on input line 1005.
+(pdftex.def)             Requested size: 292.77759pt x 122.67046pt.
+
+
+[54 <./Images/Quantitative Survey/answers by residence.png>]
+<Images/Quantitative Survey/rank_likert_corr.png, id=287, 581.92406pt x 272.51813pt>
+File: Images/Quantitative Survey/rank_likert_corr.png Graphic file (type png)
+<use Images/Quantitative Survey/rank_likert_corr.png>
+Package pdftex.def Info: Images/Quantitative Survey/rank_likert_corr.png  used on input line 1019.
+(pdftex.def)             Requested size: 292.77759pt x 137.11118pt.
+<Images/Quantitative Survey/likert_count.png, id=288, 338.76563pt x 275.52937pt>
+File: Images/Quantitative Survey/likert_count.png Graphic file (type png)
+<use Images/Quantitative Survey/likert_count.png>
+Package pdftex.def Info: Images/Quantitative Survey/likert_count.png  used on input line 1029.
+(pdftex.def)             Requested size: 209.12776pt x 170.0949pt.
+
+
+[55 <./Images/Quantitative Survey/rank_likert_corr.png> <./Images/Quantitative Survey/likert_count.png>]
+<Images/Quantitative Survey/elbow_method.png, id=294, 425.33907pt x 344.03531pt>
+File: Images/Quantitative Survey/elbow_method.png Graphic file (type png)
+<use Images/Quantitative Survey/elbow_method.png>
+Package pdftex.def Info: Images/Quantitative Survey/elbow_method.png  used on input line 1041.
+(pdftex.def)             Requested size: 292.77759pt x 236.82292pt.
+<Images/Quantitative Survey/silhouette.png, id=295, 520.94624pt x 543.53062pt>
+File: Images/Quantitative Survey/silhouette.png Graphic file (type png)
+<use Images/Quantitative Survey/silhouette.png>
+Package pdftex.def Info: Images/Quantitative Survey/silhouette.png  used on input line 1051.
+(pdftex.def)             Requested size: 292.77759pt x 305.46982pt.
+<Images/Quantitative Survey/dbi.png, id=296, 115.18031pt x 151.3153pt>
+File: Images/Quantitative Survey/dbi.png Graphic file (type png)
+<use Images/Quantitative Survey/dbi.png>
+Package pdftex.def Info: Images/Quantitative Survey/dbi.png  used on input line 1061.
+(pdftex.def)             Requested size: 83.64983pt x 109.89125pt.
+
+
+[56 <./Images/Quantitative Survey/elbow_method.png>]
+
+[57 <./Images/Quantitative Survey/silhouette.png> <./Images/Quantitative Survey/dbi.png>]
+<Images/Quantitative Survey/variables by segmentation.png, id=306, 750.55406pt x 271.76532pt>
+File: Images/Quantitative Survey/variables by segmentation.png Graphic file (type png)
+<use Images/Quantitative Survey/variables by segmentation.png>
+Package pdftex.def Info: Images/Quantitative Survey/variables by segmentation.png  used on input line 1081.
+(pdftex.def)             Requested size: 376.42741pt x 136.30115pt.
+<Images/Quantitative Survey/pca.png, id=307, 578.16pt x 352.31625pt>
+File: Images/Quantitative Survey/pca.png Graphic file (type png)
+<use Images/Quantitative Survey/pca.png>
+Package pdftex.def Info: Images/Quantitative Survey/pca.png  used on input line 1093.
+(pdftex.def)             Requested size: 376.42741pt x 229.38454pt.
+
+
+[58 <./Images/Quantitative Survey/variables by segmentation.png> <./Images/Quantitative Survey/pca.png>]
 Chapter 4.
 
 Underfull \vbox (badness 4036) has occurred while \output is active []
 
 
 
-[43
+[59
 
 ]
 
-[44]
+[60]
 Chapter 5.
 
 
-[45
+[61
 
 ]
 
-[46
+[62
 
 ]
 
-[47]
+[63]
 
-[48]
-\c@appendixsection=\count303
+[64]
+Overfull \hbox (27.68613pt too wide) in paragraph at lines 1255--1256
+\OT1/cmtt/m/n/12 the-[]elbow-[]method-[]finding-[]the-[]optimal-[]number-[]of-[]clusters-[]d297f5aeb189$\OT1/cmr/m/n/12 .  
+ []
 
 
-[49] (Material/2. Interviews & SUrveys/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt
 
-[50
+[65]
+\c@appendixsection=\count324
+
+
+[66] (Material/2. Interviews & SUrveys/1. Qualitative Interview/Example Qualitative Interview - Previous Porject.txt
+
+[67
 
 ]) (Material/2. Interviews & Surveys/1. Qualitative Interview/1. Interview 31-07-2025 18-15/1. Interview 31-07-2025 18-15 (ENGLISH).txt
 
-[51]
+[68]
 
-[52]
+[69]
 
-[53]
+[70]
 
-[54]
+[71]
 
-[55]
+[72]
 
-[56]
+[73]
 
-[57])
+[74])
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=276, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=364, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf  used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf  used on input line 1297.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -677,38 +932,38 @@ pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative
 
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=278, page=1, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=366, page=1, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 1297.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 1297.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
-[58]
+[75]
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 1297.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 1297.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 928.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page1 used on input line 1297.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[59
+[76
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf  used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf  used on input line 1302.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -716,323 +971,623 @@ pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative
 
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=333, page=2, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=421, page=2, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 1302.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page2 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[60
+[77
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=338, page=3, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=426, page=3, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page3 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[61
+[78
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=343, page=4, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=431, page=4, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page4 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[62
+[79
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=348, page=5, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=436, page=5, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 5>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 5>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 5>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page5 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[63
+[80
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=353, page=6, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=441, page=6, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 6>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 6>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 6>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page6 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[64
+[81
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=358, page=7, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=446, page=7, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 7>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 7>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 7>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page7 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[65
+[82
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
 
 pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=364, page=8, 597.55246pt x 845.07718pt>
+<Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, id=452, page=8, 597.55246pt x 845.07718pt>
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 8>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 8>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
 File: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf Graphic file (type pdf)
 <use Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf, page 8>
-Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 933.
+Package pdftex.def Info: Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf , page8 used on input line 1302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[66
+[83
 
  <./Material/2. Interviews & Surveys/1. Qualitative Interview/Attributes (for thesis).pdf>]
-<Analysis/Booking Positive Scores Top Words.png, id=369, 795.6927pt x 406.8801pt>
-File: Analysis/Booking Positive Scores Top Words.png Graphic file (type png)
-<use Analysis/Booking Positive Scores Top Words.png>
-Package pdftex.def Info: Analysis/Booking Positive Scores Top Words.png  used on input line 940.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
-<Analysis/Booking Negative Scores Top Words.png, id=370, 795.6927pt x 406.8801pt>
-File: Analysis/Booking Negative Scores Top Words.png Graphic file (type png)
-<use Analysis/Booking Negative Scores Top Words.png>
-Package pdftex.def Info: Analysis/Booking Negative Scores Top Words.png  used on input line 948.
-(pdftex.def)             Requested size: 376.42741pt x 192.48778pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
+[]\OT1/cmr/m/n/12 Ini-tial-ize $\OML/cmm/m/it/12 vectorizer[]words \OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 Tfid-fVec-tor-izer(ngram[]range=(1,1),
+ []
 
 
-[67 <./Analysis/Booking Positive Scores Top Words.png> <./Analysis/Booking Negative Scores Top Words.png>]
-
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=376, 597.55246pt x 845.07718pt>
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf  used on input line 959.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
+[]\OT1/cmr/m/n/12 Sort in-dices by de-creas-ing im-por-tance: $\OML/cmm/m/it/12 top[]words[]idx \OMS/cmsy/m/n/12  
+ []
 
 
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+[]\OT1/cmr/m/n/12 Ini-tial-ize $\OML/cmm/m/it/12 vectorizer[]bigrams \OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 Tfid-fVec-tor-izer(ngram[]range=(2,2),
+ []
 
 
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=378, page=1, 597.55246pt x 845.07718pt>
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 959.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 959.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 959.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 959.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
+[]\OT1/cmr/m/n/12 Com-pute mean TF-IDF per bi-gram: $\OML/cmm/m/it/12 tfidf[]means[]bigrams \OMS/cmsy/m/n/12  
+ []
 
 
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 959.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[68
-
- <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf  used on input line 964.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Overfull \hbox (15.36174pt too wide) in paragraph at lines 1378--1379
+[]\OT1/cmr/m/n/12 Ex-tract fea-ture names: $\OML/cmm/m/it/12 bigrams \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 vectorizer[]bigrams:get[]feature[]names[]out\OT1/cmr/m/n/12 ()$ 
+ []
 
 
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1384
+[]\OT1/cmr/m/n/12 Ini-tial-ize $\OML/cmm/m/it/12 vectorizer[]trigrams \OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 Tfid-fVec-tor-izer(ngram[]range=(3,3),
+ []
 
 
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=417, page=2, 597.55246pt x 845.07718pt>
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 964.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1386
+[]\OT1/cmr/m/n/12 Com-pute mean TF-IDF per tri-gram: $\OML/cmm/m/it/12 tfidf[]means[]trigrams \OMS/cmsy/m/n/12  
+ []
 
 
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[69
+Overfull \hbox (25.0992pt too wide) in paragraph at lines 1386--1387
+[]\OT1/cmr/m/n/12 Ex-tract fea-ture names: $\OML/cmm/m/it/12 trigrams \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 vectorizer[]trigrams:get[]feature[]names[]out\OT1/cmr/m/n/12 ()$ 
+ []
 
- <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
-
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=424, page=3, 597.55246pt x 845.07718pt>
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-
-
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[70
-
- <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
-
-pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=429, page=4, 597.55246pt x 845.07718pt>
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-
-
-File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
-<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
-Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 964.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[71
-
- <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
-<Images/Explanatory Survey/Descriptive.png, id=435, 377.556pt x 718.539pt>
-File: Images/Explanatory Survey/Descriptive.png Graphic file (type png)
-<use Images/Explanatory Survey/Descriptive.png>
-Package pdftex.def Info: Images/Explanatory Survey/Descriptive.png  used on input line 971.
-(pdftex.def)             Requested size: 313.69164pt x 597.03409pt.
-<Images/Explanatory Survey/Descriptive2.png, id=436, 561.516pt x 563.706pt>
-File: Images/Explanatory Survey/Descriptive2.png Graphic file (type png)
-<use Images/Explanatory Survey/Descriptive2.png>
-Package pdftex.def Info: Images/Explanatory Survey/Descriptive2.png  used on input line 979.
-(pdftex.def)             Requested size: 376.42741pt x 377.9047pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[72 <./Images/Explanatory Survey/Descriptive.png>]
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[73 <./Images/Explanatory Survey/Descriptive2.png>]
-<Images/Explanatory Survey/Van Westendorp (Young & Old).png, id=445, 522.315pt x 856.071pt>
+
+
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[86]
+
+[87]
+<Images/Qualitative Interviews/attributes_freq.png, id=471, 470.9595pt x 333.6465pt>
+File: Images/Qualitative Interviews/attributes_freq.png Graphic file (type png)
+<use Images/Qualitative Interviews/attributes_freq.png>
+Package pdftex.def Info: Images/Qualitative Interviews/attributes_freq.png  used on input line 1458.
+(pdftex.def)             Requested size: 376.42741pt x 266.68336pt.
+File: Images/Qualitative Interviews/attributes_freq.png Graphic file (type png)
+<use Images/Qualitative Interviews/attributes_freq.png>
+Package pdftex.def Info: Images/Qualitative Interviews/attributes_freq.png  used on input line 1469.
+(pdftex.def)             Requested size: 376.42741pt x 266.68336pt.
+
+
+[88 <./Images/Qualitative Interviews/attributes_freq.png>]
+<Analysis/Airbnb Top Words.png, id=477, 795.6927pt x 406.8801pt>
+File: Analysis/Airbnb Top Words.png Graphic file (type png)
+<use Analysis/Airbnb Top Words.png>
+Package pdftex.def Info: Analysis/Airbnb Top Words.png  used on input line 1481.
+(pdftex.def)             Requested size: 292.77759pt x 149.71133pt.
+<Analysis/Booking Positive Scores Top Words.png, id=478, 795.6927pt x 406.8801pt>
+File: Analysis/Booking Positive Scores Top Words.png Graphic file (type png)
+<use Analysis/Booking Positive Scores Top Words.png>
+Package pdftex.def Info: Analysis/Booking Positive Scores Top Words.png  used on input line 1492.
+(pdftex.def)             Requested size: 292.77759pt x 149.71133pt.
+<Analysis/Booking Negative Scores Top Words.png, id=479, 795.6927pt x 406.8801pt>
+File: Analysis/Booking Negative Scores Top Words.png Graphic file (type png)
+<use Analysis/Booking Negative Scores Top Words.png>
+Package pdftex.def Info: Analysis/Booking Negative Scores Top Words.png  used on input line 1500.
+(pdftex.def)             Requested size: 292.77759pt x 149.71133pt.
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=480, 597.55246pt x 845.07718pt>
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf  used on input line 1510.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=482, page=1, 597.55246pt x 845.07718pt>
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 1510.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 1510.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+[89 <./Analysis/Airbnb Top Words.png> <./Analysis/Booking Positive Scores Top Words.png> <./Analysis/Booking Negative Scores Top Words.png>]
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 1510.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 1510.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page1 used on input line 1510.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[90
+
+ <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf  used on input line 1515.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=527, page=2, 597.55246pt x 845.07718pt>
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 1515.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page2 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[91
+
+ <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=534, page=3, 597.55246pt x 845.07718pt>
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page3 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[92
+
+ <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, id=539, page=4, 597.55246pt x 845.07718pt>
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+File: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf , page4 used on input line 1515.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[93
+
+ <./Material/2. Interviews & Surveys/2. Explanatory Survey/Explanatory Survey (for thesis).pdf>]
+
+[94]
+Underfull \hbox (badness 1838) in paragraph at lines 1542--1543
+[]\OT1/cmr/m/n/12 Data frame $\OML/cmm/m/it/12 df$ \OT1/cmr/m/n/12 with columns \OT1/cmtt/m/n/12 too[]cheap\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 cheap\OT1/cmr/m/n/12 , \OT1/cmtt/m/n/12 expensive\OT1/cmr/m/n/12 , and
+ []
+
+
+
+[95]
+<Images/Explanatory Survey/Descriptive.png, id=554, 284.919pt x 364.197pt>
+File: Images/Explanatory Survey/Descriptive.png Graphic file (type png)
+<use Images/Explanatory Survey/Descriptive.png>
+Package pdftex.def Info: Images/Explanatory Survey/Descriptive.png  used on input line 1589.
+(pdftex.def)             Requested size: 376.42741pt x 481.1861pt.
+
+
+[96 <./Images/Explanatory Survey/Descriptive.png>]
+<Images/Explanatory Survey/Descriptive2.png, id=559, 539.835pt x 882.57pt>
+File: Images/Explanatory Survey/Descriptive2.png Graphic file (type png)
+<use Images/Explanatory Survey/Descriptive2.png>
+Package pdftex.def Info: Images/Explanatory Survey/Descriptive2.png  used on input line 1598.
+(pdftex.def)             Requested size: 376.42741pt x 615.4381pt.
+<Images/Explanatory Survey/Van Westendorp (Young & Old).png, id=560, 522.315pt x 856.071pt>
 File: Images/Explanatory Survey/Van Westendorp (Young & Old).png Graphic file (type png)
 <use Images/Explanatory Survey/Van Westendorp (Young & Old).png>
-Package pdftex.def Info: Images/Explanatory Survey/Van Westendorp (Young & Old).png  used on input line 991.
+Package pdftex.def Info: Images/Explanatory Survey/Van Westendorp (Young & Old).png  used on input line 1609.
 (pdftex.def)             Requested size: 292.77759pt x 479.85368pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[74 <./Images/Explanatory Survey/Van Westendorp (Young & Old).png>] (Thesis.aux)
+
+
+[97 <./Images/Explanatory Survey/Descriptive2.png>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=565, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf  used on input line 1618.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=567, page=1, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page1 used on input line 1618.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page1 used on input line 1618.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+[98 <./Images/Explanatory Survey/Van Westendorp (Young & Old).png>]
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page1 used on input line 1618.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page1 used on input line 1618.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 1>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page1 used on input line 1618.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[99
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf  used on input line 1623.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=640, page=2, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page2 used on input line 1623.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page2 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page2 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page2 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 2>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page2 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[100
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=646, page=3, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page3 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page3 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 3>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page3 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[101
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=663, page=4, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page4 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page4 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 4>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page4 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[102
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=668, page=5, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 5>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page5 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 5>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page5 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 5>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page5 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[103
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=673, page=6, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 6>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page6 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 6>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page6 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 6>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page6 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[104
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=678, page=7, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 7>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page7 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 7>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page7 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 7>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page7 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[105
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+
+pdfTeX warning: pdflatex (file ./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, id=683, page=8, 614.295pt x 794.97pt>
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 8>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page8 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 8>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page8 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+
+File: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf Graphic file (type pdf)
+<use Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf, page 8>
+Package pdftex.def Info: Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf , page8 used on input line 1623.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[106
+
+ <./Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
+[] \OT1/cmr/m/n/12 Com-pute within-cluster dis-tance: $\OML/cmm/m/it/12 score[] \OMS/cmsy/m/n/12  $ \OT1/cmr/m/n/12 to-
+ []
+
+
+
+[107]
+<Images/Quantitative Survey/pca_clusters.png, id=693, 869.49844pt x 543.53062pt>
+File: Images/Quantitative Survey/pca_clusters.png Graphic file (type png)
+<use Images/Quantitative Survey/pca_clusters.png>
+Package pdftex.def Info: Images/Quantitative Survey/pca_clusters.png  used on input line 1703.
+(pdftex.def)             Requested size: 376.42741pt x 235.31427pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[108]
+
+[109 <./Images/Quantitative Survey/pca_clusters.png>] (Thesis.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5876 strings out of 468134
- 112763 string characters out of 5430740
- 513902 words of memory out of 5000000
- 34425 multiletter control sequences out of 15000+600000
- 633787 words of font info for 63 fonts, out of 8000000 for 9000
+ 7452 strings out of 468134
+ 142907 string characters out of 5430740
+ 547913 words of memory out of 5000000
+ 35963 multiletter control sequences out of 15000+600000
+ 636752 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,17n,77p,2198b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (82 pages, 7339795 bytes).
+ 68i,17n,77p,2198b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\franc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/franc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Thesis.pdf (118 pages, 8957132 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
+ 781 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 

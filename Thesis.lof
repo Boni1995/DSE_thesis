@@ -1,38 +1,58 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {International Tourist Arrivals \& Receipts. Source: UNWTO.}}}{3}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \textit {Previous Work Attirbutes. Source: Author’s own elaboration.}}}{5}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \textit {Previous Work Attirbutes. Source: Author’s own elaboration.}}}{4}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {A General Framework of Destination Image Formation. Source: Baloglu and McCleary’s (1999).}}}{13}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {A General Framework of Destination Image Formation. Source: Baloglu and McCleary’s (1999).}}}{11}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Guide for Qualitative Interview Questions. Source: Author’s own elaboration}}}{22}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Preliminary Top 10 Attributes by Frequency. Source: Author’s own elaboration}}}{24}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Compact Language Detector 2 Results. Source: Author’s own elaboration based on Inside Airbnb}}}{25}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Airbnb Reviews' Top Words. Source: Author’s own elaboration based on Inside Airbnb}}}{28}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Airbnb Reviews' Top 3-grams. Source: Author’s own elaboration based on Inside Airbnb}}}{29}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Booking.com Positive Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset}}}{30}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Booking.com Negative Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset}}}{30}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Main Purpose for Travelling. Source: Author’s own elaboration based on survey data.}}}{34}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}}{34}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Van Westendorp Pricing Method with Full Sample. Source: Author’s own elaboration based on survey data.}}}{35}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Unsatisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}}{36}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Unsatisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}}{36}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Satisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}}{36}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Satisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}}{37}{}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Organizing a Vacation - Step 1. Source: Author’s own elaboration based on survey data.}}}{37}{}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Organizing a Vacation - Step 2. Source: Author’s own elaboration based on survey data.}}}{38}{}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Organizing a Vacation - Step 3. Source: Author’s own elaboration based on survey data.}}}{38}{}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {Organizing a Vacation - Step 4. Source: Author’s own elaboration based on survey data.}}}{39}{}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Group A and B. Source: Author’s own elaboration based on survey data.}}}{39}{}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Choosing Method Group. Source: Author’s own elaboration based on survey data.}}}{40}{}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces \textit {Advice to ``Past Self'' - Group 1. Source: Author’s own elaboration based on survey data.}}}{40}{}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces \textit {Advice to ``Past Self'' - Group 2. Source: Author’s own elaboration based on survey data.}}}{41}{}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces \textit {Defining the Destination - Group 1. Source: Author’s own elaboration based on survey data.}}}{41}{}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces \textit {Defining the Destination - Group 2. Source: Author’s own elaboration based on survey data.}}}{42}{}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces \textit {Top Trigrams for Information Saturation. Source: Author’s own elaboration based on survey data.}}}{42}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Guide for Qualitative Interview Questions. Source: Author’s own elaboration}}}{23}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {3-grams Wordcloud for Interviews. Source: Author’s own elaboration}}}{28}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {BERTopic Clusters. Source: Author’s own elaboration}}}{29}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Refined Attributes from ChatGPT. Source: ChatGPT}}}{29}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Preliminary 10 attributes. Source: Author’s own elaboration}}}{30}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Compact Language Detector 2 Results. Source: Author’s own elaboration based on Inside Airbnb}}}{31}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {Airbnb Reviews' Top 3-grams. Source: Author’s own elaboration based on Inside Airbnb}}}{34}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Booking.com Positive Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset}}}{35}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Booking.com Negative Reviews' 3-grams. Source: Author’s own elaboration based on a Kaggle's dataset.}}}{35}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Refined Set of 10 Preliminary Attributes. Source: Author’s own elaboration.}}}{36}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Main Purpose for Travelling. Source: Author’s own elaboration based on survey data.}}}{39}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}}{39}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {Van Westendorp Pricing Method with Full Sample. Source: Author’s own elaboration based on survey data.}}}{40}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Unsatisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}}{41}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Unsatisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}}{41}{}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Satisfying Trip - Group 1. Source: Author’s own elaboration based on survey data.}}}{41}{}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Satisfying Trip - Group 2. Source: Author’s own elaboration based on survey data.}}}{42}{}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {Organizing a Vacation - Step 1. Source: Author’s own elaboration based on survey data.}}}{42}{}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Organizing a Vacation - Step 2. Source: Author’s own elaboration based on survey data.}}}{43}{}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Organizing a Vacation - Step 3. Source: Author’s own elaboration based on survey data.}}}{43}{}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces \textit {Organizing a Vacation - Step 4. Source: Author’s own elaboration based on survey data.}}}{44}{}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces \textit {Group A and B. Source: Author’s own elaboration based on survey data.}}}{44}{}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces \textit {Choosing Method Group. Source: Author’s own elaboration based on survey data.}}}{45}{}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces \textit {Advice to ``Past Self'' - Group 1. Source: Author’s own elaboration based on survey data.}}}{45}{}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces \textit {Advice to ``Past Self'' - Group 2. Source: Author’s own elaboration based on survey data.}}}{46}{}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces \textit {Defining the Destination - Group 1. Source: Author’s own elaboration based on survey data.}}}{46}{}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces \textit {Defining the Destination - Group 2. Source: Author’s own elaboration based on survey data.}}}{47}{}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces \textit {Top Trigrams for Information Saturation. Source: Author’s own elaboration based on survey data.}}}{47}{}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces \textit {Attributes Suggested by ChatGPT. Source: ChatGPT.}}}{48}{}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces \textit {Final Set of Attributes. Source: Author’s own elaboration.}}}{49}{}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces \textit {Number of respondents by agre range. Source: Author’s own elaboration.}}}{53}{}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces \textit {Number of respondents by gender. Source: Author’s own elaboration.}}}{53}{}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces \textit {Number of respondents by residence. Source: Author’s own elaboration.}}}{54}{}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces \textit {Number of respondents by profession. Source: Author’s own elaboration.}}}{54}{}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces \textit {Spearman correlation between ranking and Likert-scale responses. Source: Author’s own elaboration.}}}{55}{}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces \textit {Likert-scale count. Source: Author’s own elaboration.}}}{55}{}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces \textit {Elbow plot. Source: Author’s own elaboration.}}}{56}{}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces \textit {Silhouette scores and plot. Source: Author’s own elaboration.}}}{57}{}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces \textit {DBI scores. Source: Author’s own elaboration.}}}{57}{}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces \textit {Means of segmentation variables by segment. Source: Author’s own elaboration.}}}{58}{}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces \textit {Cumulative Explained Variance (PCA). Source: Author’s own elaboration.}}}{58}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \textit {Booking.com Positive Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}}{67}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \textit {Booking.com Negative Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}}{67}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}}{72}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration based on survey data.}}}{73}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Van Westendorp Pricing Method by Age Group. Source: Author’s own elaboration based on survey data.}}}{74}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textit {Preliminary attributes with their frequency. Source: Author’s own elaboration.}}}{88}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textit {Attributes Suggested by ChatGPT. Source: ChatGPT.}}}{88}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \textit {Airbnb Reviews' Top Words. Source: Author’s own elaboration based on Inside Airbnb.}}}{89}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \textit {Booking.com Positive Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}}{89}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Booking.com Negative Reviews' Top Words. Source: Author’s own elaboration based on a Kaggle's dataset}}}{89}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration.}}}{96}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \textit {Description of Explanatory Survey's Respondents. Source: Author’s own elaboration.}}}{97}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \textit {Van Westendorp Pricing Method by Age Group. Source: Author’s own elaboration.}}}{98}{}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {Biplot with First 2 Components. Source: Author’s own elaboration.}}}{109}{}%

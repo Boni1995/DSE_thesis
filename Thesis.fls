@@ -69,6 +69,24 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.s
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Thesis.aux
@@ -100,6 +118,9 @@ INPUT .\Images\UNIMI.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -115,13 +136,14 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT Thesis.toc
 INPUT .\Thesis.lof
 INPUT .\Thesis.lof
 INPUT Thesis.lof
 OUTPUT Thesis.lof
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
 INPUT .\Images\international_tourism_results.png
@@ -155,13 +177,34 @@ INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative In
 INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Qualitative Interview Questions.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
-INPUT .\Images\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\3-grams.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\BERTopic.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
+INPUT .\Images\Qualitative Interviews\10_attributes.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
@@ -169,13 +212,8 @@ INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
 INPUT .\Images\cld2.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
-INPUT .\Analysis\Airbnb Top Words.png
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT .\Analysis\Airbnb 3-gram.png
 INPUT .\Analysis\Airbnb 3-gram.png
 INPUT .\Analysis\Airbnb 3-gram.png
@@ -197,6 +235,13 @@ INPUT .\Analysis\Booking Negative Scores 3-gram.png
 INPUT .\Analysis\Booking Negative Scores 3-gram.png
 INPUT .\Analysis\Booking Negative Scores 3-gram.png
 INPUT .\Analysis\Booking Negative Scores 3-gram.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
+INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tctt1200.tfm
 INPUT .\Images\Explanatory Survey\Descriptive_main.png
 INPUT .\Images\Explanatory Survey\Descriptive_main.png
@@ -324,6 +369,94 @@ INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Final Set of Attributes.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by age.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by gender.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\rank_likert_corr.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\elbow_method.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\silhouette.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\dbi.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\variables by segmentation.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
 INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
 INPUT Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
@@ -386,6 +519,28 @@ INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (fo
 INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
 INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
 INPUT .\Material\2. Interviews & Surveys\1. Qualitative Interview\Attributes (for thesis).pdf
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
+INPUT .\Analysis\Airbnb Top Words.png
 INPUT .\Analysis\Booking Positive Scores Top Words.png
 INPUT .\Analysis\Booking Positive Scores Top Words.png
 INPUT .\Analysis\Booking Positive Scores Top Words.png
@@ -436,6 +591,7 @@ INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Surve
 INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
 INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
 INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
@@ -457,21 +613,100 @@ INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
 INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
 INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
 INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT Thesis.aux
+INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1200.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1200.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
