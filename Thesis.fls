@@ -45,8 +45,57 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\xurl\xurl.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\xurl\xurl.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
@@ -64,8 +113,6 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
@@ -87,6 +134,8 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpse
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\alphalph\alphalph.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\generic\alphalph\alphalph.sty
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\Thesis.aux
@@ -101,17 +150,24 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT .\Images\UNIMI.png
-INPUT .\Images\UNIMI.png
-INPUT .\Images\UNIMI.png
-INPUT .\Images\UNIMI.png
+INPUT .\Thesis.out
+INPUT .\Thesis.out
+INPUT Thesis.out
+INPUT Thesis.out
 OUTPUT Thesis.pdf
+INPUT .\Thesis.out
+INPUT .\Thesis.out
+OUTPUT Thesis.out
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT .\Images\UNIMI.png
+INPUT .\Images\UNIMI.png
+INPUT .\Images\UNIMI.png
+INPUT .\Images\UNIMI.png
 INPUT .\Images\UNIMI.png
 INPUT .\Images\UNIMI.png
 INPUT .\Images\UNIMI.png
@@ -191,13 +247,6 @@ INPUT .\Images\Qualitative Interviews\BERTopic.png
 INPUT .\Images\Qualitative Interviews\BERTopic.png
 INPUT .\Images\Qualitative Interviews\BERTopic.png
 INPUT .\Images\Qualitative Interviews\BERTopic.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
-INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
 INPUT .\Images\Qualitative Interviews\10_attributes.png
 INPUT .\Images\Qualitative Interviews\10_attributes.png
 INPUT .\Images\Qualitative Interviews\10_attributes.png
@@ -243,83 +292,13 @@ INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tctt1200.tfm
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Worst Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 1.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Best Trip - Group 2.png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 1).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 2).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 3).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
-INPUT .\Images\Explanatory Survey\Organizing (step 4).png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
+INPUT .\Images\Explanatory Survey\Steps of Organizing.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
@@ -327,41 +306,6 @@ INPUT .\Images\Explanatory Survey\Screen Choose.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
 INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Method of Choosing.png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 1).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Advice (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 1).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
-INPUT .\Images\Explanatory Survey\Definition (Group 2).png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
 INPUT .\Images\Explanatory Survey\Info Saturation.png
@@ -404,10 +348,13 @@ INPUT .\Images\Quantitative Survey\answers by residence.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
-INPUT .\Images\Quantitative Survey\answers by residence.png
-INPUT .\Images\Quantitative Survey\answers by residence.png
-INPUT .\Images\Quantitative Survey\answers by residence.png
-INPUT .\Images\Quantitative Survey\answers by residence.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
+INPUT .\Images\Quantitative Survey\answers by profession.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
@@ -415,13 +362,6 @@ INPUT .\Images\Quantitative Survey\rank_likert_corr.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
 INPUT .\Images\Quantitative Survey\rank_likert_corr.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
-INPUT .\Images\Quantitative Survey\likert_count.png
 INPUT .\Images\Quantitative Survey\elbow_method.png
 INPUT .\Images\Quantitative Survey\elbow_method.png
 INPUT .\Images\Quantitative Survey\elbow_method.png
@@ -436,13 +376,6 @@ INPUT .\Images\Quantitative Survey\silhouette.png
 INPUT .\Images\Quantitative Survey\silhouette.png
 INPUT .\Images\Quantitative Survey\silhouette.png
 INPUT .\Images\Quantitative Survey\silhouette.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
-INPUT .\Images\Quantitative Survey\dbi.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
@@ -457,6 +390,59 @@ INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\random_forest_scores.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\final model\model output.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\confusion matrix.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\booking in advance.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\city tours.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\restaurant.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\natural spots.png
 INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
 INPUT .\Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
 INPUT Material\2. Interviews & SUrveys\1. Qualitative Interview\Example Qualitative Interview - Previous Porject.txt
@@ -530,10 +516,20 @@ INPUT .\Images\Qualitative Interviews\attributes_freq.png
 INPUT .\Images\Qualitative Interviews\attributes_freq.png
 INPUT .\Images\Qualitative Interviews\attributes_freq.png
 INPUT .\Images\Qualitative Interviews\attributes_freq.png
-INPUT .\Images\Qualitative Interviews\attributes_freq.png
-INPUT .\Images\Qualitative Interviews\attributes_freq.png
-INPUT .\Images\Qualitative Interviews\attributes_freq.png
-INPUT .\Images\Qualitative Interviews\attributes_freq.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_I.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
+INPUT .\Images\Qualitative Interviews\ChatGPT_II.png
 INPUT .\Analysis\Airbnb Top Words.png
 INPUT .\Analysis\Airbnb Top Words.png
 INPUT .\Analysis\Airbnb Top Words.png
@@ -592,6 +588,8 @@ INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Surve
 INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
 INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
 INPUT .\Images\Explanatory Survey\Descriptive.png
@@ -606,13 +604,27 @@ INPUT .\Images\Explanatory Survey\Descriptive2.png
 INPUT .\Images\Explanatory Survey\Descriptive2.png
 INPUT .\Images\Explanatory Survey\Descriptive2.png
 INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
-INPUT .\Images\Explanatory Survey\Van Westendorp (Young & Old).png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Descriptive_main2.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Explanatory Survey\Van Westendorp.png
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
@@ -669,6 +681,13 @@ INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\likert_count.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
@@ -676,7 +695,107 @@ INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\random_forest_plot.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\colineality.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\vif.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\1st model output.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 2.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 3.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\final model\cluster 4.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\age_range.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\gender.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\residence.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\profession.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\top attributes.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\less known cities.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
+INPUT .\Images\Quantitative Survey\Cluster Profiles\no city tour.png
 INPUT Thesis.aux
+INPUT .\Thesis.out
+INPUT .\Thesis.out
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1200.pk

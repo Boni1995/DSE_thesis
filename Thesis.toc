@@ -1,86 +1,110 @@
-\contentsline {chapter}{Acknowledgments}{i}{}%
-\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
-\contentsline {section}{\numberline {1.1}Touristic Context}{2}{}%
-\contentsline {section}{\numberline {1.2}Previous Work}{3}{}%
-\contentsline {chapter}{\numberline {2}Literature Review}{7}{}%
-\contentsline {section}{\numberline {2.1}Qualitative Approach}{7}{}%
-\contentsline {subsection}{\numberline {2.1.1}Advantages of Qualitative Approach}{8}{}%
-\contentsline {subsection}{\numberline {2.1.2}Disadvantages of Qualitative Approach}{8}{}%
-\contentsline {section}{\numberline {2.2}Quantitative Approach}{9}{}%
-\contentsline {subsection}{\numberline {2.2.1}Advantages of Quanitative Approach}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}Disadvantages of Quanitative Approach}{10}{}%
-\contentsline {section}{\numberline {2.3}Model of Destination Image Formation}{10}{}%
-\contentsline {section}{\numberline {2.4}Segmentation and Response-Style Effects}{12}{}%
-\contentsline {section}{\numberline {2.5}Representing Tourists’ Heterogeneous Destination and Travel Party Choices}{14}{}%
-\contentsline {section}{\numberline {2.6}Discrete Choice Experiments in Tourism}{15}{}%
-\contentsline {section}{\numberline {2.7}Conjoint Analysis in Tourism}{16}{}%
-\contentsline {section}{\numberline {2.8}Hypothetical Bias}{17}{}%
-\contentsline {section}{\numberline {2.9}A Text Mining Based Approach for Mining Customer Attribute Data on Undefined Quality Problems}{18}{}%
-\contentsline {section}{\numberline {2.10}Text Mining for Product Attribute Extraction}{19}{}%
-\contentsline {section}{\numberline {2.11}Data Mining on Customer Segmentation: A Review}{20}{}%
-\contentsline {section}{\numberline {2.12}Unlocking insights: integrated text mining and interpretive structural modeling for enhanced user review analysis}{20}{}%
-\contentsline {chapter}{\numberline {3}Methodology and Results}{22}{}%
-\contentsline {section}{\numberline {3.1}Qualitative Interviews}{22}{}%
-\contentsline {subsection}{\numberline {3.1.1}Methodology}{22}{}%
-\contentsline {subsubsection}{The Interviews}{22}{}%
-\contentsline {subsubsection}{Manual Attribute Identification}{24}{}%
-\contentsline {subsubsection}{Text Mining and Topic Modeling Process}{25}{}%
-\contentsline {subsubsection}{Complementary Attribute Discovery through ChatGPT}{27}{}%
-\contentsline {subsection}{\numberline {3.1.2}Results}{27}{}%
-\contentsline {subsubsection}{Manual Attribute Identification}{27}{}%
-\contentsline {subsubsection}{Text Mining and Topic Modeling Process}{27}{}%
-\contentsline {subsubsection}{Complementary Attribute Discovery through ChatGPT}{29}{}%
-\contentsline {subsubsection}{Final Attributes}{30}{}%
-\contentsline {section}{\numberline {3.2}Text Mining of Online Accommodation Reviews}{30}{}%
-\contentsline {subsection}{\numberline {3.2.1}Methodology}{30}{}%
-\contentsline {subsection}{\numberline {3.2.2}Results}{33}{}%
-\contentsline {section}{\numberline {3.3}Explanatory Survey}{35}{}%
-\contentsline {subsection}{\numberline {3.3.1}Methodology}{35}{}%
-\contentsline {subsection}{\numberline {3.3.2}Results}{38}{}%
-\contentsline {subsection}{\numberline {3.3.3}Exploratory Data Analysis (EDA)}{38}{}%
-\contentsline {subsection}{\numberline {3.3.4}Van Westendorp Price Sensitivity Analysis}{40}{}%
-\contentsline {subsection}{\numberline {3.3.5}Text Mining, Embeddings \& TF-IDF}{40}{}%
-\contentsline {subsubsection}{Unsatisfying Trip}{40}{}%
-\contentsline {subsubsection}{Satisfying Trip}{41}{}%
-\contentsline {subsubsection}{Organizing a Vacation}{42}{}%
-\contentsline {subsubsection}{Choosing Between Two options}{42}{}%
-\contentsline {subsubsection}{Choosing Method}{43}{}%
-\contentsline {subsubsection}{Advice to Their ``Past Self''}{44}{}%
-\contentsline {subsubsection}{Defining the Destination}{46}{}%
-\contentsline {subsubsection}{Information Saturation}{46}{}%
-\contentsline {subsection}{\numberline {3.3.6}Additional Observations}{47}{}%
-\contentsline {subsubsection}{Complementary Attribute Discovery through ChatGPT}{48}{}%
-\contentsline {section}{\numberline {3.4}Final Refined Attributes}{48}{}%
-\contentsline {section}{\numberline {3.5}Quantitative Survey}{49}{}%
-\contentsline {subsection}{\numberline {3.5.1}Methodology}{49}{}%
-\contentsline {subsubsection}{Quantitative Survey}{49}{}%
-\contentsline {subsubsection}{Ranking vs Likert Scale}{49}{}%
-\contentsline {subsubsection}{Defining Optimal K}{51}{}%
-\contentsline {subsubsection}{Principal Component Analysis (PCA)}{52}{}%
-\contentsline {subsection}{\numberline {3.5.2}Results}{53}{}%
-\contentsline {subsubsection}{Quantitative Survey}{53}{}%
-\contentsline {subsubsection}{Ranking vs Likert Scale}{54}{}%
-\contentsline {subsubsection}{Defining Optimal K}{55}{}%
-\contentsline {subsubsection}{Dimensionality Reduction: Principal Component Analysis (PCA)}{58}{}%
-\contentsline {chapter}{\numberline {4}Discussion}{59}{}%
-\contentsline {section}{\numberline {4.1}Qualitative Approach}{59}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{61}{}%
-\contentsline {chapter}{Appendix}{67}{}%
-\contentsline {section}{A. Example of Qualitative Interview from Previous Project}{67}{}%
-\contentsline {section}{B. Example of Qualitative Interview from Actual Thesis}{68}{}%
-\contentsline {section}{C. Qualitative Interview Notes}{76}{}%
-\contentsline {section}{D. Pseudocodes for Text Mining}{84}{}%
-\contentsline {section}{E. Prompts for ChatGPT}{87}{}%
-\contentsline {section}{F. Manual Attribute Identification}{88}{}%
-\contentsline {section}{G. ChatGPT Attributes}{88}{}%
-\contentsline {section}{H. Airbnb Top Words}{89}{}%
-\contentsline {section}{I. Booking.com Top Words}{89}{}%
-\contentsline {section}{J. Explanatory Survey}{90}{}%
-\contentsline {section}{K. Pseudocodes for Van Westendorp Model}{94}{}%
-\contentsline {section}{L. Explanatory Survey Results}{96}{}%
-\contentsline {section}{M. Van Westendorp Results by Age Group}{98}{}%
-\contentsline {section}{N. Quantitative Survey}{99}{}%
-\contentsline {section}{O. Pseudocode for Elbow Method}{107}{}%
-\contentsline {section}{P. Pseudocode for Silhouette Score}{107}{}%
-\contentsline {section}{Q. Pseudocode for Davies Bouldin Index}{108}{}%
-\contentsline {section}{R. Biplot with First 2 Components}{109}{}%
+\contentsline {chapter}{Acknowledgments}{i}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Tourism Context}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Previous Work}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Qualitative Approach}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Advantages of the Qualitative Approach}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Disadvantages of the Qualitative Approach}{8}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Quantitative Approach}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Advantages of the Quantitative Approach}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Disadvantages of the Quanitative Approach}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Model of Destination Image Formation}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Segmentation and Response-Style Effects}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Representing Tourists’ Heterogeneous Destination and Travel Party Choices}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Discrete Choice Experiments in Tourism}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Conjoint Analysis in Tourism}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Hypothetical Bias}{17}{section.2.8}%
+\contentsline {section}{\numberline {2.9}A Text Mining Based Approach for Mining Customer Attribute Data on Undefined Quality Problems}{18}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Text Mining for Product Attribute Extraction}{19}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Data Mining on Customer Segmentation: A Review}{20}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Unlocking insights: integrated text mining and interpretive structural modeling for enhanced user review analysis}{20}{section.2.12}%
+\contentsline {chapter}{\numberline {3}Methodology and Results}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Qualitative Interviews}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Methodology}{22}{subsection.3.1.1}%
+\contentsline {subsubsection}{The Interviews}{22}{subsubsection*.7}%
+\contentsline {subsubsection}{Manual Identification of Attributes}{24}{subsubsection*.9}%
+\contentsline {subsubsection}{Text Mining and Topic Modeling}{25}{subsubsection*.10}%
+\contentsline {subsubsection}{Complementary Attribute Identification Using ChatGPT}{27}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {3.1.2}Results}{27}{subsection.3.1.2}%
+\contentsline {subsubsection}{Manual Identification of Attributes}{27}{subsubsection*.12}%
+\contentsline {subsubsection}{Text Mining and Topic Modeling}{28}{subsubsection*.13}%
+\contentsline {subsubsection}{Complementary Attribute Identification Using ChatGPT}{29}{subsubsection*.16}%
+\contentsline {subsubsection}{Final Attributes}{29}{subsubsection*.17}%
+\contentsline {section}{\numberline {3.2}Text Mining of Online Accommodation Reviews}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Methodology}{30}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Results}{33}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Explanatory Survey}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Methodology}{35}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Results}{38}{subsection.3.3.2}%
+\contentsline {subsubsection}{Exploratory Data Analysis (EDA)}{38}{subsubsection*.24}%
+\contentsline {subsubsection}{Van Westendorp Price-Sensitivity Analysis}{39}{subsubsection*.25}%
+\contentsline {subsubsection}{Text Mining, Embeddings \& TF-IDF}{39}{subsubsection*.26}%
+\contentsline {section}{\numberline {3.4}Refined Final Attributes}{43}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Quantitative Survey}{44}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Methodology}{44}{subsection.3.5.1}%
+\contentsline {subsubsection}{Quantitative Survey}{44}{subsubsection*.32}%
+\contentsline {subsubsection}{Comparison of Ranking and Likert-Scale Responses}{44}{subsubsection*.33}%
+\contentsline {subsubsection}{Determining the Optimal Number of Clusters (K)}{45}{subsubsection*.34}%
+\contentsline {subsubsection}{Principal Component Analysis (PCA)}{46}{subsubsection*.35}%
+\contentsline {subsubsection}{Random Forest for Attribute-Importance Estimation}{46}{subsubsection*.36}%
+\contentsline {subsubsection}{Predictive Modeling}{47}{subsubsection*.37}%
+\contentsline {subsection}{\numberline {3.5.2}Results}{48}{subsection.3.5.2}%
+\contentsline {subsubsection}{Quantitative Survey}{48}{subsubsection*.38}%
+\contentsline {subsubsection}{Comparison of Ranking and Likert-Scale Responses}{50}{subsubsection*.43}%
+\contentsline {subsubsection}{Determining the Optimal Number of Clusters (K)}{51}{subsubsection*.45}%
+\contentsline {subsubsection}{Principal Component Analysis (PCA)}{53}{subsubsection*.49}%
+\contentsline {subsubsection}{Random Forest for Attribute-Importance Estimation}{53}{subsubsection*.51}%
+\contentsline {subsubsection}{Predictive Modeling}{54}{subsubsection*.53}%
+\contentsline {subsubsection}{Van Westendorp Price-Sensitivity Method}{58}{subsubsection*.56}%
+\contentsline {subsubsection}{Cluster Profiles: Socio-Demographic Composition}{59}{subsubsection*.57}%
+\contentsline {subsubsection}{Cluster Profiles: Top and Bottom Attributes}{59}{subsubsection*.58}%
+\contentsline {subsubsection}{Cluster Profiles: Accommodation-Booking Behavior}{60}{subsubsection*.59}%
+\contentsline {subsubsection}{Cluster Profiles: Willingness to Visit Less-Known Destinations and Extra Travel Time}{61}{subsubsection*.62}%
+\contentsline {subsubsection}{Cluster Profiles: City-Tour Preferences and Architectural Interest}{62}{subsubsection*.63}%
+\contentsline {subsubsection}{Cluster Profiles: Restaurant-Choice Behavior}{63}{subsubsection*.65}%
+\contentsline {subsubsection}{Cluster Profiles: Natural Spots}{64}{subsubsection*.67}%
+\contentsline {subsubsection}{Summary of Cluster Profiles}{65}{subsubsection*.69}%
+\contentsline {chapter}{\numberline {4}Discussion}{67}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Comparison to Previous Work}{67}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Comparison to Literature}{68}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Qualitative and Quantitative Methods}{68}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Destination Image Formation}{69}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Segmentation}{70}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Discrete Choice and Conjoint Analysis}{70}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Hypothetical Bias}{71}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Text Mining}{71}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Methodological Implications}{71}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Limitations}{72}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Future Directions}{72}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusion}{74}{chapter.5}%
+\contentsline {chapter}{Appendix}{80}{chapter*.71}%
+\contentsline {section}{A. Example of Qualitative Interview from Previous Project}{80}{appendixsection.1}%
+\contentsline {section}{B. Example of Qualitative Interview from Actual Thesis}{81}{appendixsection.2}%
+\contentsline {section}{C. Qualitative Interview Notes}{89}{appendixsection.3}%
+\contentsline {section}{D. Pseudocodes for Text Mining}{97}{appendixsection.4}%
+\contentsline {section}{E. Prompts for ChatGPT}{98}{appendixsection.5}%
+\contentsline {section}{F. Manual Attribute Identification}{99}{appendixsection.6}%
+\contentsline {section}{G. ChatGPT Attributes}{100}{appendixsection.7}%
+\contentsline {section}{H. Airbnb Top Words}{101}{appendixsection.8}%
+\contentsline {section}{I. Booking.com Top Words}{101}{appendixsection.9}%
+\contentsline {section}{J. Explanatory Survey}{102}{appendixsection.10}%
+\contentsline {section}{K. Pseudocodes for Van Westendorp Model}{106}{appendixsection.11}%
+\contentsline {section}{L. Explanatory Survey Results}{107}{appendixsection.12}%
+\contentsline {section}{M. Van Westendorp Results by Age Group}{110}{appendixsection.13}%
+\contentsline {section}{N. Quantitative Survey}{111}{appendixsection.14}%
+\contentsline {section}{O. Distribution of Likert-Scale Responses}{119}{appendixsection.15}%
+\contentsline {section}{P. Pseudocode for Spearman Correlation}{119}{appendixsection.16}%
+\contentsline {section}{Q. Pseudocode for Elbow Method}{120}{appendixsection.17}%
+\contentsline {section}{R. Pseudocode for Silhouette Score}{120}{appendixsection.18}%
+\contentsline {section}{S. Pseudocode for Davies Bouldin Index}{121}{appendixsection.19}%
+\contentsline {section}{T. Biplot with First 2 Components}{121}{appendixsection.20}%
+\contentsline {section}{U. Random Forest Plot}{122}{appendixsection.21}%
+\contentsline {section}{V. Correlation Heatmap}{123}{appendixsection.22}%
+\contentsline {section}{W. Variance Inflation Factor (VIF)}{124}{appendixsection.23}%
+\contentsline {section}{X. Initial Predictive Model}{124}{appendixsection.24}%
+\contentsline {section}{Y. Final Model Table}{125}{appendixsection.25}%
+\contentsline {section}{Z. Socio-Demographic Composition by Cluster}{126}{appendixsection.26}%
+\contentsline {section}{AA. Top and Bottom Attributes by Cluster}{127}{appendixsection.27}%
+\contentsline {section}{AB. Willingness to Visit Less-Known Destinations and Extra Travel Time}{127}{appendixsection.28}%
+\contentsline {section}{AC. Architectural Interest by Cluster}{128}{appendixsection.29}%
