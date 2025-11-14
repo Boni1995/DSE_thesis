@@ -181,6 +181,7 @@ INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tf
 INPUT C:\Users\franc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\Thesis.toc
 INPUT .\Thesis.toc
 INPUT Thesis.toc
@@ -292,34 +293,34 @@ INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT .\Images\Accommodation Reviews\reviews_att.png
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tctt1200.tfm
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Steps of Organizing.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Screen Choose.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\Info Saturation.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
-INPUT .\Images\Explanatory Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Steps of Organizing.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Screen Choose.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\Info Saturation.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
+INPUT .\Images\Open-ended Survey\ChatGPT.png
 INPUT .\Images\Final Set of Attributes.png
 INPUT .\Images\Final Set of Attributes.png
 INPUT .\Images\Final Set of Attributes.png
@@ -334,13 +335,6 @@ INPUT .\Images\Quantitative Survey\answers by age.png
 INPUT .\Images\Quantitative Survey\answers by age.png
 INPUT .\Images\Quantitative Survey\answers by age.png
 INPUT .\Images\Quantitative Survey\answers by age.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
-INPUT .\Images\Quantitative Survey\answers by gender.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
 INPUT .\Images\Quantitative Survey\answers by residence.png
@@ -383,13 +377,6 @@ INPUT .\Images\Quantitative Survey\variables by segmentation.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
 INPUT .\Images\Quantitative Survey\variables by segmentation.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
-INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Images\Quantitative Survey\random_forest_scores.png
 INPUT .\Images\Quantitative Survey\random_forest_scores.png
 INPUT .\Images\Quantitative Survey\random_forest_scores.png
@@ -551,80 +538,80 @@ INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
 INPUT .\Analysis\Booking Negative Scores Top Words.png
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
-INPUT .\Material\2. Interviews & Surveys\2. Explanatory Survey\Explanatory Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
+INPUT .\Material\2. Interviews & Surveys\2. Open-ended Survey\Open-ended Survey (for thesis).pdf
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\franc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Descriptive_main2.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
-INPUT .\Images\Explanatory Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Descriptive_main2.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
+INPUT .\Images\Open-ended Survey\Van Westendorp.png
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
 INPUT .\Material\2. Interviews & Surveys\3. Quantitative Survey\Final Survey_VF.pdf
@@ -688,6 +675,13 @@ INPUT .\Images\Quantitative Survey\likert_count.png
 INPUT .\Images\Quantitative Survey\likert_count.png
 INPUT .\Images\Quantitative Survey\likert_count.png
 INPUT .\Images\Quantitative Survey\likert_count.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
+INPUT .\Images\Quantitative Survey\pca.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
 INPUT .\Images\Quantitative Survey\pca_clusters.png
