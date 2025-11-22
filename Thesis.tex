@@ -589,7 +589,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{Analysis/Airbnb 3-gram.png}
+    \includegraphics[width=0.8\textwidth]{Accommodation Analysis/Airbnb 3-gram.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top 3-grams from Airbnb Reviews. Source: Author’s own elaboration based on Inside Airbnb datasets.}}
     \label{fig:airbnbtrigram}
@@ -603,7 +603,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{Analysis/Booking Positive Scores 3-Gram.png}
+    \includegraphics[width=0.8\textwidth]{Accommodation Analysis/Booking Positive Scores 3-Gram.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top 3-grams from Booking.com Positive Reviews. Source: Author’s own elaboration based on Kaggle dataset.}}
     \label{fig:bookingptri}
@@ -613,7 +613,7 @@
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{Analysis/Booking Negative Scores 3-gram.png}
+    \includegraphics[width=0.8\textwidth]{Accommodation Analysis/Booking Negative Scores 3-gram.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top 3-grams from Booking.com Negative Reviews. Source: Author’s own elaboration based on Kaggle dataset.}}
     \label{fig:bookingntri}
@@ -944,7 +944,7 @@ The combination of these criteria ensured a robust and data-driven determination
 
 \indent Overall, after applying multiple validation methods to determine the optimal number of clusters, the analysis concluded that the most appropriate solution was $k = 4$. The final segmentation included the following cluster sizes: Cluster 1 contains 35 respondents (28\%), Cluster 2 contains 36 respondents (28\%), Cluster 3 contains 23 respondents (18\%), and Cluster 4 contains 31 respondents (24\%).
 
-\indent Figure~\ref{fig:clusters_means} presents the mean values of the segmentation variables by cluster, illustrating how the importance assigned to each attribute varies among groups. As shown, Cluster~1 exhibits relatively low mean values across most attributes, suggesting a segment that places less emphasis on cultural and informational aspects of the destination. Cluster~2, on the other hand, scores higher on attributes related to culture and heritage, particularly the availability of museums and the historic ambience, indicating a preference for culturally rich destinations. Cluster~3 stands out for prioritising convenience and flexibility, showing higher scores for accommodation services and the diversity of local restaurants, and moderately high values for proximity to outdoor areas. Finally, Cluster~4 is characterised by high scores across almost all variables, especially for attributes such as the density of tourist attractions, flexible guided tours, and accommodation amenities, suggesting a highly engaged segment that values accessibility, variety, and comfort during travel.
+\indent Figure~\ref{fig:clusters_means} presents the mean values of the segmentation variables by cluster, illustrating how the importance assigned to each attribute varies among groups. As shown, Cluster~1 displays lower values for several attributes, such as diversity of local restaurants, availability of museums and art venues, and proximity to outdoor areas, indicating that this segment places relatively greater importance on these aspects compared to the overall population. Cluster~2 shows low scores for tourist information, proximity to natural areas, and historic ambience, suggesting a preference for culturally rich environments supported by accessible information and natural surroundings. Cluster~3 stands out for its low values on accommodation services, flexibility of guided tours, and the density of attractions, highlighting a segment that prioritises convenience, service quality, and accessibility. Finally, Cluster~4 records some of the lowest scores overall, especially for the density of tourist attractions, flexible guided tours, and gastronomy, revealing a highly engaged segment that places strong importance on accessibility, variety, and experiential attributes during travel.
 
 \begin{figure}[ht]
     \centering
@@ -978,28 +978,32 @@ The combination of these criteria ensured a robust and data-driven determination
 
 \subsubsection{Predictive Modelling}
 
-    \indent Before running the Multinomial Logit model, potential multicollinearity among predictors was assessed. As shown in Figure~\ref{fig:colineality} (see Appendix~\ref{sec:col_matrix}), the correlation matrix indicates moderate correlations among some predictors, particularly between \texttt{historical\_architecture} and \texttt{contemporary\_cultural\_interest}, both related to architectural interest, with a correlation of $0.735$. This relationship was further confirmed by the VIF analysis (see Figure~\ref{fig:vif} in Appendix~\ref{sec:vif_scores}), where both variables presented relatively high values compared to others (VIF $>$ 3). To avoid collinearity effects and enhance model stability, \texttt{historical\_architecture (architectural\_interest)} was removed from the final specification.
+\indent Before running the Multinomial Logit model, potential multicollinearity among predictors was assessed. As shown in Figure~\ref{fig:colineality} (see Appendix~\ref{sec:col_matrix}), the correlation matrix indicates moderate correlations among some predictors, particularly between \texttt{historical\_architecture} and \texttt{contemporary\_cultural\_interest}, both related to architectural interest, with a correlation of $0.735$. This relationship was further examined through a VIF analysis (see Figure~\ref{fig:vif} in Appendix~\ref{sec:vif_scores}), which was used to assess potential collinearity between the predictors. Although \texttt{historical\_architecture} showed moderately elevated VIF values relative to the rest of the model, the scores remained well below commonly accepted thresholds for problematic multicollinearity (VIF $<$ 5). Therefore, the analysis did not indicate any serious collinearity issues.
 
-    \indent The initial model was estimated using the \texttt{MNLogit} function from the \texttt{stats\-models} package. The formula included 19 independent variables, combining socio\-demographic and behavioural factors. The model specification was as follows:
+\indent The initial model was estimated using the \texttt{MNLogit} function from the \texttt{stats\-models} package. The formula included 19 independent variables, combining socio\-demographic and behavioural factors. The model specification was as follows:
 
 \begin{equation*}
 \begin{aligned}
 \texttt{cluster} \sim & \ \texttt{age\_group} + \texttt{gender} + \texttt{residence} + \texttt{occupation} \\
 & + \texttt{define\_accommodation} + \texttt{less\_crowded\_willingness} \\ & + \texttt{extra\_travel\_time} \\
-& + \texttt{city\_tour\_type} + \texttt{eating\_preference} \\ & + \texttt{digital\_platforms (accommodation\_search)} \\
-& + \texttt{traditional\_channels (accommodation\_search)} \\ & + \texttt{historical\_architecture (architectural\_interest)} \\
+& + \texttt{city\_tour\_type} + \texttt{eating\_preference} \\
+& + \texttt{digital\_platforms (accommodation\_search)}
 \end{aligned}
 \end{equation*}
 
 \begin{equation*}
 \begin{aligned}
+& + \texttt{traditional\_channels (accommodation\_search)} \\
+& + \texttt{historical\_architecture (architectural\_interest)} \\
 & + \texttt{contemporary\_cultural\_interest (architectural\_interest)} \\
 & + \texttt{personal\_choice (restaurant\_choice)} \\
 & + \texttt{social\_influence (restaurant\_choice)} \\
 & + \texttt{Beach (natural\_environment\_type)} \\
 & + \texttt{Natural\_parks (natural\_environment\_type)} \\
 & + \texttt{Mountains (natural\_environment\_type)} \\
-& + \texttt{Lake/Rivers (natural\_environment\_type)} \end{aligned} \end{equation*}
+& + \texttt{Lake/Rivers (natural\_environment\_type)}
+\end{aligned}
+\end{equation*}
 
 \indent After the first estimation (see Appendix~\ref{sec:predict_model1}), several variables exhibited unstable coefficients, large standard errors, and non-significant contributions to the prediction of clusters. Based on theoretical relevance and statistical performance, the optimized model retained the following predictors:
 
@@ -1052,7 +1056,6 @@ The refined specification of the final model is presented below:
 
 \indent In summary, the final Multinomial Logit model achieved convergence with statistically robust predictors and interpretable results, highlighting the relevance of age, gender, residence, and cultural orientation in explaining tourist segmentation.
 
-\newpage
 \subsubsection{Van Westendorp Price-Sensitivity Method}
 
 \indent The Van Westendorp analysis was applied to estimate respondents’ perceived price thresholds for the proposed tourism experience. Following the same methodological approach presented in Section 3.3, Sub-section 3.3.1 (see Appendix~\ref{sec:vwcode}), four key indicators were obtained: the Point of Marginal Cheapness (PMC), Point of Marginal Expensiveness (PME), Indifference Price Point (IPP), and Optimal Price Point (OPP). These values provide a reference framework for understanding perceived value and acceptable price ranges among different tourist segments.
@@ -1085,13 +1088,13 @@ The refined specification of the final model is presented below:
 
 \indent To further interpret the clustering outcomes, each group’s attribute rankings were analysed to identify their top three most valued and bottom three least valued attributes (see Appendix~\ref{sec:top_bottom_att}). This comparison highlights the distinct preferences and perceptions across the four identified clusters, providing additional insight into their motivational profiles.
 
-\indent Across all clusters, certain attributes consistently ranked high, particularly those related to organisation, accessibility, and convenience. Conversely, attributes associated with historical ambience or centrally located accommodation tended to receive lower scores, suggesting these are perceived as baseline expectations rather than differentiating factors.
+\indent Across all clusters, certain attributes consistently rank as highly important. In particular, “Availability of centrally located accommodation,” “Availability of museums and art venues,” and “Diversity of authentic local restaurants” tend to receive low numerical rankings across several clusters, indicating their broad importance. Conversely, attributes such as “Flexible scheduling of guided tours,” “City located outside major tourist circuits,” and, in some cases, “Accommodation services,” receive higher numerical rankings, suggesting they are perceived as less critical or more situational rather than core determinants of destination choice.
 
 \begin{itemize}
-\item Cluster 1 prioritises “Flexible scheduling of guided tours”, “Accommodation services (such as flexible cancellation, digital check-in, amenities)”, and “City located outside major tourist circuits”. These preferences reflect a pragmatic traveller profile that values operational flexibility and less crowded destinations. The least valued attributes are “Availability of centrally located accommodation”, “Heritage ambience of the historic center”, and “Diversity of authentic local restaurants”, indicating less emphasis on location centrality and traditional heritage.
-\item Cluster 2 also ranks “Flexible scheduling of guided tours” and “Availability of tourist information (both digital and on-site)” among its top priorities, alongside “City located outside major tourist circuits”. This combination suggests a preference for autonomy and information-rich experiences. On the other hand, “Availability of museums and art venues”, “Heritage ambience of the historic center”, and “Accommodation services” appear among the lowest-rated attributes, indicating that this segment seeks more experiential and less traditional cultural engagement.
-\item Cluster 3 places the highest value on “Density of tourist attractions within walking distance”, “Flexible scheduling of guided tours”, and “Availability of tourist information”, showing a clear orientation towards cultural exploration and mobility. The lowest-ranked attributes (“Availability of centrally located accommodation”, “Accommodation services”, and “City located outside major tourist circuits”) indicate that accessibility to attractions outweighs the importance of accommodation characteristics for this group.
-\item Cluster 4 exhibits similar patterns, with the top three being “Flexible scheduling of guided tours”, “Density of tourist attractions within walking distance”, and “Accommodation services”. This cluster values efficiency and comfort when visiting destinations, reflecting a more structured and convenience-oriented profile Its lowest rated attributes include “Heritage ambience of the historic center”, “City located outside major tourist circuits”, and “Availability of museums and art venues”, pointing to limited interest in heritage or traditional cultural offerings.
+\item Cluster 1 assigns the highest importance to “Diversity of authentic local restaurants”, “Density of tourist attractions within walking distance”, and “Availability of centrally located accommodation”, all of which receive the lowest ranks within this group. This pattern suggests a traveller profile that values gastronomic authenticity, walkable access to attractions, and convenient central lodging. The least important attributes for this cluster are “City located outside major tourist circuits”, “Accommodation services”, and “Flexible scheduling of guided tours”, reflecting a lower emphasis on operational flexibility and on destinations located away from main tourist areas.
+\item Cluster 2 places the greatest importance on “Diversity of authentic local restaurants”, “Availability of museums and art venues”, and “Heritage ambience of the historic center”, highlighting a preference for culturally rich, heritage-oriented environments. Its lowest-rated attributes include “City located outside major tourist circuits”, “Availability of tourist information”, and “Flexible scheduling of guided tours”, indicating that this segment values cultural depth more than logistical support or flexible activity scheduling.
+\item Cluster 3 ranks “Availability of tourist information”, “Availability of centrally located accommodation”, and “Accommodation services” as its top three attributes, suggesting a segment that prioritises accessibility to information, convenient lodging, and service-oriented amenities. In contrast, “City located outside major tourist circuits”, “Density of tourist attractions within walking distance”, and “Flexible scheduling of guided tours” receive the highest numerical values, revealing a group that favours informational and accommodation-related features over attraction density or operational flexibility.
+\item Cluster 4 shows highest importance for “Diversity of authentic local restaurants”, “Availability of museums and art venues”, and “Heritage ambience of the historic center”, indicating a segment that values cultural experiences, local gastronomy, and heritage ambience. Its lowest-ranked attributes include “Density of tourist attractions within walking distance”, “Accommodation services”, and “Flexible scheduling of guided tours”, suggesting a reduced emphasis on walkability, service convenience, and flexible scheduling, pointing instead toward a segment driven primarily by cultural and experiential richness.
 \end{itemize}
 
 \subsubsection{Cluster Profiles: Accommodation-Booking Behaviour}
@@ -1108,7 +1111,6 @@ The refined specification of the final model is presented below:
     \label{fig:accomm_adv}
 \end{figure}
 
-\newpage
 \indent When focusing on last-minute reservations (Figure~\ref{fig:lastminute}), exhibit the strongest relative appreciation, although with a narrower set of channels. In these cases, platforms as Booking and Airbnb again emerge as the leading options, while the relevance of personal recommendations increases slightly, particularly in Clusters 1 and 2, highlighting a tendency towards informal and opportunistic booking behaviours when travel plans are made spontaneously.
 
 \begin{figure}[ht]
@@ -1175,28 +1177,28 @@ The refined specification of the final model is presented below:
 \indent Based on the combined analysis of demographic, attitudinal, and behavioural variables, four distinctive visitor segments emerged. Each cluster reflects a different balance between cultural motivation, practical considerations, and experiential expectations. The following profiles summarize the main characteristics of each group:
 
 \begin{itemize}
-    \item Cluster 1 (the culturally-oriented traditionalist):
+    \item Cluster 1 (the urban cultural consumer):
     \begin{itemize}
-        \item This group consists mostly of female respondents aged 26–35, primarily from South America and with stable employment. They tend to book accommodation in advance, mainly through online platforms such as Booking.com, reflecting organized planning habits. Their interest lies in heritage and cultural experiences, valuing historic ambience, museums, and accessible city layouts.
+        \item This group consists mostly of female respondents aged 26–35, primarily from South America and with stable employment. They tend to book accommodation in advance, mainly through online platforms such as Booking.com, reflecting organized planning habits. Their interest lies in culturally accessible and centrally located experiences, valuing walkability, authentic gastronomy, and convenient accommodation.
         \item In terms of gastronomy, they favor less crowded, local neighborhoods and often rely on online reviews to choose restaurants, indicating digital trust combined with a search for authenticity. Their moderate willingness to travel longer distances suggests that comfort and familiarity play a role in their decisions.
     \end{itemize}
 
     \item Cluster 2 (the young and explorative planner):
     \begin{itemize}
         \item This group consists mostly of male respondents, mainly young professionals and students (18–35 years old). This segment is characterised by a strong presence of Italian and European residents. They are highly digitally engaged, often using online booking tools and showing the highest participation in guided tours, particularly walking tours.
-        \item Their top priorities include cities located outside major tourist circuits and authentic local gastronomy, reflecting curiosity and openness to new places. Although they are price-conscious, as suggested by their Van Westendorp thresholds, they balance budget constraints with a genuine interest in immersive cultural experiences. This group represents the experiential explorer, guided by curiosity and efficient digital habits.
+        \item Their top priorities include authentic local gastronomy, museums and art venues, and the historic ambience of the destination, reflecting a strong orientation toward culturally rich and heritage-focused environments. Although they are price-conscious, as suggested by their Van Westendorp thresholds, they balance budget constraints with a genuine interest in immersive cultural experiences. This group represents the experiential explorer, guided by curiosity and efficient digital habits.
     \end{itemize}
 
-    \item Cluster 3 (the independent culture-seeker):
+    \item Cluster 3 (the information-oriented planner):
     \begin{itemize}
-        \item This group is almost evenly male and female, mainly 26–35 years old and older people ($>55$). This cluster values flexibility and independence in trip planning. They are less likely to pre-book accommodation or follow established tourist routes, preferring private or alternative tours. Their high appreciation of contemporary cultural elements (modern architecture, art spaces) differentiates them from the more traditional clusters.
-        \item In gastronomic behaviour, they rely on online reviews and a have a moderate preference for less crowded areas. Their higher willingness to travel extra time for unique destinations suggests a motivation driven by freshness and cultural meaning.
+        \item This group is almost evenly male and female, mainly 26–35 years old and older people ($>55$). This cluster values accessibility and organisational support in trip planning. They prioritise tourist information, centrally located accommodation, and service-oriented amenities, reflecting a preference for well-structured and convenient travel conditions rather than spontaneous or alternative routes.
+        \item Their restaurant choices rely strongly on online reviews, and although they show a moderate preference for less crowded areas, their willingness to travel extra time appears driven more by practical considerations than by a search for unique cultural experiences.
     \end{itemize}
 
-    \item Cluster 4 (the comfort-oriented urban visitor):
+    \item Cluster 4 (the heritage-focused cultural visitor):
     \begin{itemize}
-        \item This segment includes a more heterogeneous age range with both young professionals and mature travellers, mainly from South America. They prefer centrally located accommodation and organized environments, often showing lower interest in visiting less-known destinations.
-        \item They still appreciate cultural authenticity, particularly heritage ambience and local dining options, but their choices are marked by comfort and accessibility rather than exploration. They value guided walking tours, and show moderate engagement with natural environments such as mountains or lakes. This group reflects the pragmatic urban tourist, who values cultural identity but prioritises convenience and reliability.
+        \item This segment includes a more heterogeneous age range with both young professionals and mature travellers, mainly from South America. They show strong appreciation for cultural authenticity, placing high importance on local gastronomy, museums, and the heritage ambience of the historic centre.
+        \item Although convenience remains relevant, their preferences are primarily driven by culturally rich and meaningful experiences rather than logistical or exploratory considerations. They value guided walking tours, and show moderate engagement with natural environments such as mountains or lakes. This group reflects the pragmatic urban tourist, who values cultural identity but prioritises convenience and reliability.
     \end{itemize}
 \end{itemize}
 
@@ -1671,7 +1673,7 @@ O’Brien, R. M. (2007). A caution regarding rules of thumb for variance inflati
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Analysis/Airbnb Top Words.png}
+    \includegraphics[width=0.7\textwidth]{Accommodation Analysis/Airbnb Top Words.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top Words from Airbnb Reviews. Source: Author’s own elaboration based on Inside Airbnb dataset.}}
     \label{fig:airbnbunigram}
@@ -1682,7 +1684,7 @@ O’Brien, R. M. (2007). A caution regarding rules of thumb for variance inflati
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Analysis/Booking Positive Scores Top Words.png}
+    \includegraphics[width=0.7\textwidth]{Accommodation Analysis/Booking Positive Scores Top Words.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top Words from Booking.com Positive Reviews. Source: Author’s own elaboration based on Kaggle dataset.}}
     \label{fig:bookingpword}
@@ -1690,7 +1692,7 @@ O’Brien, R. M. (2007). A caution regarding rules of thumb for variance inflati
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Analysis/Booking Negative Scores Top Words.png}
+    \includegraphics[width=0.7\textwidth]{Accommodation Analysis/Booking Negative Scores Top Words.png}
     \captionsetup{font=footnotesize}
     \caption{\textit{Top Words from Booking.com Negative Reviews. Source: Author’s own elaboration based on Kaggle dataset.}}
     \label{fig:bookingnword}
