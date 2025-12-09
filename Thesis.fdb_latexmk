@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763629398.31673 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1763629404.36081 0
+["pdflatex"] 1765267497.77665 "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" "Thesis.pdf" "Thesis" 1765267505.03545 0
   "Accommodation Analysis/Airbnb 3-gram.png" 1759650887 451036 cb12b3104afa817545ea06e397235b6a ""
   "Accommodation Analysis/Airbnb Top Words.png" 1759650902 415965 8077fee61a381cfc3021e8cc91e4ab20 ""
   "Accommodation Analysis/Booking Negative Scores 3-gram.png" 1759650917 286233 762f37246e4dd47ff0236682409c42a2 ""
@@ -178,12 +178,12 @@
   "Material/2. Interviews & Surveys/1. Qualitative Interview/Qualitative Interview Questions.png" 1759214207 136873 642d517ba7de59ce03378b496cf6b5e5 ""
   "Material/2. Interviews & Surveys/2. Open-ended Survey/Open-ended Survey (for thesis).pdf" 1759655221 129235 3b2267ff2c4745b7343c3885cd51494b ""
   "Material/2. Interviews & Surveys/3. Quantitative Survey/Final Survey_VF.pdf" 1762017522 212053 4217734677c3239c0179f01f9ccd01ca ""
-  "Thesis.aux" 1763629404 42953 81304fdcdc069e8c642ce86a32ef9292 "pdflatex"
-  "Thesis.lof" 1763629404 10163 631f86509c25d2ab33a896fed43f7aec "pdflatex"
-  "Thesis.out" 1763629404 16736 9cc09966729a78a0dd570681fc16c57a "pdflatex"
-  "Thesis.tex" 1763629386 215411 4a571a2193748346fda94ae7275620ad ""
-  "Thesis.toc" 1763629404 9915 5fa02a112e0cec60ffc3b622202d427d "pdflatex"
-  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1763629386 215411 4a571a2193748346fda94ae7275620ad ""
+  "Thesis.aux" 1765267504 42959 ad1f1754099b8990321a3c9ffb2bec31 "pdflatex"
+  "Thesis.lof" 1765267504 10164 63491f973f854adf305ba827aa38ebe5 "pdflatex"
+  "Thesis.out" 1765267504 16736 9cc09966729a78a0dd570681fc16c57a "pdflatex"
+  "Thesis.tex" 1765267487 215429 005e3a3c88b41dcac2870304d1f93a3c ""
+  "Thesis.toc" 1765267504 9918 40183eb64e877cf3f67604b3c2d983b9 "pdflatex"
+  "c:/Users/franc/Documents/GitHub/DSE_thesis/Thesis.tex" 1765267487 215429 005e3a3c88b41dcac2870304d1f93a3c ""
   (generated)
   "Thesis.aux"
   "Thesis.lof"
